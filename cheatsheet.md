@@ -51,11 +51,11 @@ Author: XXX <XXX.mail.com>
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
-git log delivers information about the commit history. Here we can see the 
+git log delivers information about the commit history. Here we can see the commit number (SHA-1), *HEAD* is a symbolic reference pointing on the last commit. *Master* is here the symbolic branch label pointing on the last commit
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTMwMTExODQ1NiwxMzQwMTk4
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTY0NDAyMzc0MiwxMzQwMTk4
 MzIxLC0xNzU0NDY4MDk1XX0=
 -->
