@@ -22,11 +22,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 Current branch is the default branch called *master*.
 No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
 
-```
-git add .\fileA.txt
 
-git status
-```
+    git add .\fileA.txt
+    git status
+
 >On branch master
 No commits yet
 Changes to be committed:
@@ -39,6 +38,6 @@ Now fileA.txt is staged in index and can be commited
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMTI5MzE0MjgwMSwtMTc1NDQ2
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTk3Mjc0NDk1MywtMTc1NDQ2
 ODA5NV19
 -->
