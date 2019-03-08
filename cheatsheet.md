@@ -11,31 +11,30 @@ Now a .git folder is created in projectA and contains all git pieces of informat
 In the previously empty repo, fileA.txt is added
 ```
 git status
-
-On branch master
+```
+>On branch master
 No commits yet
-
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         fileA.txt
 nothing added to commit but untracked files present (use "git add" to track)
-```
+
 Current branch is the default branch called master.
 No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
 
 ```
 git add .\fileA.txt
 git status
-
-On branch master
+```
+>On branch master
 No commits yet
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   fileA.txt
-```
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU4MzI5MzYsLTE3NTQ0NjgwOTVdfQ
-==
+eyJoaXN0b3J5IjpbMTE4NzI4MDQwNiwtMTc1NDQ2ODA5NV19
 -->
