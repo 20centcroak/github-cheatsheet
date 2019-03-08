@@ -1,10 +1,9 @@
 # Cheat sheet
 
 ## create a local repository
-
-<dfsdg>
-
-
+create an 
+```
+git init
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY0MjEzNzVdfQ==
+eyJoaXN0b3J5IjpbLTE1Mjg0NTgyOTRdfQ==
 -->
