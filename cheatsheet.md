@@ -39,15 +39,23 @@ Now fileA.txt is staged in the staging area and can be commited
  1 file changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileA.txt  
 
-the file is now commited, and a commit number is displayed (short SHA-1: *213cf6c
-git status
-On branch master
+the file is now commited, and a commit number is displayed (short SHA-1: *213cf6c*)
+
+    git status
+>On branch master  
 nothing to commit, working tree clean
+
+    git log
+>commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
+Author: vpaveau <vincent.paveau@soprasteria.com>
+Date:   Fri Mar 8 18:51:03 2019 +0100
+
+    my first commit message
 
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE4MjAxNzEyMDUsMTM0MDE5
-ODMyMSwtMTc1NDQ2ODA5NV19
+B6ZXJvXG4iLCJoaXN0b3J5IjpbNTc1NDkwMjg0LDEzNDAxOTgz
+MjEsLTE3NTQ0NjgwOTVdfQ==
 -->
