@@ -1,11 +1,11 @@
 # Cheat sheet
 
 ## create a local repository
-Create an empty folder called projetA, and execute the following command in this folder:
+Create an empty folder called *projetA*, and execute the following command in this folder:
 ```
 git init
 ```
-Now a .git folder is created in projectA and contains all git pieces of information about this freshly created local repository.
+Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
 ## commit
 In the previously empty repo, fileA.txt is added
@@ -19,7 +19,7 @@ Untracked files:
         fileA.txt
 nothing added to commit but untracked files present (use "git add" to track)
 
-Current branch is the default branch called master.
+Current branch is the default branch called *master*.
 No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
 
 ```
@@ -32,9 +32,10 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   fileA.txt
 
+Now fileA.txt is staged in index an
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzI4MDQwNiwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbODE0Njg0MDQzLC0xNzU0NDY4MDk1XX0=
 -->
