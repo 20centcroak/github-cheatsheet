@@ -9,12 +9,12 @@ Now a .git folder is created in *projectA* and contains all git pieces of inform
 
 ## commit
 In the previously empty repo, fileA.txt is added
-```
-git status
-```
+
+    git status
+
 >On branch master
-No commits yet
-Untracked files:
+>No commits yet
+>Untracked files:
   (use "git add <file>..." to include in what will be committed)
         fileA.txt
 nothing added to commit but untracked files present (use "git add" to track)
@@ -38,6 +38,6 @@ Now fileA.txt is staged in index and can be commited
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTk3Mjc0NDk1MywtMTc1NDQ2
+B6ZXJvXG4iLCJoaXN0b3J5IjpbMTM0MDE5ODMyMSwtMTc1NDQ2
 ODA5NV19
 -->
