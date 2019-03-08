@@ -12,15 +12,12 @@ In the previously empty repo, fileA.txt is added
 
     git status
 
->On branch master:
- d
->No commits yet
->
->Untracked files:
+>On branch master  
+No commits yet  
+Untracked files:
   (use "git add \<file\>..." to include in what will be committed)  
->fileA.txt
->
->nothing added to commit but untracked files present (use "git add" to track)
+		fileA.txt  
+nothing added to commit but untracked files present (use "git add" to track)
 
 Current branch is the default branch called *master*.
 No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
@@ -41,6 +38,6 @@ Now fileA.txt is staged in index and can be commited
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMTY4NDU4MjQwMSwxMzQwMTk4
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTk2MDYyODMwNSwxMzQwMTk4
 MzIxLC0xNzU0NDY4MDk1XX0=
 -->
