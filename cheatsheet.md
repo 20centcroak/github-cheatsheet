@@ -23,10 +23,18 @@ nothing added to commit but untracked files present (use "git add" to track)
 Current branch is the default branch called master.
 No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
 
-`{sdgsdf
-jhjh`
+```
+git add .\fileA.txt
+git status
+
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   fileA.txt
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkwNzMwMDcsLTE3NTQ0NjgwOTVdfQ
-==
+eyJoaXN0b3J5IjpbMzg4MzA4Njk2LC0xNzU0NDY4MDk1XX0=
 -->
