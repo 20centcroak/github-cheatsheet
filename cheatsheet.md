@@ -7,8 +7,8 @@ git init
 ```
 ## commit
 ```
-git
+git status
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA2Mzc5NzQsLTE3NTQ0NjgwOTVdfQ
+eyJoaXN0b3J5IjpbLTE2Nzg1MTQ2MDAsLTE3NTQ0NjgwOTVdfQ
 ==
 -->
