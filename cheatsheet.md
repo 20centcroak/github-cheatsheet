@@ -1,12 +1,13 @@
 # Cheat sheet
 
 ## create a local repository
-create an  empty folder, and execute the following command in this folder:
+Create an empty folder called projetA, and execute the following command in this folder:
 ```
 git init
 ```
+Now a .git folder is created in projectA and contains all git information about this freshly create 
 ## commit
-In the previousan empty repo, fileA.txt is added in 
+In the previously empty repo, fileA.txt is added
 ```
 git status
 
@@ -20,5 +21,5 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MTMyMjQsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTQxNTA4MDk5MCwtMTc1NDQ2ODA5NV19
 -->
