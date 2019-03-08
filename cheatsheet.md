@@ -31,10 +31,11 @@ On branch master
 No commits yet
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-
         new file:   fileA.txt
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MzA4Njk2LC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTE0NTU4MzI5MzYsLTE3NTQ0NjgwOTVdfQ
+==
 -->
