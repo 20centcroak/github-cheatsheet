@@ -16,9 +16,7 @@ In the previously empty repo, fileA.txt is added
 No commits yet  
 Untracked files:
   (use "git add \<file\>..." to include in what will be committed)  
-```
-&nbsp;&nbsp;&nbsp;&nbsp;
-```fileA.txt  
+fileA.txt  
 nothing added to commit but untracked files present (use "git add" to track)
 
 Current branch is the default branch called *master*.
@@ -40,6 +38,6 @@ Now fileA.txt is staged in index and can be commited
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTIzNzQwMTQ2MSwxMzQwMTk4
-MzIxLC0xNzU0NDY4MDk1XX0=
+B6ZXJvXG4iLCJoaXN0b3J5IjpbNzU2NDAxNjYzLDEzNDAxOTgz
+MjEsLTE3NTQ0NjgwOTVdfQ==
 -->
