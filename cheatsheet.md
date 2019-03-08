@@ -35,10 +35,12 @@ Changes to be committed:
 Now fileA.txt is staged in the staging area and can be commited
 
     git commit -m'my first commit message'
->[master (root-commit) 213cf6c] my first commit message
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 fileA.txt
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
+>[master (root-commit) 213cf6c] my first commit message  
+ 1 file changed, 0 insertions(+), 0 deletions(-)  
+ create mode 100644 fileA.txt  
+
+the file is now commited, and a commit number is displayed (short SHA-1: *213cf6c
+git status
 On branch master
 nothing to commit, working tree clean
 
@@ -46,6 +48,6 @@ nothing to commit, working tree clean
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE0NDc3Mzk3NjAsMTM0MDE5
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE4MjAxNzEyMDUsMTM0MDE5
 ODMyMSwtMTc1NDQ2ODA5NV19
 -->
