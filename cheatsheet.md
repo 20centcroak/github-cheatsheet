@@ -32,10 +32,12 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   fileA.txt
 
-Now fileA.txt is staged in index an
+Now fileA.txt is staged in index and can be commited
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0Njg0MDQzLC0xNzU0NDY4MDk1XX0=
+eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTc3NTA2MDIyNSwtMTc1NDQ2
+ODA5NV19
 -->
