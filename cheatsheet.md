@@ -20,7 +20,10 @@ Untracked files:
         fileA.txt
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-a new f
+Current branch is the default branch called master.
+As this is a 
+a new file is present in the working copy but is not tracked yet.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNzY3Mjc4LC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTEyMjM5MDY4NDQsLTE3NTQ0NjgwOTVdfQ
+==
 -->
