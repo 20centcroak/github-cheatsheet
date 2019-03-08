@@ -21,9 +21,12 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 Current branch is the default branch called master.
-As this is a 
-a new file is present in the working copy but is not tracked yet.
+No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
+
+`{sdgsdf
+jhjh`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM5MDY4NDQsLTE3NTQ0NjgwOTVdfQ
+eyJoaXN0b3J5IjpbLTE3ODkwNzMwMDcsLTE3NTQ0NjgwOTVdfQ
 ==
 -->
