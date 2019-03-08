@@ -26,10 +26,10 @@ No commits have been done so far but a new file is present in the working copy. 
     git add .\fileA.txt
     git status
 
->On branch master
-No commits yet
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
+>On branch master   
+No commits yet  
+Changes to be committed:  
+  (use "git rm --cached <file>..." to unstage)  
         new file:   fileA.txt
 
 Now fileA.txt is staged in index and can be commited
@@ -38,6 +38,6 @@ Now fileA.txt is staged in index and can be commited
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbNzU2NDAxNjYzLDEzNDAxOTgz
+B6ZXJvXG4iLCJoaXN0b3J5IjpbNzU3ODMxODY1LDEzNDAxOTgz
 MjEsLTE3NTQ0NjgwOTVdfQ==
 -->
