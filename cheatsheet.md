@@ -86,6 +86,8 @@ Changes not staged for commit:
 Untracked files:
           fileb.txt
 
+commit IDs (l
+
 git log delivers information about the commit history.
     git log
 >commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
@@ -236,11 +238,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xND
-UwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1
-MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0Mz
-MsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0y
-MDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0Mj
-EsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3
-MzI5MzYxNV19
+eyJoaXN0b3J5IjpbMTY0MjUyNzY3MiwtMTUyNjI5MTYzNSw5OT
+Q3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5
+NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OC
+wtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEz
+MjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MT
+A4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEz
+MDI5Njg2ODVdfQ==
 -->
