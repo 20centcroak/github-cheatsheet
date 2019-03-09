@@ -313,15 +313,15 @@ both can be done in 1 command
     git checkout -b featureY
 >Switched to a new branch 'featureY'
 ### Delete branches
-A branch can be deleted only if 
+A branch can be deleted only if head is not pointing on it currently. If some works are
     git branch -d featureX
 >Deleted branch featureX (was 774c2a6).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTMzMDk2OCw0NjIyNDg1MjUsLTE4Mz
-kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
-NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
-E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
-MTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2Nz
-QzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIs
-LTIwMDI3OTk5NDRdfQ==
+eyJoaXN0b3J5IjpbMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOT
+A5NTI5MSwtMzMyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0
+MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMT
+Q1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIx
+NTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3ND
+MzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4Miwt
+MjAwMjc5OTk0NF19
 -->
