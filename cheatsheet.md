@@ -59,10 +59,12 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 ## Remote repository
 ### clone a remote repo
-if no local repo is configured and a remote repo exists, the simplest way is to cline the remote repo that creates a local repo, manages the link between local and remote, create a working copy equivalent to
+if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch.
+
+    git clone
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTEyNzc0OTU2NzYsMTc5MjU1
-MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
-EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+B6ZXJvXG4iLCJoaXN0b3J5IjpbMjE0MTE0Njg0LDE3OTI1NTEw
+NzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMz
+QwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
 -->
