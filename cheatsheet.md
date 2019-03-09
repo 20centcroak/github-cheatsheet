@@ -1,13 +1,13 @@
 # Cheat sheet
 
-## create a local repository
+## Create a local repository
 Create an empty folder called *projetA*, and execute the following command in this folder:
 ```
 git init
 ```
 Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
-## commit
+## Commit
 In the previously empty repo, fileA.txt is added
 
     git status
@@ -281,11 +281,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NT
-Y5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkx
-NDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3My
-w0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0
-Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC
-02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5
-ODMyMV19
+eyJoaXN0b3J5IjpbMzA4NDgyNTcxLC0zNjIxNTEzNDksMTIyMD
+UxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4
+NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NC
+wzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMz
+MDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMT
+c5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIw
+MjgxXX0=
 -->
