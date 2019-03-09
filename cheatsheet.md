@@ -10,8 +10,26 @@ git init
 ```
 Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
+ ## Stage/unstage files
+Suppose that you have a file *fileb.txt* created in the working copy. It can be added to the staging area:
+    
+    git add .\fileb.txt
+    git status
+>On branch master
+Changes to be committed:
+        new file:   fileb.txt
+
+The file has been added in the staging area. If you didn't mean to put it in the staging area, it can be removed with the following command:
+
+    git reset HEAD .\fileb.txt
+    git status
+>On branch master
+Your branch is up to date with 'my_remote/master'.
+Untracked files:
+        fileb.txt
+
 ## Commit
-In the previously empty repo, fileA.txt is added
+In an empty repo, fileA.txt is added
 
     git status
 
@@ -68,24 +86,8 @@ Changes to be committed:
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
  
- ### Stage/unstage files
-Suppose that you have a file *fileb.txt* created in the working copy. It can be added to the staging area:
-    
-    git add .\fileb.txt
-    git status
->On branch master
-Changes to be committed:
-        new file:   fileb.txt
 
-The file has been added in the staging area. If you didn't mean to put it in the staging area, it can be removed with the following command:
 
-    git reset HEAD .\fileb.txt
-    git status
->On branch master
-Your branch is up to date with 'my_remote/master'.
-Untracked files:
-        fileA.txt
-        fileb.txt
 
     git status
 >On branch master
@@ -305,11 +307,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NTk5NzAwLDE0Nzc3OTQ1OTQsLTM2Mj
-E1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0
-MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC
-0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0
-MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LD
-Y3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1
-OTgzOV19
+eyJoaXN0b3J5IjpbLTEwNDI2NDA4MzgsMTQ3Nzc5NDU5NCwtMz
+YyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2
+NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyOD
+IsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYx
+NTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2OD
+UsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2
+NTU5ODM5XX0=
 -->
