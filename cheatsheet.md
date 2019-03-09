@@ -164,6 +164,10 @@ To ..\remoteb\
  \* [new branch]      master -> master
 
 The *master* branch has been created in the remote repo.
+
+    git push --set-upstream my_remote master
+>Everything up-to-date
+
 Just after this push, if we look at the log of the remote repo and the local repo, they are exactly the same:
     
     git log --oneline my_remote/master
@@ -189,8 +193,6 @@ nothing to commit, working tree clean
 
 It is possible to specify the remote branch associated to the local branch for push and pull, then there won't be any need to specify the remote repo and the branch when pushing/pulling:
 
-    git push --set-upstream my_remote master
->Everything up-to-date
 
 ## Deleting a file
 In the previous state we have explored, our remote repo is in synch with our local repo, our working copy contains *fileA.txt* with modifications that are not staged and *fileb.txt* which is not under version control.
@@ -228,11 +230,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMT
-Q3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1Njkw
-OTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0Nj
-QsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3
-Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nz
-c5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYw
-NTMyOTg4M119
+eyJoaXN0b3J5IjpbLTc1NjIxMDIxOCwtMTQ1MDQ1ODI4NiwtMT
+Y3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUx
+NzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4Nz
+EsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwz
+MDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMD
+gwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5
+MjU1MTA3N119
 -->
