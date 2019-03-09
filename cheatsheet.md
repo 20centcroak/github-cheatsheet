@@ -90,9 +90,12 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 6fbb7ca cheatsheet.md updated from https://stackedit.io/  
 
 Here we can see that HEAD points on the branch label *master*, the tracking branch *origin/master* and the symbolic remote link *origin/HEAD*
+
+### add a remote repo
+when a local repo already exists and need to be connected to a remote repo, we should established the link between these local and remote repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mj
-g5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3
-NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzND
-AxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTc1MTk0MzY5OSwxMzc2MTU0MjEsLTExNT
+UzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYx
+NSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4OD
+g3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
