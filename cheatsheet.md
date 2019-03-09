@@ -106,12 +106,12 @@ Suppose you have created a pseudo-remote repo in folder remotea and you want to 
     git remote
 >my-remote
 
-my-remote is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin.
-It is possible to have more than one remote reposit
+*my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
+It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQxMDQ5NTcsNDc2OTcxMDgsMTM3Nj
-E1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4
-NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0OD
-Y1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0Njgw
-OTVdfQ==
+eyJoaXN0b3J5IjpbMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNT
+QyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUs
+NjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2NT
+U5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1
+XX0=
 -->
