@@ -297,12 +297,20 @@ Date:   Sat Mar 9 17:20:44 2019 +0100
 Tags are not pushed to remote with the *git push* command. We must use the *--tags* flag
     
     git push --tags
+
+## Branches
+branch are created with 
+    
+    git branch featureX
+then point to the created branch with 
+
+    git checkout 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMz
-I5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0
-NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC
-0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIw
-NTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Nj
-g3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0
-LDMwMzUwNzQ3M119
+eyJoaXN0b3J5IjpbLTkxOTU3MDE0Niw0NjIyNDg1MjUsLTE4Mz
+kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
+NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
+E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
+MTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2Nz
+QzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIs
+LTIwMDI3OTk5NDRdfQ==
 -->
