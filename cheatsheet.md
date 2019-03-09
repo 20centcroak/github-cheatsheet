@@ -62,7 +62,6 @@ nothing to commit, working tree clean
 ### Commit modifications
 Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
 
-
     git status
 >On branch master
 Changes not staged for commit:
@@ -72,36 +71,6 @@ Changes not staged for commit:
     git commit -m'featureA added'
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
- 
-
-
-
-
-If we don't want to track *fileA.txt* anymore, then we should call git rm:
-
-     git rm --cached .\fileA.txt
->rm 'fileA.txt'
- 
-    git status
->On branch master
-Changes to be committed:
-        deleted:    fileA.txt
-Untracked files:
-        fileA.txt
-        fileb.txt
-
-This action can be aborted as any other modification in the staging area:
-
-    git reset HEAD .\fileA.txt
->Unstaged changes after reset:
-M       fileA.txt
-
-    git status
->On branch master
-Changes not staged for commit:
-         modified:   fileA.txt
-Untracked files:
-          fileb.txt
 
 ## Information on history, commits and so on
 We have already seen previously the *git status* command which look at the files in the working copy, in the staging area and in the version control
@@ -260,11 +229,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUxNDQ1MjEsLTE2NzM5NDQxNDksMT
-Q3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1Njkw
-OTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0Nj
-QsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3
-Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nz
-c5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYw
-NTMyOTg4M119
+eyJoaXN0b3J5IjpbLTI0OTA3NTc2NiwtMTY3Mzk0NDE0OSwxND
+c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
+Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
+wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
+OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
+ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
+MzI5ODgzXX0=
 -->
