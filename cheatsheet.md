@@ -251,11 +251,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 
-If we want our file to be deleted in our working copy too, the *--force* tag shoukd be used instead of --
+If we want our file to be deleted in our working copy too, the *--force* tag shoukd be used instead of *--cached*
     
     git rm --force .\fileb.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDMwNjI5OCwyMDU0Njg4MTQyLDExND
+eyJoaXN0b3J5IjpbLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
 I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
 Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
 wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
