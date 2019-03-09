@@ -136,6 +136,7 @@ Untracked files:
         fileA.txt
         fileb.txt
 
+This action can be aborted as any other modification 
 ## Remote repository
 ### clone a remote repo
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
@@ -188,7 +189,7 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM1NjUzMTcsLTU5NTE5MTQ2NCwtMT
+eyJoaXN0b3J5IjpbLTE1MDM4MjU4MTMsLTU5NTE5MTQ2NCwtMT
 MyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcx
 MDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMT
 MwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5
