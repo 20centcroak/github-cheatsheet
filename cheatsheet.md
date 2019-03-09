@@ -63,10 +63,17 @@ if no local repo is configured and a remote repo exists, the simplest way is to 
 
     git clone https://github.com/20centcroak/github-cheatsheet.git
 The url is given by the remote repo manager (github, bitbucket, ...)
->
+>Cloning into 'github-cheatsheet'...   
+remote: Enumerating objects: 140, done.    
+remote: Counting objects: 100% (140/140), done.  
+remote: Compressing objects: 100% (136/136), done.  
+Rremote: Total 140 (delta 40), reused 0 (delta 0), pack-reused 0                             0)  
+Receiving objects: 100% (140/140), 18.63 KiB | 1.03 MiB/s, done.  
+Resolving deltas: 100% (40/40), done.
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE4MjYyNjM2NTQsMTc5MjU1
-MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
-EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTc3NTQ3ODA2NSwxNzkyNTUx
+MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
+M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
