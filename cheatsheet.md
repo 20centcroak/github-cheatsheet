@@ -79,7 +79,7 @@ A folder is created containing the .git foler and the working copy for the curre
  >|Mode|LastWriteTime|Length|Name|
 |--|--|*--*|--*|
 |-a----|09/03/2019     10:12|2626|cheatsheet.md|
-|-a----|09/03/2019     10:12|287| README.md
+|-a----|09/03/2019     10:12|287| README.md|
 
     git log --oneline
 >fe2d511 (HEAD -> master, origin/master, origin/HEAD) cheatsheet.md updated from https://stackedit.io/  
@@ -90,7 +90,8 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMTMwMjk2ODY4NSw2NzMyOTM2
-MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksOD
-g4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTUyODk0Njc3OSwxMzAyOTY4
+Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMT
+Q4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2
+ODA5NV19
 -->
