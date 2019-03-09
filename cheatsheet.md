@@ -191,7 +191,13 @@ git remote shows identified remote repositories
 
 ### add a remote repo
 When a local repo already exists and need to be identifed by a remote repo, we should declare this remote repository.
-Suppose you have created a pseudo-remote repo in folder remotea (like  and you want to link remote repo *remotea* with local repo *projecta*:
+Suppose you have created a pseudo-remote repo in folder remotea:
+
+    git init --bare
+>Initialized empty Git repository in D:/repos/remoteb/
+
+
+  and you want to link remote repo *remotea* with local repo *projecta*:
 
     git remote add my-remote ..\remotea\   
     git remote
@@ -200,10 +206,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMz
-I4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEw
-OCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
-AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
-ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMT
-c1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbLTEzNTc2MDYyODgsMTgyODY3Njg3MSwtNT
+k1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUw
+NzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLT
+UyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUx
+MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
+M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
