@@ -93,9 +93,11 @@ Here we can see that HEAD points on the branch label *master*, the tracking bran
 
 ### add a remote repo
 when a local repo already exists and need to be connected to a remote repo, we should established the link between these local and remote repositories.
+
+    git remote add
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTk0MzY5OSwxMzc2MTU0MjEsLTExNT
-UzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYx
-NSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4OD
-g3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1Mz
+MzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUs
+MTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4Nz
+IwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
