@@ -67,23 +67,11 @@ Changes not staged for commit:
         modified:   fileA.txt
 
     git add .\fileA.txt
-    git status
->On branch master
-Changes to be committed:
-        modified:   fileA.txt
-
     git commit -m'featureA added'
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
  
-
-
-
-    git status
->On branch master
-Untracked files:
-        fileb.txt
-
+AAAAAAAAA
 If modifications occured on fileA.txt and the file is added to the staging area, then it is possible to commit the changes or to reset the changes of this fles. Then they won't be taken into account in the next commit.
 
     git status
@@ -297,11 +285,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjM4MDAzNiwtMTY3Mzk0NDE0OSwxND
-c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
-Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
-wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
-OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
-ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
-MzI5ODgzXX0=
+eyJoaXN0b3J5IjpbNjk4NjgwMjMwLC0xNjczOTQ0MTQ5LDE0Nz
+c3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDky
+OTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC
+0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5
+NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OS
+wxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUz
+Mjk4ODNdfQ==
 -->
