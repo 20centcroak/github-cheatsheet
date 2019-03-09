@@ -48,6 +48,7 @@ The file is now commited, and a commit number is displayed (short SHA-1: *213cf6
 >On branch master  
 nothing to commit, working tree clean
 
+### Commit modifications
 Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
 
 
@@ -66,6 +67,7 @@ Changes to be committed:
     git commit -m'featureA added'
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
+ Stage/unstage files
 
 Suppose that you now have a file *fileb.txt* created in the working copy. 
     
@@ -298,7 +300,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MDIyMDY5LDE0Nzc3OTQ1OTQsLTM2Mj
+eyJoaXN0b3J5IjpbNTAyNjczMDcxLDE0Nzc3OTQ1OTQsLTM2Mj
 E1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0
 MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC
 0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0
