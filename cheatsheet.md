@@ -259,16 +259,17 @@ If we want our file to be deleted in our working copy too, the *--force* tag sho
 you can add a user-friendly reference to a specific commit to find it easily.
 
     git tag -a -m'my first tag' v1.0
-You can review the list of tags  with this command
+You can review the list of tags  with this command. *-a* or *-annotate* to build 
    
-     git tag
-v1.0
+    git tag
+>v1.0
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyODQzMDcwLC05Njg2NzkxNDQsMjA1ND
-Y4ODE0MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3
-MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC
-0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1
-NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5ND
-I4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3
-NjE1NDIxXX0=
+eyJoaXN0b3J5IjpbMTEzMzM5MjE2MywtOTY4Njc5MTQ0LDIwNT
+Q2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0
+NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NC
+wtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4
+NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOT
+QyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEz
+NzYxNTQyMV19
 -->
