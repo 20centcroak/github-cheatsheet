@@ -7,10 +7,6 @@ git init
 ```
 Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
-## Information on history, commits and so on
-
-    git log
-
 ## Commit
 In the previously empty repo, fileA.txt is added
 
@@ -49,19 +45,7 @@ The file is now commited, and a commit number is displayed (short SHA-1: *213cf6
 >On branch master  
 nothing to commit, working tree clean
 
-    git log
->commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
-Author: XXX <XXX@mail.com>  
-Date:   Fri Mar 8 18:51:03 2019 +0100  
-    my first commit message
 
-git log delivers information about the commit history. Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
-It is also possible to get a short log history on oneline with the branch graph:
-
-    git log --oneline
-> 213cf6c (HEAD -> master) my first commit message
-
-Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
 
     git status
 >On branch master
@@ -152,6 +136,25 @@ Changes not staged for commit:
          modified:   fileA.txt
 Untracked files:
           fileb.txt
+
+## Information on history, commits and so on
+We have already seen previously the followin command
+
+    git log
+>commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
+Author: XXX <XXX@mail.com>  
+Date:   Fri Mar 8 18:51:03 2019 +0100  
+    my first commit message
+
+git log delivers information about the commit history. Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
+It is also possible to get a short log history on oneline with the branch graph:
+
+    git log --oneline
+> 213cf6c (HEAD -> master) my first commit message
+
+Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
+    git log
+
 ## Remote repository
 ### clone a remote repo
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
@@ -285,7 +288,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTU4MDk2NCwtMzYyMTUxMzQ5LDEyMj
+eyJoaXN0b3J5IjpbLTc2NDQ3NzI3NSwtMzYyMTUxMzQ5LDEyMj
 A1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2
 ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5ND
 QsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMz
