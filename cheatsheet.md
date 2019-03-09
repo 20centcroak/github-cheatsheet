@@ -59,12 +59,9 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
 
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
-On branch master
+    git status
+>On branch master
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
         modified:   fileA.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -132,9 +129,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU1OTYxNTgsLTIwMDI3OTk5NDQsMz
-AzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4
-MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OT
-I1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4
-MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbMTIwNTY5NTg5MCwtMjAwMjc5OTk0NCwzMD
+M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
+LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
+U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
+LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
