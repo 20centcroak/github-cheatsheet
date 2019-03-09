@@ -304,9 +304,15 @@ branch are created with
     git branch featureX
 then point to the created branch with 
 
-    git checkout 
+    git checkout featureX
+>Switched to branch 'featureX'
+
+both can be done in 1 command
+ 
+    git checkout -b featureY
+>Switched to a new branch 'featureY'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTU3MDE0Niw0NjIyNDg1MjUsLTE4Mz
+eyJoaXN0b3J5IjpbMjAwNTE2NDA1NSw0NjIyNDg1MjUsLTE4Mz
 kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
 NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
 E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
