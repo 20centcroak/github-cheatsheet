@@ -48,7 +48,8 @@ The file is now commited, and a commit number is displayed (short SHA-1: *213cf6
 >On branch master  
 nothing to commit, working tree clean
 
-
+Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
+    git log
 
     git status
 >On branch master
@@ -157,14 +158,12 @@ Author: XXX <XXX@mail.com>
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
-g Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
+Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
 It is also possible to get a short log history on oneline with the branch graph:
 
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
 
-Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
-    git log
 
 ## Remote repository
 ### clone a remote repo
@@ -299,11 +298,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MzU1NTM0LDE0Nzc3OTQ1OTQsLTM2Mj
-E1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0
-MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC
-0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0
-MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LD
-Y3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1
-OTgzOV19
+eyJoaXN0b3J5IjpbLTg1MTI3Nzc1MywxNDc3Nzk0NTk0LC0zNj
+IxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3
+NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4Mi
+wtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1
+NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NS
+w2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1
+NTk4MzldfQ==
 -->
