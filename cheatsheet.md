@@ -78,15 +78,15 @@ A folder is created containing the .git foler and the working copy for the curre
  >
 
     git log --oneline
->fe2d511 (HEAD -> master, origin/master, origin/HEAD) cheatsheet.md updated from https://stackedit.io/
-a225ce5 cheatsheet.md updated from https://stackedit.io/
-3b1ef0d cheatsheet.md updated from https://stackedit.io/
-10bc7ba cheatsheet.md updated from https://stackedit.io/
-6fbb7ca cheatsheet.md updated from https://stackedit.io/
+>fe2d511 (HEAD -> master, origin/master, origin/HEAD) cheatsheet.md updated from https://stackedit.io/  
+a225ce5 cheatsheet.md updated from https://stackedit.io/  
+3b1ef0d cheatsheet.md updated from https://stackedit.io/  
+10bc7ba cheatsheet.md updated from https://stackedit.io/  
+6fbb7ca cheatsheet.md updated from https://stackedit.io/  
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTcxMDI3MDE3MSwxNzkyNTUx
+B6ZXJvXG4iLCJoaXN0b3J5IjpbMTE3MTI3Nzk4OSwxNzkyNTUx
 MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
 M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
