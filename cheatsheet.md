@@ -99,14 +99,17 @@ git remote shows identified remote repositories
 
 
 ### add a remote repo
-When a local repo already exists and need to be identifed by a remote repo, we should established the link between these local and remote repositories.
+When a local repo already exists and need to be identifed by a remote repo, we should declare this remote repository.
 Suppose you have created a pseudo-remote repo in folder remotea and you want to link remote repo *remotea* with local repo *projecta*:
 
     git remote add my-remote ..\remotea\   
     git remote
 >my-remote
+
+my-remote is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin.
+It is possible to have more than one remote reposit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ2MTczNjcsNDc2OTcxMDgsMTM3Nj
+eyJoaXN0b3J5IjpbLTEyNjQxMDQ5NTcsNDc2OTcxMDgsMTM3Nj
 E1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4
 NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0OD
 Y1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0Njgw
