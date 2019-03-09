@@ -251,15 +251,18 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 
-If we want our file to be deleted in our working copy too, the *--force* tag shoukd be used instead of *--cached*
+If we want our file to be deleted in our working copy too, the *--force* tag should be used instead of *--cached*
     
     git rm --force .\fileb.txt
+
+## Tag
+you can add a user-friendly reference to a specific commit to find it easily.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
-I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
-Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
-wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
-ODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNz
-k5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTEx
-NTUzMzMwODBdfQ==
+eyJoaXN0b3J5IjpbMjAwNDQ4ODIwMSwtOTY4Njc5MTQ0LDIwNT
+Q2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0
+NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NC
+wtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4
+NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOT
+QyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEz
+NzYxNTQyMV19
 -->
