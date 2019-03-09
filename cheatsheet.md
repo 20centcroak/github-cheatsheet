@@ -39,7 +39,7 @@ Now fileA.txt is staged in the staging area and can be commited
  1 file changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileA.txt  
 
-the file is now commited, and a commit number is displayed (short SHA-1: *213cf6c*)
+The file is now commited, and a commit number is displayed (short SHA-1: *213cf6c*)
 
     git status
 >On branch master  
@@ -60,6 +60,7 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMjc5MTc4OTMsMTQ4NjU1OTgz
-OSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTYwNTMyOTg4MywxNDg2NTU5
+ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX
+0=
 -->
