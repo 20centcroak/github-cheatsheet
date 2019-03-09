@@ -36,23 +36,14 @@ In an empty repo, fileA.txt is added
 >On branch master  
 No commits yet  
 Untracked files:
-  (use "git add \<file\>..." to include in what will be committed)  
 fileA.txt  
-nothing added to commit but untracked files present (use "git add" to track)
+nothing added to commit but untracked files present
 
 Current branch is the default branch called *master*.
-No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet.
-
+No commits have been done so far but a new file is present in the working copy. However this file is not tracked yet. It has to be staged in the staging area and then commited.
 
     git add .\fileA.txt
-    git status
-
->On branch master   
-No commits yet  
-Changes to be committed:  
-  (use "git rm --cached \<file\>..." to unstage)  
-        new file:   fileA.txt
-
+    
 Now fileA.txt is staged in the staging area and can be commited
 
     git commit -m'my first commit message'
@@ -307,7 +298,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI2NDA4MzgsMTQ3Nzc5NDU5NCwtMz
+eyJoaXN0b3J5IjpbLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMz
 YyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2
 NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyOD
 IsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYx
