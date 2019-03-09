@@ -205,9 +205,18 @@ and you want to link remote repo *remoteb* with local repo *projecta*:
 *my_remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 
-### Push commits to remote repository
+## Push commits to remote repository
+
+    git push my_remote master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 442 bytes | 110.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To ..\remoteb\
+ * [new branch]      master -> master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjA4MDE3NCwxODI4Njc2ODcxLC01OT
+eyJoaXN0b3J5IjpbMTExNTMxMTk2MSwxODI4Njc2ODcxLC01OT
 UxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3
 NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNT
 I4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEw
