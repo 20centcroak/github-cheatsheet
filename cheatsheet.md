@@ -29,7 +29,7 @@ No commits have been done so far but a new file is present in the working copy. 
 >On branch master   
 No commits yet  
 Changes to be committed:  
-  (use "git rm --cached <file>..." to unstage)  
+  (use "git rm --cached \<file\>..." to unstage)  
         new file:   fileA.txt
 
 Now fileA.txt is staged in the staging area and can be commited
@@ -47,7 +47,7 @@ nothing to commit, working tree clean
 
     git log
 >commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
-Author: XXX <XXX.mail.com>  
+Author: XXX <XXX@mail.com>  
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
@@ -127,9 +127,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MTAxMjUxLC0yMDAyNzk5OTQ0LDMwMz
-UwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAs
-LTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNT
-UxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEs
-MTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbLTMyMTk0NTI1OSwtMjAwMjc5OTk0NCwzMD
+M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
+LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
+U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
+LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
