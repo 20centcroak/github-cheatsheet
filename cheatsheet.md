@@ -71,11 +71,22 @@ Rremote: Total 140 (delta 40), reused 0 (delta 0), pack-reused 0                
 Receiving objects: 100% (140/140), 18.63 KiB | 1.03 MiB/s, done.  
 Resolving deltas: 100% (40/40), done.
 
-A folder is created containing 
+A folder is created containing the .git foler and the working copy for the current branch
+
+     cd .\github-cheatsheet\
+     ls
+ >
+
+    git log --oneline
+>fe2d511 (HEAD -> master, origin/master, origin/HEAD) cheatsheet.md updated from https://stackedit.io/
+a225ce5 cheatsheet.md updated from https://stackedit.io/
+3b1ef0d cheatsheet.md updated from https://stackedit.io/
+10bc7ba cheatsheet.md updated from https://stackedit.io/
+6fbb7ca cheatsheet.md updated from https://stackedit.io/
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE5ODk1OTg3MDYsMTc5MjU1
-MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
-EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTcxMDI3MDE3MSwxNzkyNTUx
+MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
+M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
