@@ -149,7 +149,7 @@ and you want to link remote repo *remoteb* with local repo *projecta*:
     git remote
 >my_remote
 
-git 
+*git remote* displays the declared repositories
 
 *my_remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
@@ -232,11 +232,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE5MDQzNTcsLTE0NTA0NTgyODYsLT
-E2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1
-MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2OD
-cxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQs
-MzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMz
-A4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3
-OTI1NTEwNzddfQ==
+eyJoaXN0b3J5IjpbOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC0xNj
+czOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3
+NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MS
+wtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMw
+MzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwOD
+AsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzky
+NTUxMDc3XX0=
 -->
