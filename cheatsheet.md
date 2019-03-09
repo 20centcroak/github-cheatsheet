@@ -74,7 +74,7 @@ Suppose that you now have a file *fileb.txt* created in the working copy.
 Changes to be committed:
         new file:   fileb.txt
 
-The file has been added in the stagig area. If you didn't mean to put it in the staging area, it can be removed with the following command:
+The file has been added in the staging area. If you didn't mean to put it in the staging area, it can be removed with the following command:
 
     git rm --cached .\fileb.txt
 >rm 'fileb.txt'
@@ -299,11 +299,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUxNjc4NTIsMTQ3Nzc5NDU5NCwtMz
-YyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2
-NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyOD
-IsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYx
-NTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2OD
-UsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2
-NTU5ODM5XX0=
+eyJoaXN0b3J5IjpbNDA0MzU1NTM0LDE0Nzc3OTQ1OTQsLTM2Mj
+E1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0
+MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC
+0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0
+MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LD
+Y3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1
+OTgzOV19
 -->
