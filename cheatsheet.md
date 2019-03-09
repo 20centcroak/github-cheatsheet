@@ -204,12 +204,13 @@ and you want to link remote repo *remoteb* with local repo *projecta*:
 
 *my_remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
+
 ### Push commits to remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxOTg5NDA0LDE4Mjg2NzY4NzEsLTU5NT
-E5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0
-NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mj
-g5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3
-NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzND
-AxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbMTU4NjA4MDE3NCwxODI4Njc2ODcxLC01OT
+UxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3
+NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNT
+I4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEw
+NzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMz
+QwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
 -->
