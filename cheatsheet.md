@@ -89,8 +89,9 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 10bc7ba cheatsheet.md updated from https://stackedit.io/  
 6fbb7ca cheatsheet.md updated from https://stackedit.io/  
 
+Here we can see that HEAD points on the branch label *master*, the tracking branch *origin/master* and the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjQwOTcxNiwtMTE1NTMzMzA4MCwtNT
+eyJoaXN0b3J5IjpbMTM0ODA5NjY3NiwtMTE1NTMzMzA4MCwtNT
 I4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEw
 NzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMz
 QwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
