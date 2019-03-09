@@ -77,7 +77,7 @@ Changes not staged for commit:
  1 file changed, 1 insertion(+)
 
 ## Information on history, commits and so on
-We have already seen previously the *git status* command which look at the files in the working copy, in the staging area and in the version control
+We have already seen previously the *git status* command which look at the files in the working copy, in the staging area and in the version control and delivers a status for these files (created, modified, deleted, untracked, staged, ...)
     
     git status
 >On branch master
@@ -108,6 +108,12 @@ Commit IDs (long or short)  can be used to get information about a specific comm
 Author: XXX <XXX@mail.com>
 Date:   Sat Mar 9 16:37:59 2019 +0100
     add feature2 in fileb
+
+    git show 54c09e1
+>commit 54c09e11bbaa05c9857f6589edc660e4be3c0798
+Author: XXX<XXX@mail.com>
+Date:   Fri Mar 8 19:06:28 2019 +0100
+    featureA added
 
 ## Remote repository
 ### Clone a remote repo
@@ -245,7 +251,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzgwMzUwOCwxMTQyNjI5NDYwLC0xNT
+eyJoaXN0b3J5IjpbLTIyNTY2NjE3OCwxMTQyNjI5NDYwLC0xNT
 I2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0
 NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMi
 wxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5
