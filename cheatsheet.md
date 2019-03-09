@@ -7,6 +7,10 @@ git init
 ```
 Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
+## Information on history, commits and so on
+
+    git log
+
 ## Commit
 In the previously empty repo, fileA.txt is added
 
@@ -281,11 +285,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4NDgyNTcxLC0zNjIxNTEzNDksMTIyMD
-UxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4
-NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NC
-wzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMz
-MDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMT
-c5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIw
-MjgxXX0=
+eyJoaXN0b3J5IjpbMTgwNTU4MDk2NCwtMzYyMTUxMzQ5LDEyMj
+A1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2
+ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5ND
+QsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMz
+MzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LD
+E3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcy
+MDI4MV19
 -->
