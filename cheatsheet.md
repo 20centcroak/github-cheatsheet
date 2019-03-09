@@ -2,7 +2,9 @@
 ## Structure and principle
 [git workflow](https://blog.osteele.com/2008/05/my-git-workflow/)
 ![git workflow](https://images.osteele.com/2008/git-transport.png)
-
+## Naming
+*workspace* or *working copy* is the folder containing the .git folder and all the files that will be examined by git if not declared as ignored
+*index or s
 ## Create a local repository
 Create an empty folder called *projectA*, and execute the following command in this folder:
 ```
@@ -232,11 +234,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC0xNj
-czOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3
-NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MS
-wtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMw
-MzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwOD
-AsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzky
-NTUxMDc3XX0=
+eyJoaXN0b3J5IjpbLTI1MjM0OTk5LDk5NDc5OTQ3MywtMTQ1MD
+Q1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEz
+NDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLD
+E4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAw
+Mjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC
+0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMy
+OTM2MTVdfQ==
 -->
