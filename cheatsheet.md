@@ -250,12 +250,16 @@ The log shows the deletion:
 >acc534c (HEAD -> master, my_remote/master) delete fileA.txt
 54c09e1 featureA added
 213cf6c my first commit message
+
+If we want our file to be deleted in our working copy too, the *--force* tag shoukd be used instead of --
+    
+    git rm --force .\fileb.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC0xNT
-I2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0
-NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMi
-wxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5
-NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MD
-c0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01
-Mjg5NDY3NzldfQ==
+eyJoaXN0b3J5IjpbMTc5NDMwNjI5OCwyMDU0Njg4MTQyLDExND
+I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
+Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
+wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
+ODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNz
+k5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTEx
+NTUzMzMwODBdfQ==
 -->
