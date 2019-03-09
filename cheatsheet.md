@@ -5,7 +5,8 @@
 ## Naming
 * *workspace* or *working copy* is the folder containing the .git folder and all the files that will be examined by git if not declared as ignored
 * *index* or *staging area* is where new files or modifications are added if we want them to be part of a new commit
-* repositories 
+* repositories are the version control containing base files and their associated modifications, and the comm
+
 ## Create a local repository
 Create an empty folder called *projectA*, and execute the following command in this folder:
 ```
@@ -235,11 +236,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3Mjk2NzgxLDk5NDc5OTQ3MywtMTQ1MD
-Q1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEz
-NDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLD
-E4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAw
-Mjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC
-0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMy
-OTM2MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODcxODYyNjEsOTk0Nzk5NDczLC0xND
+UwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1
+MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0Mz
+MsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0y
+MDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0Mj
+EsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3
+MzI5MzYxNV19
 -->
