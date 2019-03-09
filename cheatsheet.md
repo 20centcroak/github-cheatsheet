@@ -59,10 +59,10 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 ## Remote repository
 ### clone a remote repo
-if no 
+if no local repo is configured and a remote repo exists, the simplest way is to cline the remote repo that creates a local repo, manages the link between local and remote, create a working copy equivalent to
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE0NDI4MTY2OTQsMTc5MjU1
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTEyNzc0OTU2NzYsMTc5MjU1
 MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
 EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
