@@ -138,7 +138,7 @@ Untracked files:
           fileb.txt
 
 ## Information on history, commits and so on
-We have already seen previously the *git status* command whi
+We have already seen previously the *git status* command which look at the files in the working copy, in the staging area and in the version control
     
     git status
 >On branch master
@@ -296,7 +296,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTk5NjgzOSwtMzYyMTUxMzQ5LDEyMj
+eyJoaXN0b3J5IjpbMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMj
 A1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2
 ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5ND
 QsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMz
