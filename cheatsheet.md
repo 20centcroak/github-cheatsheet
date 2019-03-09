@@ -127,6 +127,14 @@ If we don't want to track *fileA.txt* anymore, then we should call git rm:
 
      git rm --cached .\fileA.txt
 >rm 'fileA.txt'
+ 
+    git status
+>On branch master
+Changes to be committed:
+        deleted:    fileA.txt
+Untracked files:
+        fileA.txt
+        fileb.txt
 
 ## Remote repository
 ### clone a remote repo
@@ -180,10 +188,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NDUwNDk4LC01OTUxOTE0NjQsLTEzMj
-gxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4
-LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMD
-I5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4
-MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNz
-U0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTE5MDM1NjUzMTcsLTU5NTE5MTQ2NCwtMT
+MyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcx
+MDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMT
+MwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5
+ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLT
+E3NTQ0NjgwOTVdfQ==
 -->
