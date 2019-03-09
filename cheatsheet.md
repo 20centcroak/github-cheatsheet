@@ -242,14 +242,44 @@ nothing to commit, working tree clean
 
 It is possible to specify the remote branch associated to the local branch for push and pull, then there won't be any need to specify the remote repo and the branch when pushing/pulling:
 
+### deleting a file
     git push --set-upstream my_remote master
 >Everything up-to-date
+git rm --cached .\fileA.txt
+rm 'fileA.txt'
+PS D:\perso\courses\git course\hands on\repos\projecta> git status
+On branch master
+Your branch is up to date with 'my_remote/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    fileA.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        fileA.txt
+        fileb.txt
+
+PS D:\perso\courses\git course\hands on\repos\projecta> git push
+Everything up-to-date
+PS D:\perso\courses\git course\hands on\repos\projecta> git commit -m 'delete fileA.txt'
+[master acc534c] delete fileA.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 fileA.txt
+PS D:\perso\courses\git course\hands on\repos\projecta> git push
+Counting objects: 2, done.
+Writing objects: 100% (2/2), 201 bytes | 100.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To ..\remoteb\
+   54c09e1..acc534c  master -> master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMz
-g1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5
-NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMT
-M3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2
-ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLD
-E0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0
-NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbMTYwMjQ1NzA1OCwxMjIwNTE3NjEyLDE0NT
+Y5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkx
+NDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3My
+w0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0
+Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC
+02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5
+ODMyMV19
 -->
