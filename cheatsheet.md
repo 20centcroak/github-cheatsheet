@@ -155,23 +155,23 @@ It is possible to have more than one remote repository
 ## Push commits to remote repository
 
     git push my_remote master
->Counting objects: 6, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (6/6), 442 bytes | 110.00 KiB/s, done.
-Total 6 (delta 0), reused 0 (delta 0)
-To ..\remoteb\
+>Counting objects: 6, done.  
+Delta compression using up to 4 threads.  
+Compressing objects: 100% (2/2), done.  
+Writing objects: 100% (6/6), 442 bytes | 110.00 KiB/s, done.  
+Total 6 (delta 0), reused 0 (delta 0)  
+To ..\remoteb\  
  \* [new branch]      master -> master
 
 The *master* branch has been created in the remote repo.
 Just after this push, if we look at the log of the remote repo and the local repo, they are exactly the same:
     
     git log --oneline my_remote/master
->54c09e1 (HEAD -> master, my_remote/master) featureA added
+>54c09e1 (HEAD -> master, my_remote/master) featureA added  
 213cf6c my first commit message
 
     git log --oneline master
->54c09e1 (HEAD -> master, my_remote/master) featureA added
+>54c09e1 (HEAD -> master, my_remote/master) featureA added  
 213cf6c my first commit message
 
 However, locally *fileb.txt* has been added and *fileA.txt* has been changed but the modifications have not been staged, then the status of remote and local repos are not the same:
@@ -228,11 +228,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTY1MDk2MiwtMTY3Mzk0NDE0OSwxND
-c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
-Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
-wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
-OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
-ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
-MzI5ODgzXX0=
+eyJoaXN0b3J5IjpbLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMT
+Q3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1Njkw
+OTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0Nj
+QsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3
+Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nz
+c5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYw
+NTMyOTg4M119
 -->
