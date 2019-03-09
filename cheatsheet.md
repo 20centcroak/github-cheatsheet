@@ -57,6 +57,8 @@ It is also possible to get a short log history on oneline with the branch graph:
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
 
+Now file When the file is modified in the working copy, it has to be put in the staging area, and then commit to be part of the version contr
+
 ## Remote repository
 ### clone a remote repo
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
@@ -109,9 +111,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Nj
-k3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5
-LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNT
-MyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIx
-LC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbMTkyODUyMDA5MCwtMjAwMjc5OTk0NCwzMD
+M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
+LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
+U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
+LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
