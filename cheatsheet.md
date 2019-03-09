@@ -28,8 +28,7 @@ Your branch is up to date with 'my_remote/master'.
 Untracked files:
         fileb.txt
 
-The same command works for  
-As we can see *fileA.txt* is still under version control (it is tracked), but the modifications are not staged for commit. The content of the file is not modified by this call to git reset.
+The same command works to unstage any modifications. The file in the working copy is not modified and is still under version control (it is tracked), but the modifications are not staged for commit.
 
 ## Commit
 In an empty repo, fileA.txt is added
@@ -261,7 +260,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ2MzE0ODAsLTE2NzM5NDQxNDksMT
+eyJoaXN0b3J5IjpbLTE3NTUxNDQ1MjEsLTE2NzM5NDQxNDksMT
 Q3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1Njkw
 OTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0Nj
 QsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3
