@@ -138,15 +138,23 @@ Untracked files:
           fileb.txt
 
 ## Information on history, commits and so on
-We have already seen previously the followin command
+We have already seen previously the *git status* command whi
+    
+    git status
+>On branch master
+Changes not staged for commit:
+         modified:   fileA.txt
+Untracked files:
+          fileb.txt
 
+git log delivers information about the commit history.
     git log
 >commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
 Author: XXX <XXX@mail.com>  
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
-git log delivers information about the commit history. Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
+g Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit (tip) of this branch. 
 It is also possible to get a short log history on oneline with the branch graph:
 
     git log --oneline
@@ -288,7 +296,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDQ3NzI3NSwtMzYyMTUxMzQ5LDEyMj
+eyJoaXN0b3J5IjpbMTc1NTk5NjgzOSwtMzYyMTUxMzQ5LDEyMj
 A1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2
 ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5ND
 QsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMz
