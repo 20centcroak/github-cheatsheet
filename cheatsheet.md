@@ -216,12 +216,12 @@ Total 6 (delta 0), reused 0 (delta 0)
 To ..\remoteb\
  \* [new branch]      master -> master
 
-The *master* branch has been created in the remote repo and no
+The *master* branch has been created in the remote repo and now is in synch with the local *master* branch.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjU2NTQ2MiwxODI4Njc2ODcxLC01OT
-UxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3
-NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNT
-I4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEw
-NzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMz
-QwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNT
+k1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUw
+NzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLT
+UyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUx
+MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
+M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
