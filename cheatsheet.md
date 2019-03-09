@@ -76,6 +76,23 @@ Changes to be committed:
  1 file changed, 1 insertion(+)
 
 Suppose that you now have a file *fileb.txt* created in the working copy. 
+    
+    git add .\fileb.txt
+    git status
+>On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   fileb.txt
+
+PS D:\perso\courses\git course\hands on\repos\projecta> git rm --cached .\fileb.txt
+rm 'fileb.txt'
+PS D:\perso\courses\git course\hands on\repos\projecta> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        fileb.txt
 
 ## Remote repository
 ### clone a remote repo
@@ -129,9 +146,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMz
-AzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4
-MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OT
-I1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4
-MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbMzQ4MjQ0NDE3LC0xMzI4MTk0MjgyLC0yMD
+AyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEs
+LTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3Mz
+I5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgz
+OSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
