@@ -15,7 +15,7 @@ Suppose that you have a file *fileb.txt* created in the working copy. It can be 
     
     git add .\fileb.txt
     git status
->On branch master 
+>On branch master  
 Changes to be committed:  
         new file:   fileb.txt  
 
@@ -23,10 +23,10 @@ The file has been added in the staging area. If you didn't mean to put it in the
 
     git reset HEAD .\fileb.txt
     git status
->On branch master
-Your branch is up to date with 'my_remote/master'.
-Untracked files:
-        fileb.txt
+>On branch master  
+Your branch is up to date with 'my_remote/master'.  
+Untracked files:  
+        fileb.txt  
 
 The same command works to unstage any modifications. The file in the working copy is not modified and is still under version control (it is tracked), but the modifications are not staged for commit.
 
@@ -57,7 +57,7 @@ The file is now commited, and a commit number is displayed (short SHA-1: *213cf6
 
     git status
 >On branch master  
-nothing to commit, working tree clean
+nothing to commit, working tree clean  
 
 ### Commit modifications
 Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
@@ -229,11 +229,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjA2MTczMCwtMTY3Mzk0NDE0OSwxND
-c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
-Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
-wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
-OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
-ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
-MzI5ODgzXX0=
+eyJoaXN0b3J5IjpbMTA5NTQ5MTMwLC0xNjczOTQ0MTQ5LDE0Nz
+c3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDky
+OTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC
+0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5
+NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OS
+wxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUz
+Mjk4ODNdfQ==
 -->
