@@ -70,7 +70,6 @@ Changes not staged for commit:
     git status
 >On branch master
 Changes to be committed:
-  (use "git reset HEAD \<file\>..." to unstage)
         modified:   fileA.txt
 
     git commit -m'featureA added'
@@ -298,7 +297,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTc4NTQxMywtMTY3Mzk0NDE0OSwxND
+eyJoaXN0b3J5IjpbLTYwMjM4MDAzNiwtMTY3Mzk0NDE0OSwxND
 c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
 Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
 wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
