@@ -255,7 +255,7 @@ If we want our file to be deleted in our working copy too, the *--force* tag sho
     
     git rm --force .\fileb.txt
 
-## Tag
+## Tags
 you can add a user-friendly reference to a specific commit to find it easily.
 
     git tag -a -m'my first tag' v1.0
@@ -293,12 +293,16 @@ commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)
 Author: XXXX<XXX@mail.com>
 Date:   Sat Mar 9 17:20:44 2019 +0100
     delete fileb
+
+Tags are not pushed to remote with the *git push* command. We must use the *--tags* flag
+    
+    git push --tags
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOT
-Y4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5
-MTYzNSw5OTQ3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxND
-ksMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1
-NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOT
-E0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDcz
-LDQ3Njk3MTA4XX0=
+eyJoaXN0b3J5IjpbNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMz
+I5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0
+NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC
+0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIw
+NTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Nj
+g3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0
+LDMwMzUwNzQ3M119
 -->
