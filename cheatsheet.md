@@ -10,7 +10,7 @@ git init
 ```
 Now a .git folder is created in *projectA* and contains all git pieces of information about this freshly created local repository.
 
- ## Stage/unstage files
+## Stage/unstage files
 Suppose that you have a file *fileb.txt* created in the working copy. It can be added to the staging area:
     
     git add .\fileb.txt
@@ -285,11 +285,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NjgwMjMwLC0xNjczOTQ0MTQ5LDE0Nz
-c3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDky
-OTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC
-0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5
-NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OS
-wxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUz
-Mjk4ODNdfQ==
+eyJoaXN0b3J5IjpbMTg0Mjg4MzkxNiwtMTY3Mzk0NDE0OSwxND
+c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
+Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
+wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
+OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
+ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
+MzI5ODgzXX0=
 -->
