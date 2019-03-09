@@ -90,16 +90,22 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 6fbb7ca cheatsheet.md updated from https://stackedit.io/  
 
 Here we can see that HEAD points on the branch label *master*, the tracking branch *origin/master* and the symbolic remote link *origin/HEAD*
+By default remote name is origin:
+$ git remote
+origin
+
 
 ### add a remote repo
 When a local repo already exists and need to be connected to a remote repo, we should established the link between these local and remote repositories.
 Suppose you have created a pseudo-remote repo in folder remotea and you want to link remote repo *remotea* with local repo *projecta*:
 
-    git remote add
+    git remote add my-remote ..\remotea\   
+    git remote
+>my-remote
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODY5NDE5Myw0NzY5NzEwOCwxMzc2MT
-U0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1
-LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4Nj
-U1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5
-NV19
+eyJoaXN0b3J5IjpbLTkzMjIyNDg5LDQ3Njk3MTA4LDEzNzYxNT
+QyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUs
+NjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2NT
+U5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1
+XX0=
 -->
