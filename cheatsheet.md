@@ -227,13 +227,14 @@ Just after this push, if we look at the log of the remote repo and the local rep
 >54c09e1 (HEAD -> master, my_remote/master) featureA added
 213cf6c my first commit message
 
-However, locally *fileb.txt* has been added and *fileA.txt* has been changed but the modifications have not been staged, then the staus of remote
+However, locally *fileb.txt* has been added and *fileA.txt* has been changed but the modifications have not been staged, then the status of remote and local repos are not the same:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjcxMDQ2MywxNDU2OTA5Mjk4LC0xMz
-g1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5
-NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMT
-M3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2
-ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLD
-E0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0
-NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbNDIwMTIxNzM0LDE0NTY5MDkyOTgsLTEzOD
+U1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0
+MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMz
+c2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4
+Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMT
+Q4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2
+ODA5NV19
 -->
