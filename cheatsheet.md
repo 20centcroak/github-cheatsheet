@@ -101,6 +101,13 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 In this short message, sommit ID is shorten as well using only the 7 first characters of the SHA-1 ID.
 
+Commit IDs (long or short)  can be used to get information about a specific commit. When not specified, the HEAD label is used to deliver informtation.
+
+    git show
+>commit 6a5dcf4779d2dc456ab460f080c9086c7697f13b (HEAD -> master, tag: v1.0, my_remote/master)
+Author: XXX <XXX@mail.com>
+Date:   Sat Mar 9 16:37:59 2019 +0100
+    add feature2 in fileb
 
 ## Remote repository
 ### Clone a remote repo
@@ -238,7 +245,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDM5MjUyMywxMTQyNjI5NDYwLC0xNT
+eyJoaXN0b3J5IjpbLTQxNzgwMzUwOCwxMTQyNjI5NDYwLC0xNT
 I2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0
 NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMi
 wxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5
