@@ -255,36 +255,29 @@ Suppose you want to remove *fileA.txt* from version control:
     git status
 >On branch master
 Your branch is up to date with 'my_remote/master'.
-
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
         deleted:    fileA.txt
-
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
         fileA.txt
         fileb.txt
 
-PS D:\perso\courses\git course\hands on\repos\projecta> git push
-Everything up-to-date
-PS D:\perso\courses\git course\hands on\repos\projecta> git commit -m 'delete fileA.txt'
-[master acc534c] delete fileA.txt
+    git commit -m 'delete fileA.txt'
+>[master acc534c] delete fileA.txt
  1 file changed, 1 deletion(-)
  delete mode 100644 fileA.txt
-PS D:\perso\courses\git course\hands on\repos\projecta> git push
-Counting objects: 2, done.
+
+    git push
+>Counting objects: 2, done.
 Writing objects: 100% (2/2), 201 bytes | 100.00 KiB/s, done.
 Total 2 (delta 0), reused 0 (delta 0)
 To ..\remoteb\
    54c09e1..acc534c  master -> master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDcxNDgxODYsMTIyMDUxNzYxMiwxND
-U2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5
-MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0Nz
-MsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5
-NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3Ny
-wtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAx
-OTgzMjFdfQ==
+eyJoaXN0b3J5IjpbMTMyMjAxNTA5NSwxMjIwNTE3NjEyLDE0NT
+Y5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkx
+NDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3My
+w0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0
+Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC
+02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5
+ODMyMV19
 -->
