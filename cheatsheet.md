@@ -58,10 +58,11 @@ It is also possible to get a short log history on oneline with the branch graph:
 > 213cf6c (HEAD -> master) my first commit message
 
 ## Remote repository
-
+### clone a remote repo
+if no 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMTc2NDA0NDMwMywxNzkyNTUx
-MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
-M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE0NDI4MTY2OTQsMTc5MjU1
+MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
+EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
