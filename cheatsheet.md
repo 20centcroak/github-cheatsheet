@@ -67,9 +67,9 @@ Changes to be committed:
     git commit -m'featureA added'
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
- Stage/unstage files
-
-Suppose that you now have a file *fileb.txt* created in the working copy. 
+ 
+ ### Stage/unstage files
+Suppose that you now have a file *fileb.txt* created in the working copy.
     
     git add .\fileb.txt
     git status
@@ -300,7 +300,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyNjczMDcxLDE0Nzc3OTQ1OTQsLTM2Mj
+eyJoaXN0b3J5IjpbNTE4Nzc1NTkwLDE0Nzc3OTQ1OTQsLTM2Mj
 E1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0
 MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC
 0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0
