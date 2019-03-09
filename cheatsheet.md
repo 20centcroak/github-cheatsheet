@@ -64,13 +64,11 @@ Now fileA.txt is under version control. When this file is modified in the workin
 Changes not staged for commit:
         modified:   fileA.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")
-PS D:\perso\courses\git course\hands on\repos\projecta> git add .\fileA.txt
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
-On branch master
+    git add .\fileA.txt
+    git status
+>On branch master
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
+  (use "git reset HEAD \<file\>..." to unstage)
         modified:   fileA.txt
 
 PS D:\perso\courses\git course\hands on\repos\projecta> git commit -m'featureA added'
@@ -129,9 +127,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTY5NTg5MCwtMjAwMjc5OTk0NCwzMD
-M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
-LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
-U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
-LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbMzM5MTAxMjUxLC0yMDAyNzk5OTQ0LDMwMz
+UwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAs
+LTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNT
+UxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEs
+MTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
