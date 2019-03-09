@@ -123,6 +123,11 @@ fileb.txt
 
 As we can see *fileA.txt* is still under version control (it is tracked), but the modifications are not staged for commit. The content of the file is not modified by this call to git reset.
 
+If we don't want to track *fileA.txt* anymore, then we should call git rm:
+
+     git rm --cached .\fileA.txt
+>rm 'fileA.txt'
+
 ## Remote repository
 ### clone a remote repo
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
@@ -175,10 +180,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODEwNTg4MCwtNTk1MTkxNDY0LC0xMz
-I4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEw
-OCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
-AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
-ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMT
-c1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbNzQ3NDUwNDk4LC01OTUxOTE0NjQsLTEzMj
+gxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4
+LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMD
+I5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4
+MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNz
+U0NDY4MDk1XX0=
 -->
