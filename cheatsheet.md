@@ -15,9 +15,9 @@ Suppose that you have a file *fileb.txt* created in the working copy. It can be 
     
     git add .\fileb.txt
     git status
->On branch master
-Changes to be committed:
-        new file:   fileb.txt
+>On branch master 
+Changes to be committed:  
+        new file:   fileb.txt  
 
 The file has been added in the staging area. If you didn't mean to put it in the staging area, it can be removed with the following command:
 
@@ -229,7 +229,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTA3NTc2NiwtMTY3Mzk0NDE0OSwxND
+eyJoaXN0b3J5IjpbMjA3NjA2MTczMCwtMTY3Mzk0NDE0OSwxND
 c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
 Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
 wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
