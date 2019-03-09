@@ -270,12 +270,44 @@ you can delete a tag with the *-d* flag
     git tag -d v1.0
 >Deleted tag 'v1.0' (was 3fc4051)
 
+we can tag any commit knowing its ID (or a symbolic reference)
+
+    git tag v1.0 -a -m'my new tag' d86540b
+If no ID is supplied, then HEAD is used as the reference of the commit to tag
+
+    git tag v1.1
+PS D:\perso\courses\git course\hands on\repos\projecta> git tag
+v1.0
+v1.1
+PS D:\perso\courses\git course\hands on\repos\projecta> git show v1.0
+tag v1.0
+Tagger: vpaveau <vincent.paveau@soprasteria.com>
+Date:   Sat Mar 9 18:56:22 2019 +0100
+
+my new tag
+
+commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)
+Author: vpaveau <vincent.paveau@soprasteria.com>
+Date:   Sat Mar 9 16:37:10 2019 +0100
+
+    add feature in fileb
+
+diff --git a/fileb.txt b/fileb.txt
+new file mode 100644
+index 0000000..c3c003f
+Binary files /dev/null and b/fileb.txt differ
+PS D:\perso\courses\git course\hands on\repos\projecta> git show v1.1
+commit 774c2a66d1ea30b6517c69c03e1911ede02686af (HEAD -> master, tag: v1.1)
+Author: vpaveau <vincent.paveau@soprasteria.com>
+Date:   Sat Mar 9 17:20:44 2019 +0100
+
+    delete fileb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNT
-Q2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0
-NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NC
-wtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4
-NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOT
-QyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEz
-NzYxNTQyMV19
+eyJoaXN0b3J5IjpbMTQ5Mjk3NjEzMSwtMzMyOTQwODM4LC05Nj
+g2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC0xNTI2Mjkx
+NjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OS
+wxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2
+OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MT
+Q2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMs
+NDc2OTcxMDhdfQ==
 -->
