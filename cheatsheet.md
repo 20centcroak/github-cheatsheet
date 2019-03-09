@@ -273,13 +273,13 @@ Total 2 (delta 0), reused 0 (delta 0)
 To ..\remoteb\
    54c09e1..acc534c  master -> master
 
-Now our working copy still contains *fileA.txt* and *fileb.txt* but fileA.tx
+Now our working copy still contains *fileA.txt* and *fileb.txt* but *fileA.txt* is not tracked anymore and if we look at the files in the  *master* branch of our remote repo, *fileA.txt* has been deleted.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjMyMzI0NCwxMjIwNTE3NjEyLDE0NT
-Y5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkx
-NDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3My
-w0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0
-Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC
-02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5
-ODMyMV19
+eyJoaXN0b3J5IjpbMzA5NjMxNTUxLDEyMjA1MTc2MTIsMTQ1Nj
+kwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0
+NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLD
+Q3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2
+Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLT
+YwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4
+MzIxXX0=
 -->
