@@ -99,7 +99,7 @@ It is also possible to get a short log history on oneline with the branch graph:
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
 
-In this short message, sommit ID is shorten as well using only the 7 first characters of the SHA-1 ID.
+In this short message, commit ID is shorten as well using only the 7 first characters of the SHA-1 ID.
 
 Commit IDs (long or short)  can be used to get information about a specific commit. When not specified, the HEAD label is used to deliver informtation.
 
@@ -251,7 +251,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTY2NjE3OCwxMTQyNjI5NDYwLC0xNT
+eyJoaXN0b3J5IjpbMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC0xNT
 I2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0
 NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMi
 wxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5
