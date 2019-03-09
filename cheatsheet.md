@@ -121,7 +121,7 @@ Changes not staged for commit:
 Untracked files:
 fileb.txt
 
-As we can see *fileA.txt* is still under version control (it is tracked), but the modifications are not 
+As we can see *fileA.txt* is still under version control (it is tracked), but the modifications are not staged for commit. The content of the file is not modified by this call to git reset.
 
 ## Remote repository
 ### clone a remote repo
@@ -175,7 +175,7 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDE3MzM5NywtNTk1MTkxNDY0LC0xMz
+eyJoaXN0b3J5IjpbMTY2ODEwNTg4MCwtNTk1MTkxNDY0LC0xMz
 I4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEw
 OCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
 AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
