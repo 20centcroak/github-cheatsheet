@@ -57,7 +57,28 @@ It is also possible to get a short log history on oneline with the branch graph:
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
 
-Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit to be part of the log 
+Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit it in order to have the modifications in the log history.
+
+PS D:\perso\courses\git course\hands on\repos\projecta> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   fileA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\perso\courses\git course\hands on\repos\projecta> git add .\fileA.txt
+PS D:\perso\courses\git course\hands on\repos\projecta> git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   fileA.txt
+
+PS D:\perso\courses\git course\hands on\repos\projecta> git commit -m'featureA added'
+[master 54c09e1] featureA added
+ 1 file changed, 1 insertion(+)
 
 ## Remote repository
 ### clone a remote repo
@@ -111,9 +132,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzM4OTQwMywtMjAwMjc5OTk0NCwzMD
-M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
-LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
-U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
-LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTExOTU1OTYxNTgsLTIwMDI3OTk5NDQsMz
+AzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4
+MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OT
+I1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4
+MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
 -->
