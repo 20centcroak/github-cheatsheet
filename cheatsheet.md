@@ -78,7 +78,7 @@ A folder is created containing the .git foler and the working copy for the curre
  >    Répertoire : D:\perso\courses\git course\hands on\repos\croak\github-cheatsheet  
  
 |Mode|LastWriteTime|Length|Name|
-|--|--|*--*|--*|
+|--|--|--|--|
 |-a----|09/03/2019 10:12|2626|cheatsheet.md|
 |-a----|09/03/2019 10:12|287| README.md|
 
@@ -90,8 +90,8 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 6fbb7ca cheatsheet.md updated from https://stackedit.io/  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzM5OTA0NiwtNTI4OTQ2Nzc5LDEzMD
-I5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4
-MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNz
-U0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
+AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
+ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMT
+c1NDQ2ODA5NV19
 -->
