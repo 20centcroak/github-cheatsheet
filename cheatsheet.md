@@ -92,12 +92,14 @@ a225ce5 cheatsheet.md updated from https://stackedit.io/
 Here we can see that HEAD points on the branch label *master*, the tracking branch *origin/master* and the symbolic remote link *origin/HEAD*
 
 ### add a remote repo
-when a local repo already exists and need to be connected to a remote repo, we should established the link between these local and remote repositories.
+When a local repo already exists and need to be connected to a remote repo, we should established the link between these local and remote repositories.
+Suppose you have created a pseudo-remote repo in folder remotea and you want to link remote repo *remotea* with local repo *projecta*:
 
     git remote add
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1Mz
-MzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUs
-MTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4Nz
-IwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTc2ODY5NDE5Myw0NzY5NzEwOCwxMzc2MT
+U0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1
+LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4Nj
+U1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5
+NV19
 -->
