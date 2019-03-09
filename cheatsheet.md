@@ -86,7 +86,7 @@ Changes not staged for commit:
 Untracked files:
           fileb.txt
 
-commit IDs (l
+commit IDs (long or short SHA1)  can be used to get information about a specific commit. When not specified, the HEAD label is used to deliver informtation.
 
 git log delivers information about the commit history.
     git log
@@ -238,7 +238,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjUyNzY3MiwtMTUyNjI5MTYzNSw5OT
+eyJoaXN0b3J5IjpbMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OT
 Q3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5
 NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OC
 wtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEz
