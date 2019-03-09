@@ -106,7 +106,7 @@ The url is given by the remote repo manager (github, bitbucket, ...)
 remote: Enumerating objects: 140, done.    
 remote: Counting objects: 100% (140/140), done.  
 remote: Compressing objects: 100% (136/136), done.  
-Rremote: Total 140 (delta 40), reused 0 (delta 0), pack-reused 0                             0)  
+Rremote: Total 140 (delta 40), reused 0 (delta 0), pack-reused 0 (0)  
 Receiving objects: 100% (140/140), 18.63 KiB | 1.03 MiB/s, done.  
 Resolving deltas: 100% (40/40), done.
 
@@ -134,8 +134,7 @@ By default remote name is origin:
     git remote
 >origin
 
-git remote shows identified remote repositories
-
+git remote shows identified remote repositories.
 
 ### add a remote repo
 When a local repo already exists and need to be identifed by a remote repo, we should declare this remote repository.
@@ -229,11 +228,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTQ5MTMwLC0xNjczOTQ0MTQ5LDE0Nz
-c3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDky
-OTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC
-0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5
-NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OS
-wxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUz
-Mjk4ODNdfQ==
+eyJoaXN0b3J5IjpbMTMyOTY1MDk2MiwtMTY3Mzk0NDE0OSwxND
+c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
+Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
+wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
+OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
+ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
+MzI5ODgzXX0=
 -->
