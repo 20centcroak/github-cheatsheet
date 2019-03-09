@@ -71,9 +71,11 @@ Changes to be committed:
   (use "git reset HEAD \<file\>..." to unstage)
         modified:   fileA.txt
 
-PS D:\perso\courses\git course\hands on\repos\projecta> git commit -m'featureA added'
-[master 54c09e1] featureA added
+    git commit -m'featureA added'
+>[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
+
+Suppose that you now have a ne file cre
 
 ## Remote repository
 ### clone a remote repo
@@ -127,9 +129,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTk0NTI1OSwtMjAwMjc5OTk0NCwzMD
-M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
-LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
-U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
-LDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbNzM3NzQ5MjU3LC0yMDAyNzk5OTQ0LDMwMz
+UwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAs
+LTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNT
+UxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEs
+MTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
 -->
