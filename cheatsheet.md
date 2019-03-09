@@ -62,10 +62,11 @@ It is also possible to get a short log history on oneline with the branch graph:
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
 
     git clone https://github.com/20centcroak/github-cheatsheet.git
-the url is given by the remote repo manager (github, bitbucket, ...)
+The url is given by the remote repo manager (github, bitbucket, ...)
+>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbMTM2ODM4MzUzNCwxNzkyNTUx
-MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
-M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+B6ZXJvXG4iLCJoaXN0b3J5IjpbLTE4MjYyNjM2NTQsMTc5MjU1
+MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLD
+EzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
