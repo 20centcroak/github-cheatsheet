@@ -1,7 +1,7 @@
 # Cheat sheet
 ## Structure and principle
 [git workflow](https://blog.osteele.com/2008/05/my-git-workflow/)
-![enter image description here](https://images.osteele.com/2008/git-transport.png)
+![git workflow](https://images.osteele.com/2008/git-transport.png)
 
 ## Create a local repository
 Create an empty folder called *projetA*, and execute the following command in this folder:
@@ -299,11 +299,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjkxMzA5NiwxNDc3Nzk0NTk0LC0zNj
-IxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3
-NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5NDI4Mi
-wtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1
-NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NS
-w2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1
-NTk4MzldfQ==
+eyJoaXN0b3J5IjpbLTEyOTUxNjc4NTIsMTQ3Nzc5NDU5NCwtMz
+YyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2
+NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyOD
+IsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYx
+NTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2OD
+UsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2
+NTU5ODM5XX0=
 -->
