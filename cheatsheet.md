@@ -51,7 +51,7 @@ Author: XXX <XXX.mail.com>
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
-git log delivers information about the commit history. Here we can see the commit number (SHA-1), *HEAD* is a symbolic reference pointing on the last commit. *Master* is here the symbolic branch label pointing on the last commit. 
+git log delivers information about the commit history. Here we can see the commit number (SHA-1). *HEAD* is is pointing on the branch label *Master*. *Master* is here the symbolic branch label pointing on the last commit of this branch. 
 It is also possible to get a short log history on oneline with the branch graph:
 
     git log --oneline
@@ -60,7 +60,7 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-B6ZXJvXG4iLCJoaXN0b3J5IjpbLTYwNTMyOTg4MywxNDg2NTU5
-ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX
-0=
+B6ZXJvXG4iLCJoaXN0b3J5IjpbMTc5MjU1MTA3NywtNjA1MzI5
+ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLT
+E3NTQ0NjgwOTVdfQ==
 -->
