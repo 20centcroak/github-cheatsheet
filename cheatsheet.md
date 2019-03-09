@@ -246,11 +246,14 @@ It is possible to specify the remote branch associated to the local branch for p
 >Everything up-to-date
 
 ## Deleting a file
-In the previous state we have explored, our remote repo is in synch with our local repo, our working copy contains *fileA.txt* wit
-git rm --cached .\fileA.txt
-rm 'fileA.txt'
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
-On branch master
+In the previous state we have explored, our remote repo is in synch with our local repo, our working copy contains *fileA.txt* with modifications that are not staged and *fileb.txt* which is not under version control.
+Suppose you want to remove *fileA.txt* from version control:
+
+    git rm --cached .\fileA.txt
+>rm 'fileA.txt'
+
+    git status
+>On branch master
 Your branch is up to date with 'my_remote/master'.
 
 Changes to be committed:
@@ -277,11 +280,11 @@ Total 2 (delta 0), reused 0 (delta 0)
 To ..\remoteb\
    54c09e1..acc534c  master -> master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzEzMDc2OSwxMjIwNTE3NjEyLDE0NT
-Y5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkx
-NDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3My
-w0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0
-Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC
-02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5
-ODMyMV19
+eyJoaXN0b3J5IjpbLTE5NDcxNDgxODYsMTIyMDUxNzYxMiwxND
+U2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5
+MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0Nz
+MsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5
+NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3Ny
+wtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAx
+OTgzMjFdfQ==
 -->
