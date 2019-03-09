@@ -196,20 +196,20 @@ Suppose you have created a pseudo-remote repo in folder remotea:
     git init --bare
 >Initialized empty Git repository in D:/repos/remoteb/
 
+and you want to link remote repo *remoteb* with local repo *projecta*:
 
-  and you want to link remote repo *remotea* with local repo *projecta*:
-
-    git remote add my-remote ..\remotea\   
+    git remote add my_remote ..\remoteb\
     git remote
->my-remote
+>my_remote
 
-*my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
+*my_remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
+### Push commits to remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc2MDYyODgsMTgyODY3Njg3MSwtNT
-k1MTkxNDY0LC0xMzI4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUw
-NzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLT
-UyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUx
-MDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMT
-M0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbOTgxOTg5NDA0LDE4Mjg2NzY4NzEsLTU5NT
+E5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0
+NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mj
+g5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3
+NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzND
+AxOTgzMjEsLTE3NTQ0NjgwOTVdfQ==
 -->
