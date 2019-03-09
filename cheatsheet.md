@@ -223,11 +223,13 @@ Just after this push, if we look at the log of the remote repo and the local rep
 >54c09e1 (HEAD -> master, my_remote/master) featureA added
 213cf6c my first commit message
 
-    git log --oneline
-54c09e1 (HEAD -> master, my_remote/master) featureA added
+    git log --oneline master
+>54c09e1 (HEAD -> master, my_remote/master) featureA added
 213cf6c my first commit message
+
+However, locally *fileb.txt* has been added and *fileA.txt*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU0NjEzMzYsMTQ1NjkwOTI5OCwtMT
+eyJoaXN0b3J5IjpbLTE4OTk1OTg1NDAsMTQ1NjkwOTI5OCwtMT
 M4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgx
 OTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LD
 EzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5
