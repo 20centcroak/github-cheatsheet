@@ -86,8 +86,6 @@ Changes not staged for commit:
 Untracked files:
           fileb.txt
 
-commit IDs (long or short SHA1)  can be used to get information about a specific commit. When not specified, the HEAD label is used to deliver informtation.
-
 git log delivers information about the commit history.
     git log
 >commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
@@ -100,6 +98,8 @@ It is also possible to get a short log history on oneline with the branch graph:
 
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
+
+In this short message, sommit ID is shorten as well using only the 7 first characters of the SHA-1 ID.
 
 
 ## Remote repository
@@ -238,11 +238,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OT
-Q3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5
-NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OC
-wtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEz
-MjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MT
-A4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEz
-MDI5Njg2ODVdfQ==
+eyJoaXN0b3J5IjpbMjEwMDM5MjUyMywxMTQyNjI5NDYwLC0xNT
+I2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0
+NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMi
+wxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5
+NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MD
+c0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01
+Mjg5NDY3NzldfQ==
 -->
