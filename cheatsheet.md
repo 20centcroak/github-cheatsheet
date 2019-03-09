@@ -86,12 +86,12 @@ Changes to be committed:
 The file has been added in the stagig area. If you didn't mean to put it in the staging area, it can be removed with the following command:
 
     git rm --cached .\fileb.txt
-rm 'fileb.txt'
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
-On branch master
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+>rm 'fileb.txt'
 
+    git status
+>On branch master
+Untracked files:
+  (use "git add \<file\>..." to include in what will be committed)
         fileb.txt
 
 ## Remote repository
@@ -146,10 +146,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDMyMDczMDcsLTEzMjgxOTQyODIsLT
-IwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQy
-MSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNj
-czMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5
-ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX
-0=
+eyJoaXN0b3J5IjpbLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMj
+AwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIx
+LC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2Nz
+MyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4
+MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0NjgwOTVdfQ
+==
 -->
