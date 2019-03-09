@@ -75,7 +75,7 @@ Changes to be committed:
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
 
-Suppose that you now have a ne file cre
+Suppose that you now have a file *fileb.txt* created in the working copy. 
 
 ## Remote repository
 ### clone a remote repo
@@ -129,9 +129,9 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NzQ5MjU3LC0yMDAyNzk5OTQ0LDMwMz
-UwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEsLTExNTUzMzMwODAs
-LTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNT
-UxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEs
-MTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMz
+AzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4
+MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OT
+I1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5ODM5LDg4ODcyMDI4
+MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX0=
 -->
