@@ -240,14 +240,16 @@ Untracked files:
 >On branch master
 nothing to commit, working tree clean
 
-It is possible to link the local branch and the remote branch for push and pull, then there won't e any need to specify the remote repo and the branch when pushing/pulling:
+It is possible to specify the remote branch associated to the local branch for push and pull, then there won't be any need to specify the remote repo and the branch when pushing/pulling:
 
+    git push --set-upstream my_remote master
+>Everything up-to-date
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MDgyMzU5LDE0NTY5MDkyOTgsLTEzOD
-U1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0
-MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMz
-c2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4
-Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMT
-Q4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2
-ODA5NV19
+eyJoaXN0b3J5IjpbMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMz
+g1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5
+NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMT
+M3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMTMwMjk2
+ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5ODgzLD
+E0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLTE3NTQ0
+NjgwOTVdfQ==
 -->
