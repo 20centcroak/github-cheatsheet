@@ -259,17 +259,22 @@ If we want our file to be deleted in our working copy too, the *--force* tag sho
 you can add a user-friendly reference to a specific commit to find it easily.
 
     git tag -a -m'my first tag' v1.0
-You can review the list of tags  with this command. *-a* or *-annotate* to build a true git object with date, author name and other metadata. *-m* is required when *-a* is used. It adds a comment. Eventually the tag name (*v1.0* here) should be mentio
-   
+*-a* or *-annotate* to build a true git object with date, author name and other metadata. *-m* is required when *-a* is used. It adds a comment. Eventually the tag name (*v1.0* here) should be mentioned as it becomes the reference.
+You can review the list of tags  with this command. 
+
     git tag
 >v1.0
 
+you can delete a tag with the *-d* flag
+ git tag -d v1.0
+Deleted tag 'v1.0' (was 3fc4051)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTIxMzczLC05Njg2NzkxNDQsMjA1ND
-Y4ODE0MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3
-MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC
-0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1
-NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwtMTMyODE5ND
-I4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcxMDgsMTM3
-NjE1NDIxXX0=
+eyJoaXN0b3J5IjpbLTEyMTMxNTUwOTgsLTk2ODY3OTE0NCwyMD
+U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
+NDczLC0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OT
+QsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEz
+ODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MT
+k0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwx
+Mzc2MTU0MjFdfQ==
 -->
