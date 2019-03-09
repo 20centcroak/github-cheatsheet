@@ -5,7 +5,7 @@
 ## Naming
 * *workspace* or *working copy* is the folder containing the .git folder and all the files that will be examined by git if not declared as ignored
 * *index* or *staging area* is where new files or modifications are added if we want them to be part of a new commit
-* repositories are the version control containing base files and their associated modifications, and the comm
+* repositories are the version control containing base files and their associated modifications, and the commit history as well. The local repo is updated thanks to the commit, pull or fecth commands. The remote repo is updated thanks to th push command
 
 ## Create a local repository
 Create an empty folder called *projectA*, and execute the following command in this folder:
@@ -236,7 +236,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODcxODYyNjEsOTk0Nzk5NDczLC0xND
+eyJoaXN0b3J5IjpbLTE5MjQ5NzI3MTQsOTk0Nzk5NDczLC0xND
 UwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1
 MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0Mz
 MsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0MjgyLC0y
