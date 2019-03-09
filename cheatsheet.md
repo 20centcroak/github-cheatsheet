@@ -91,7 +91,6 @@ The file has been added in the stagig area. If you didn't mean to put it in the 
     git status
 >On branch master
 Untracked files:
-  (use "git add \<file\>..." to include in what will be committed)
         fileb.txt
 
 If modifications occured on fileA.txt and the file is added to the staging area, then it is possible to commit the changes or to reset the changes of this fles. Then they won't be taken into account in the next commit.
@@ -103,30 +102,19 @@ Changes not staged for commit:
 Untracked files:
 fileb.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")
-PS D:\perso\courses\git course\hands on\repos\projecta> git add .\fileA.txt
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
-On branch master
+    git add .\fileA.txt
+    git status
+>On branch master
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-        modified:   fileA.txt
-
+         modified:   fileA.txt
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
         fileb.txt
 
-PS D:\perso\courses\git course\hands on\repos\projecta> cat .\fileA.txt
-feature1
-feature2
-PS D:\perso\courses\git course\hands on\repos\projecta> git reset HEAD .\fileA.txt
-Unstaged changes after reset:
+    git reset HEAD .\fileA.txt
+>Unstaged changes after reset:
 M       fileA.txt
-PS D:\perso\courses\git course\hands on\repos\projecta> cat .\fileA.txt
-feature1
-feature2
-PS D:\perso\courses\git course\hands on\repos\projecta> git status
+
+    git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -191,10 +179,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAwOTQ3ODEsLTU5NTE5MTQ2NCwtMT
-MyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2OTcx
-MDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3NzksMT
-MwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1MzI5
-ODgzLDE0ODY1NTk4MzksODg4NzIwMjgxLDEzNDAxOTgzMjEsLT
-E3NTQ0NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTYzMDUxODg5OSwtNTk1MTkxNDY0LC0xMz
+I4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEw
+OCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
+AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
+ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMT
+c1NDQ2ODA5NV19
 -->
