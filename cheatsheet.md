@@ -44,7 +44,7 @@ No commits have been done so far but a new file is present in the working copy. 
 
     git add .\fileA.txt
     
-Now fileA.txt is staged in the staging area and can be commited
+Now *fileA.txt* is staged in the staging area and can be commited
 
     git commit -m'my first commit message'
 >[master (root-commit) 213cf6c] my first commit message  
@@ -298,11 +298,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMz
-YyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2
-NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyOD
-IsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYx
-NTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2OD
-UsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2
-NTU5ODM5XX0=
+eyJoaXN0b3J5IjpbMTY3MTc4NTQxMywtMTY3Mzk0NDE0OSwxND
+c3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5
+Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NC
+wtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwzMDM1MDc0NzMsNDc2
+OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgwLC01Mjg5NDY3Nz
+ksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5MjU1MTA3NywtNjA1
+MzI5ODgzXX0=
 -->
