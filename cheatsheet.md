@@ -4,7 +4,7 @@
 ![git workflow](https://images.osteele.com/2008/git-transport.png)
 
 ## Create a local repository
-Create an empty folder called *projetA*, and execute the following command in this folder:
+Create an empty folder called *projectA*, and execute the following command in this folder:
 ```
 git init
 ```
@@ -165,6 +165,8 @@ To ..\remoteb\
 
 The *master* branch has been created in the remote repo.
 
+It is possible to specify the remote branch associated to the local branch for push and pull, then there won't be any need to specify the remote repo and the branch when pushing/pulling:
+
     git push --set-upstream my_remote master
 >Everything up-to-date
 
@@ -190,8 +192,6 @@ Untracked files:
     git status my_remote/master
 >On branch master
 nothing to commit, working tree clean
-
-It is possible to specify the remote branch associated to the local branch for push and pull, then there won't be any need to specify the remote repo and the branch when pushing/pulling:
 
 
 ## Deleting a file
@@ -230,7 +230,7 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjIxMDIxOCwtMTQ1MDQ1ODI4NiwtMT
+eyJoaXN0b3J5IjpbMTM2MDU2NDYyMSwtMTQ1MDQ1ODI4NiwtMT
 Y3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUx
 NzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4Nz
 EsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwz
