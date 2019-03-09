@@ -208,15 +208,17 @@ It is possible to have more than one remote repository
 ## Push commits to remote repository
 
     git push my_remote master
-Counting objects: 6, done.
+>Counting objects: 6, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (6/6), 442 bytes | 110.00 KiB/s, done.
 Total 6 (delta 0), reused 0 (delta 0)
 To ..\remoteb\
- * [new branch]      master -> master
+ \* [new branch]      master -> master
+
+The *master* branch has been created in the remote repo and no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTMxMTk2MSwxODI4Njc2ODcxLC01OT
+eyJoaXN0b3J5IjpbMTcyNjU2NTQ2MiwxODI4Njc2ODcxLC01OT
 UxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3
 NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNT
 I4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEw
