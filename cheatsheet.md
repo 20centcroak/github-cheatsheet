@@ -97,7 +97,7 @@ It is also possible to get a short log history on oneline with the branch graph:
 
 
 ## Remote repository
-### clone a remote repo
+### Clone a remote repo
 if no local repo is configured and a remote repo exists, the simplest way is to clone the remote repo that creates a local repo, manages the link between local and remote, copy the git history and create a working copy equivalent to the current branch. 
 
     git clone https://github.com/20centcroak/github-cheatsheet.git
@@ -136,7 +136,7 @@ By default remote name is origin:
 
 git remote shows identified remote repositories.
 
-### add a remote repo
+### Add a remote repo
 When a local repo already exists and need to be identifed by a remote repo, we should declare this remote repository.
 Suppose you have created a pseudo-remote repo in folder remotea:
 
@@ -148,6 +148,8 @@ and you want to link remote repo *remoteb* with local repo *projecta*:
     git remote add my_remote ..\remoteb\
     git remote
 >my_remote
+
+git 
 
 *my_remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
@@ -230,11 +232,11 @@ The log shows the deletion:
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDU2NDYyMSwtMTQ1MDQ1ODI4NiwtMT
-Y3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUx
-NzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4Nz
-EsLTU5NTE5MTQ2NCwtMTMyODE5NDI4MiwtMjAwMjc5OTk0NCwz
-MDM1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMD
-gwLC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5
-MjU1MTA3N119
+eyJoaXN0b3J5IjpbLTExODE5MDQzNTcsLTE0NTA0NTgyODYsLT
+E2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1
+MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4Njc2OD
+cxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIsLTIwMDI3OTk5NDQs
+MzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQyMSwtMTE1NTMzMz
+A4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNjczMjkzNjE1LDE3
+OTI1NTEwNzddfQ==
 -->
