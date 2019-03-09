@@ -94,7 +94,7 @@ Untracked files:
   (use "git add \<file\>..." to include in what will be committed)
         fileb.txt
 
-If modifications occured on fileA.txt and the file is added to the staging area, then it is possible to remove the fileA.txt of the staging area, it is still 
+If modifications occured on fileA.txt and the file is added to the staging area, then it is possible to commit the changes or to reset the changes of this fles. Then they won't be taken into account in the next commit.
 
 ## Remote repository
 ### clone a remote repo
@@ -148,10 +148,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxODc3NDkwLC01OTUxOTE0NjQsLTEzMj
-gxOTQyODIsLTIwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4
-LDEzNzYxNTQyMSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMD
-I5Njg2ODUsNjczMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4
-MywxNDg2NTU5ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNz
-U0NDY4MDk1XX0=
+eyJoaXN0b3J5IjpbMjAxODE4OTUxNSwtNTk1MTkxNDY0LC0xMz
+I4MTk0MjgyLC0yMDAyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEw
+OCwxMzc2MTU0MjEsLTExNTUzMzMwODAsLTUyODk0Njc3OSwxMz
+AyOTY4Njg1LDY3MzI5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4
+ODMsMTQ4NjU1OTgzOSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMT
+c1NDQ2ODA5NV19
 -->
