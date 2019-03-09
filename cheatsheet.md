@@ -57,7 +57,7 @@ It is also possible to get a short log history on oneline with the branch graph:
     git log --oneline
 > 213cf6c (HEAD -> master) my first commit message
 
-Now file When the file is modified in the working copy, it has to be put in the staging area, and then commit to be part of the version contr
+Now fileA.txt is under version control. When this file is modified in the working copy, it has to be put in the staging area, and then commit to be part of the log 
 
 ## Remote repository
 ### clone a remote repo
@@ -111,7 +111,7 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODUyMDA5MCwtMjAwMjc5OTk0NCwzMD
+eyJoaXN0b3J5IjpbMTcyMzM4OTQwMywtMjAwMjc5OTk0NCwzMD
 M1MDc0NzMsNDc2OTcxMDgsMTM3NjE1NDIxLC0xMTU1MzMzMDgw
 LC01Mjg5NDY3NzksMTMwMjk2ODY4NSw2NzMyOTM2MTUsMTc5Mj
 U1MTA3NywtNjA1MzI5ODgzLDE0ODY1NTk4MzksODg4NzIwMjgx
