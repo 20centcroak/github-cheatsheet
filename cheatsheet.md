@@ -299,7 +299,7 @@ Tags are not pushed to remote with the *git push* command. We must use the *--ta
     git push --tags
 
 ## Branches
-### create branches
+### Create branches
 branch are created with 
     
     git branch featureX
@@ -312,14 +312,16 @@ both can be done in 1 command
  
     git checkout -b featureY
 >Switched to a new branch 'featureY'
-### delete branches
-
+### Delete branches
+A branch can be deleted only if 
+    git branch -d featureX
+>Deleted branch featureX (was 774c2a6).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgwNjc4MTIsNDYyMjQ4NTI1LC0xOD
-M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
-MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC
-0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2
-MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Nj
-c0MzMsMTgyODY3Njg3MSwtNTk1MTkxNDY0LC0xMzI4MTk0Mjgy
-LC0yMDAyNzk5OTQ0XX0=
+eyJoaXN0b3J5IjpbMTgyOTMzMDk2OCw0NjIyNDg1MjUsLTE4Mz
+kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
+NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
+E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
+MTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2Nz
+QzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEzMjgxOTQyODIs
+LTIwMDI3OTk5NDRdfQ==
 -->
