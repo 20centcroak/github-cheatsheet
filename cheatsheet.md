@@ -81,11 +81,11 @@ Suppose that you now have a file *fileb.txt* created in the working copy.
     git status
 >On branch master
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
         new file:   fileb.txt
 
-PS D:\perso\courses\git course\hands on\repos\projecta> git rm --cached .\fileb.txt
+The file has been added in the stagig area. If you didn't mean to put it in the staging area, it can be removed with the following command:
+
+    git rm --cached .\fileb.txt
 rm 'fileb.txt'
 PS D:\perso\courses\git course\hands on\repos\projecta> git status
 On branch master
@@ -146,9 +146,10 @@ Suppose you have created a pseudo-remote repo in folder remotea (like  and you w
 *my-remote* is the remote repo name we have assigned when pointing on remote repository. By default, this name is origin. 
 It is possible to have more than one remote repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MjQ0NDE3LC0xMzI4MTk0MjgyLC0yMD
-AyNzk5OTQ0LDMwMzUwNzQ3Myw0NzY5NzEwOCwxMzc2MTU0MjEs
-LTExNTUzMzMwODAsLTUyODk0Njc3OSwxMzAyOTY4Njg1LDY3Mz
-I5MzYxNSwxNzkyNTUxMDc3LC02MDUzMjk4ODMsMTQ4NjU1OTgz
-OSw4ODg3MjAyODEsMTM0MDE5ODMyMSwtMTc1NDQ2ODA5NV19
+eyJoaXN0b3J5IjpbLTEzNDMyMDczMDcsLTEzMjgxOTQyODIsLT
+IwMDI3OTk5NDQsMzAzNTA3NDczLDQ3Njk3MTA4LDEzNzYxNTQy
+MSwtMTE1NTMzMzA4MCwtNTI4OTQ2Nzc5LDEzMDI5Njg2ODUsNj
+czMjkzNjE1LDE3OTI1NTEwNzcsLTYwNTMyOTg4MywxNDg2NTU5
+ODM5LDg4ODcyMDI4MSwxMzQwMTk4MzIxLC0xNzU0NDY4MDk1XX
+0=
 -->
