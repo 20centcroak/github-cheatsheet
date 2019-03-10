@@ -782,12 +782,21 @@ nothing to commit, working tree clean
 ## Pulling remote content in working copy
 To update the local branch with the remote content, it is necessary to pull it:
 
+    git pull origin develop
+>From ..\remote\  
+ \* branch            develop    -> FETCH_HEAD  
+Merge made by the 'recursive' strategy.  
+ fileC.txt | 1 +  
+ 1 file changed, 1 insertion(+)  
+ create mode 100644 fileC.txt  
+
+This operation is a merge as stated in the answer. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYyNzAwNzQsLTEyODIwNDE0MDUsMT
-g5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3
-MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2My
-w5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1
-MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MD
-gxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nzks
-MzU5NjQ1MDc2XX0=
+eyJoaXN0b3J5IjpbMjc5NTU3NjE5LC0xMjgyMDQxNDA1LDE4OT
+c2NzMzNTYsLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEy
+NTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOT
+A2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3
+MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MT
+k0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1
+OTY0NTA3Nl19
 -->
