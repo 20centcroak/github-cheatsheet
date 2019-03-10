@@ -542,18 +542,18 @@ Then, merge *develop* commits in *master* branch:
  2 files changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileB.txt  
 
-We can observe that this is a fast-forward merge, then the *master* branch label is moved to the last commit. The lg shows a linear branch with no reference to the fork to *develop*. Finally, *HEAD* points to the symbolic references *master* and *develop*. *origin/develop* mention shows that the remotr 
+We can observe that this is a fast-forward merge, then the *master* branch label is moved to the last commit. The log shows a linear branch with no reference to the fork to *develop*. Finally, *HEAD* points to the symbolic references *master* and *develop* which points the last commit. *origin/develop* mention shows that the remote branch *origin/develop* also points this last commit because a *push* command has been called on this last commit.
 
      git log --oneline --graph
 >\* 9f79a2a (HEAD -> master, origin/develop, develop) add fileB  
 \* ceb9c6f feature1 added  
 \* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NzYzNDEzLDE0NDE2NjYzNzAsMTU5MT
-M5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1
-ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMz
-IzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5
-NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyND
-QxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIx
-MTEwOF19
+eyJoaXN0b3J5IjpbMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OT
+EzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYz
+NTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMz
+MyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQz
+OTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMj
+Q0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMy
+MTExMDhdfQ==
 -->
