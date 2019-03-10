@@ -315,11 +315,14 @@ branch are created with
     git checkout featureX
 >Switched to branch 'featureX'
 
+Now *HEAD* points on *featureX* branch label.
 
-both can be done in 1 command
+both can be done in 1 command:
  
     git checkout -b featureY
 >Switched to a new branch 'featureY'
+
+The branch is created and *HEAD* points on *featureX* branch label.
 
 ### Delete branches
 A branch can be deleted only if head is not pointing on it currently. If some works are
@@ -428,11 +431,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjA2NzgwMSwtNDEzMDA3NjI5LC0yMj
-Q4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1Mjky
-OSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0MTUsND
-A1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4MzkwOTUy
-OTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgxNDIsMT
-E0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLTE0NTA0
-NTgyODZdfQ==
+eyJoaXN0b3J5IjpbMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyND
+gzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5
+LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MD
+U2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5
+MSwtMzMyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMT
+QyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1
+ODI4Nl19
 -->
