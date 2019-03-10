@@ -599,7 +599,7 @@ Have a look to the log and graph:
 \* f604538 (origin/master) create fileA  
 
 This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (*8fb47dd*).
-Finally *HEAD* points to the *master* branch label which points to the last commit.
+Finally *HEAD* points to the *master* branch label which points to the last commit. Last commit and previous commit are identi
 We can also see that no commit have been added in the *master branch between the fork and the merge.
 Note that *develop* branch label and the tracking branch *origin/develop* points on the commit before the fork. 
 
@@ -654,11 +654,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Nj
-k2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYz
-NzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLD
-ExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0
-MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLD
-MwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3
-NzI3XX0=
+eyJoaXN0b3J5IjpbLTE4NDI1ODc5NzQsMzI1MDc1MjYzLDkwNj
+MxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAx
+NDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NC
+wtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2
+NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNy
+wtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4
+MzIzNzJdfQ==
 -->
