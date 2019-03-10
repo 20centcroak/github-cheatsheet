@@ -331,6 +331,11 @@ A branch can be deleted only if head is not pointing on it currently.
 
 Actually it only deletes the branch label. This is fine while there is no modification in this branch that has not been merged in another branch. If not, an error message is displayed because the modifications can't be referenced by any other git reference (commit, branch label, tags, ...)
 
+    git branch -d featureFromFirstCommit
+>error: The branch 'featureFromFirstCommit' is not fully merged.  
+
+To delete the branch and all the works that have been done on it and
+
 ### List branches
 list local branches only:
 
@@ -448,11 +453,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4Mz
-QxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcy
-LDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5ND
-IyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5
-MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMz
-I5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0
-NjBdfQ==
+eyJoaXN0b3J5IjpbMTIwNTMzMDcwNCwzMzIzNDkyNzksMTY5ND
+MxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5
+LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3OD
+A1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0
+MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4Mz
+kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
+NDJdfQ==
 -->
