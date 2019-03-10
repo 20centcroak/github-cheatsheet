@@ -332,13 +332,13 @@ Aborting
 Untracked files are noty affected when switching from a branch to another.
 
 ## References
-Git uses ids
+Git uses commit ids built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODM5NjcwMCw5NjAxNjU0MTUsNDA1Nj
-IyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEs
-LTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0Mj
-YyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLTE0NTA0NTgy
-ODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LD
-EyMjA1MTc2MTIsMTQ1NjkwOTI5OCwtMTM4NTU2NzQzMywxODI4
-Njc2ODcxXX0=
+eyJoaXN0b3J5IjpbLTE3MzU1MjEwOTUsOTYwMTY1NDE1LDQwNT
+YyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1Mjkx
+LC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
+I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
+Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
+wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
+ODY3Njg3MV19
 -->
