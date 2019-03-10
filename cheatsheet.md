@@ -657,16 +657,21 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 
-### Abort merge
+
+### Conflicts
+When the same hunks of the same files have been modified in the 2 branches we want to merge, git 
+
+
+#### Merge abort
 Here is the command to cancel a merge request when conflict arose when processing this merge:
 
     git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTAzMTc1NywxNTcyNDk0NDg2LC01OD
-A3MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2
-Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMT
-k1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2
-MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nz
-ksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQz
-MTc1MTddfQ==
+eyJoaXN0b3J5IjpbLTEyNTk1NTYwMDksMTU3MjQ5NDQ4NiwtNT
+gwNzEyNTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUy
+NjMsOTA2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LD
+E5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQy
+NjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nz
+c5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0
+MzE3NTE3XX0=
 -->
