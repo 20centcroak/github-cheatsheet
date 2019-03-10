@@ -589,14 +589,14 @@ Your branch is ahead of 'origin/master' by 2 commits.
 Have a look to the log and graph:
 
     git log --oneline --graph
->\*   8fb47dd (HEAD -> master) Merge branch 'featureX'
-|\\
-| * 3c7f318 (featureX) add featureX in fileB
-| * 9e469f9 add featureX in fileA
-|/
-\* 9f79a2a (origin/develop, develop) add fileB
-\* ceb9c6f feature1 added
-\* f604538 (origin/master) create fileA
+>\*   8fb47dd (HEAD -> master) Merge branch 'featureX'  
+|\\  
+| * 3c7f318 (featureX) add featureX in fileB  
+| * 9e469f9 add featureX in fileA  
+|/  
+\* 9f79a2a (origin/develop, develop) add fileB  
+\* ceb9c6f feature1 added  
+\* f604538 (origin/master) create fileA  
 
 This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (*8fb47dd*).
 Finally *HEAD* points to the *master* branch label which points to the last commit.
@@ -654,11 +654,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTMxOTM1OSw5MDYzMTgwMTUsLTE2OD
-Y5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2
-MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4Mi
-wxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1
-NDM2MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MC
-wzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4
-NzcyN119
+eyJoaXN0b3J5IjpbMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Nj
+k2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYz
+NzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLD
+ExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0
+MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLD
+MwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3
+NzI3XX0=
 -->
