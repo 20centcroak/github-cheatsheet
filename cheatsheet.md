@@ -330,8 +330,11 @@ Please commit your changes or stash them before you switch branches.
 Aborting
 
 Untracked files are noty affected when switching from a branch to another.
+
+## References
+Git uses ids
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODQ4NjM1Miw5NjAxNjU0MTUsNDA1Nj
+eyJoaXN0b3J5IjpbMjA4ODM5NjcwMCw5NjAxNjU0MTUsNDA1Nj
 IyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEs
 LTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0Mj
 YyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLTE0NTA0NTgy
