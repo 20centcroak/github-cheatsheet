@@ -400,9 +400,9 @@ branch *master*:
 
 |Mode|                LastWriteTime|         Length| Name|
 |--|--|--|--|
-|-a----       09/03/2019     12:01             18 fileA.txt
+|-a----|       09/03/2019     12:01|             18| fileA.txt|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzIxNjM2OCwxMjQ0MTE5NjUyLC03Nz
+eyJoaXN0b3J5IjpbLTk2MTgyNjM1OCwxMjQ0MTE5NjUyLC03Nz
 gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
 NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
 M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
