@@ -608,13 +608,17 @@ Let's delete references to the develop local and remote branches:
     git branch -d develop
 >Deleted branch develop (was 9f79a2a).
 
-and the remote branch in ou
+and the remote branch in our remote repo called *origin*
+
+    git push origin --delete develop
+>To ..\remote\  
+ - [deleted]         develop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NDg4MTU5LC0yMDA0NDk5NDE5LDE5NT
-E3MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4
-MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LD
-M1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3
-NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLT
-IyNDgzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUy
-OTI5XX0=
+eyJoaXN0b3J5IjpbLTU3NjUxMjUyNiwtMjAwNDQ5OTQxOSwxOT
+UxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYw
+ODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OS
+wzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMx
+NzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC
+0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1
+MjkyOV19
 -->
