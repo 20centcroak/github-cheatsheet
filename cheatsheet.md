@@ -411,6 +411,8 @@ Following the given instruction, create a branch frol this state:
     git checkout -b featureFromFirstCommit
 >Switched to a new branch 'featureFromFirstCommit'
 
+the
+
 ## References
 
 Git uses commit IDs built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
@@ -476,7 +478,7 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjcwNDk1NSwxMTU5MzYzNTg3LDE5OT
+eyJoaXN0b3J5IjpbMTY0MDUxOTgzMiwxMTU5MzYzNTg3LDE5OT
 Y0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5
 LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
 AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
