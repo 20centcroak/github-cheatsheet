@@ -612,13 +612,16 @@ and the remote branch in our remote repo called *origin*
 
     git push origin --delete develop
 >To ..\remote\  
- - [deleted]         develop
+ \- [deleted]         develop
+
+### Case study - commits in 2 different branches
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjUxMjUyNiwtMjAwNDQ5OTQxOSwxOT
-UxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYw
-ODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OS
-wzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMx
-NzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC
-0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1
-MjkyOV19
+eyJoaXN0b3J5IjpbLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMT
+k1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2
+MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nz
+ksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQz
+MTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOS
+wtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03Nzgw
+NTI5MjldfQ==
 -->
