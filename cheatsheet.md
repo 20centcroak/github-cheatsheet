@@ -750,12 +750,13 @@ Since we didn't pushed our modifications HEAD points on *develop* which points o
     git status
 >On branch develop  
 Your branch is ahead of 'origin/develop' by 1 commit.  
-  (use "git push" to publish your local commits)
-
-
+  (use "git push" to publish your local commits)   
 nothing to commit, working tree clean
+
+git status indicates that there is 1 commit that has not been pushed to remote.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM2OTYyOTMsLTEyODIwNDE0MDUsMT
+eyJoaXN0b3J5IjpbLTE1MzY1MTQxODAsLTEyODIwNDE0MDUsMT
 g5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3
 MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2My
 w5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1
