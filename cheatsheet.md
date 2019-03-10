@@ -386,7 +386,7 @@ Following the given instruction, create a branch frol this state:
 Git uses commit IDs built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
 Besides, symbolic references are also used:
  * branch label (*master* for example) points on the latest commit (or tip) of a given branch, it has the name of the branch
- * HEAD indicates the current state and generally points on a branch label. In some cases, *HEAD* is said "*detached*", meaning that it does not point on a branch label but directly on a commit. This is the case when using the command `git checkout <commit\>`
+ * HEAD indicates the current state and generally points on a branch label. In some cases, *HEAD* is said "*detached*", meaning that it does not point on a branch label but directly on a commit. This is the case when using the command `git checkout <commit>`
  * HEAD~ or HEAD~1 points on the parent commit of HEAD
  * HEAD~~  or HEAD~2  points on the grand-parent commit of HEAD
  * remote branch label (*my_remote/master* for example) points on the latest commit of a remote branch
@@ -446,7 +446,7 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTk3MjMwMSwtMTgzNDE5OTcwLDMwOT
+eyJoaXN0b3J5IjpbMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOT
 YzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3
 LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMT
 Y2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1
