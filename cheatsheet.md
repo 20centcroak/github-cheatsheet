@@ -598,9 +598,11 @@ Have a look to the log and graph:
 \* ceb9c6f feature1 added
 \* f604538 (origin/master) create fileA
 
-This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (
+This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (*8fb47dd*).
+Finally *HEAD* points to the *master* branch label which points to the last commit.
+We can also see that no commit have been added in the *master branch between 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTc5NzI4NiwxOTUxNzAxNDMzLDE0ND
+eyJoaXN0b3J5IjpbMTA0NzcxMDQ5OCwxOTUxNzAxNDMzLDE0ND
 E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
 MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
 U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
