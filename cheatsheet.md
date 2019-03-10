@@ -732,13 +732,13 @@ Branch 'develop' set up to track remote branch 'develop' from 'origin'.
     git log --oneline
 >79930f9 (HEAD -> develop, origin/master, origin/develop, master) Merge branch 'conflict-feature'
 
-The log indicates that HEAD points on the tip of *develop* branch and on the tip of *master* branch. It also points on the tip of the remotes branch *origin/master* and *origin/develop*
+The log indicates that HEAD points on the tip of *develop* branch and on the tip of *master* branch. It also points on the tip of the remotes branch *origin/master* and *origin/develop*. It means that all commits have been pushed to the the remote branches. But it does not know about the actual remote s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg4ODMyMDUsMTg5NzY3MzM1NiwtMT
-Y4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1
-MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLT
-E2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQx
-NjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMD
-I4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01
-OTA1NDM2MjZdfQ==
+eyJoaXN0b3J5IjpbNTIyNjAyNiwxODk3NjczMzU2LC0xNjgzOT
+UwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUwNDA1
+LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Nj
+k2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYz
+NzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLD
+ExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0
+MzYyNl19
 -->
