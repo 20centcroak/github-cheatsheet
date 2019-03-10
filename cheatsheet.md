@@ -647,14 +647,14 @@ and the remote branch in our remote repo called *origin*
 \|\\
 \| \* 3c7f318 (featureX) add featureX in fileB
 \| \* 9e469f9 add featureX in fileA
-|/
+\|/
 \* 9f79a2a add fileB
 \* ceb9c6f feature1 added
 \* f604538 (origin/master) create fileA
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY3NTMyMTcsOTA2MzE4MDE1LC0xNj
+eyJoaXN0b3J5IjpbLTE2OTkwMDI0MzMsOTA2MzE4MDE1LC0xNj
 g2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2
 NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyOD
 IsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkw
