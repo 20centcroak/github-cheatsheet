@@ -551,13 +551,13 @@ We can observe that this is a fast-forward merge, then the *master* branch label
 
 Finally, *HEAD* points to the symbolic references *master* and *develop* which points the last commit. 
 *origin/develop* mention shows that the remote branch *origin/develop* also points this last commit because a *push* command has been called on this last commit for this remote branch. 
-*origin/master* mention shows that the remote branch *origin/master* points on the 
+*origin/master* mention shows that the remote branch *origin/master* points on the first commit because no push have been applied to the master branch since this first commit.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTU3MTYyMSwxOTUxNzAxNDMzLDE0ND
-E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
-MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
-U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
-OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMj
-Q1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2
-MDM1Ml19
+eyJoaXN0b3J5IjpbNDQ0OTM1NzQzLDE5NTE3MDE0MzMsMTQ0MT
+Y2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAy
+ODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNT
+kwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5
+NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyND
+U5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYw
+MzUyXX0=
 -->
