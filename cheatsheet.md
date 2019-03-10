@@ -554,12 +554,13 @@ Finally, *HEAD* points to the symbolic references *master* and *develop* which p
 *origin/master* mention shows that the remote branch *origin/master* points on the first commit because no push have been applied to the master branch since this first commit.
 
 ### Case study - merge commit
-Starting from the previous case study, let's create a branch *featureX*
+Starting from the previous case study, let's create a branch *featureX*:
 
     git checkout -b "featureX"
 >Switched to a new branch 'featureX'
 
-add 2 commits in this branch with successive modifications of files A and B
+add 2 commits in this branch with successive modifications of files A and B:
+
     echo 'featureX' >> .\fileA.txt
     git commit -a
 >[featureX 9e469f9] add featureX in fileA  
@@ -570,11 +571,15 @@ add 2 commits in this branch with successive modifications of files A and B
 >[featureX 3c7f318] add featureX in fileB  
  1 file changed, 0 insertions(+), 0 deletions(-)
  
+ Then swith to *master* to merge *featureX* in it:
+ 
     git checkout master
 >Switched to branch 'master'  
 Your branch is ahead of 'origin/master' by 2 commits.  
   (use "git push" to publish your local commits)
     
+  Use flag *--no-ff* to forbid fast-forward merge. Then A commit is generated after the last commit.
+  
     git merge --no-ff featureX
 >Merge made by the 'recursive' strategy.  
  fileA.txt | Bin 48 -> 68 bytes  
@@ -591,11 +596,11 @@ Your branch is ahead of 'origin/master' by 2 commits.
 \* ceb9c6f feature1 added
 \* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0MjM0ODAyLDE5NTE3MDE0MzMsMTQ0MT
-Y2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAy
-ODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNT
-kwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5
-NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyND
-U5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYw
-MzUyXX0=
+eyJoaXN0b3J5IjpbLTMwMjI5OTQ5MCwxOTUxNzAxNDMzLDE0ND
+E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
+MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
+U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
+OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMj
+Q1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2
+MDM1Ml19
 -->
