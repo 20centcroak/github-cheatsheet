@@ -319,19 +319,21 @@ A branch can be deleted only if head is not pointing on it currently. If some wo
 >Deleted branch featureX (was 774c2a6).
 
 ### Switch branch
-You can switch from a branch to another
+You can switch from a branch to another  
     
     git checkout featureY
+
+but the working 
 error: Your local changes to the following files would be overwritten by checkout:
         fileb.txt
 Please commit your changes or stash them before you switch branches.
 Aborting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk3MjYyMDIsMTExMDgyODU2LDQ2Mj
-I0ODUyNSwtMTgzOTA5NTI5MSwtMzMyOTQwODM4LC05Njg2Nzkx
-NDQsMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LD
-k5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3
-Nzk0NTk0LC0zNjIxNTEzNDksMTIyMDUxNzYxMiwxNDU2OTA5Mj
-k4LC0xMzg1NTY3NDMzLDE4Mjg2NzY4NzEsLTU5NTE5MTQ2NCwt
-MTMyODE5NDI4Ml19
+eyJoaXN0b3J5IjpbNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyND
+g1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0
+LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OT
+Q3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5
+NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OC
+wtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEz
+MjgxOTQyODJdfQ==
 -->
