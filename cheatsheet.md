@@ -600,9 +600,11 @@ Have a look to the log and graph:
 
 This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (*8fb47dd*).
 Finally *HEAD* points to the *master* branch label which points to the last commit.
-We can also see that no commit have been added in the *master branch between 
+We can also see that no commit have been added in the *master branch between the fork and the merge.
+Note that *develop* branch label and the tracking branch *origin/develop* points on the commit before the fork. 
+Let delete references to the develop branche
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzcxMDQ5OCwxOTUxNzAxNDMzLDE0ND
+eyJoaXN0b3J5IjpbLTk1NDA3NjcwNiwxOTUxNzAxNDMzLDE0ND
 E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
 MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
 U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
