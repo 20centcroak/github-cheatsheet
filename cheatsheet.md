@@ -685,37 +685,32 @@ When the same hunks of the same files have been modified in the 2 branches we wa
 \*   e936a18 Merge branch 'featureY'
 
     git merge conflict-feature
->warning: Cannot merge binary files: fileA.txt (HEAD vs. conflict-feature)  
-Auto-merging fileA.txt  
-CONFLICT (content): Merge conflict in fileA.txt
-Automatic merge failed; fix conflicts and then commit the result.
-PS D:\perso\courses\git course\hands on\repos\project> git status
-On branch master
-Your branch is ahead of 'origin/master' by 10 commits.
-  (use "git push" to publish your local commits)
+>Auto-merging fileA.txt  
+CONFLICT (content): Merge conflict in fileA.txt  
+Automatic merge failed; fix conflicts and then commit the result.  
 
-You have unmerged paths.
-  (fix conflicts and run "git commit")
-  (use "git merge --abort" to abort the merge)
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-
-        both modified:   fileA.txt
-
+    git status
+>On branch master  
+You have unmerged paths.  
+  (fix conflicts and run "git commit")  
+  (use "git merge --abort" to abort the merge)  
+Unmerged paths:  
+  (use "git add \<file\>..." to mark resolution)  
+        both modified:   fileA.txt  
 no changes added to commit (use "git add" and/or "git commit -a")
 
+Merge should be aborted or conflicts should be solved by reviewing the concerned files.
 
 #### Merge abort
 Here is the command to cancel a merge request when conflict arose when processing this merge:
 
     git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMjc3MTQ5LC0xNjgzOTUwNTM0LDE1Nz
-I0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03ODM2MjIx
-MDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5MSwtMj
-AwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5
-MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1OD
-csMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIz
-NDkyNzldfQ==
+eyJoaXN0b3J5IjpbMTg5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNT
+cyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIy
+MTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLT
+IwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEz
+OTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNT
+g3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMy
+MzQ5Mjc5XX0=
 -->
