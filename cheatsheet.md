@@ -659,7 +659,8 @@ We can see that there has been a modification in the *master* branch and another
 
 
 ### Conflicts
-When the same hunks of the same files have been modified in the 2 branches we want to merge, git 
+When the same hunks of the same files have been modified in the 2 branches we want to merge, git identifies a conflict that should be solved by the user before merging the branches.
+
 
 
 #### Merge abort
@@ -667,7 +668,7 @@ Here is the command to cancel a merge request when conflict arose when processin
 
     git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk1NTYwMDksMTU3MjQ5NDQ4NiwtNT
+eyJoaXN0b3J5IjpbLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNT
 gwNzEyNTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUy
 NjMsOTA2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LD
 E5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQy
