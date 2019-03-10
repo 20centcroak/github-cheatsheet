@@ -380,10 +380,11 @@ Date:   Sat Mar 9 19:19:09 2019 +0100
 diff --git a/fileb.txt b/fileb.txt
 new file mode 100644
 index 0000000..e72c7ed
-Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and fileb is present only in featureZ
+
+Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and *fileb* is present only in featureZ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzQwOTE1MSwxMjQ0MTE5NjUyLC03Nz
+eyJoaXN0b3J5IjpbLTk1MzQ5OTczNywxMjQ0MTE5NjUyLC03Nz
 gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
 NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
 M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
