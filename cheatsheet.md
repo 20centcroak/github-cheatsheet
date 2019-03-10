@@ -648,15 +648,17 @@ and the remote branch in our remote repo called *origin*
 | \* 3c7f318 (featureX) add featureX in fileB
 | \* 9e469f9 add featureX in fileA
 |/
-* 9f79a2a add fileB
-* ceb9c6f feature1 added
-* f604538 (origin/master) create fileA
+\* 9f79a2a add fileB
+\* ceb9c6f feature1 added
+\* f604538 (origin/master) create fileA
+
+We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU3OTg2NDUsLTE2ODY5NjY2OTEsLT
-IwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEz
-OTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNT
-g3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMy
-MzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOT
-UsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0
-MTE5NjUyXX0=
+eyJoaXN0b3J5IjpbMTA4NTE4NDkyLC0xNjg2OTY2NjkxLC0yMD
+A0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkz
+NDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4Ny
+wxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0
+OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC
+00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0NDEx
+OTY1Ml19
 -->
