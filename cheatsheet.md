@@ -212,14 +212,14 @@ Just after this push, if we look at the log of the remote repo and the local rep
 However, locally *fileb.txt* has been added and *fileA.txt* has been changed but the modifications have not been staged, then the status of remote and local repos are not the same:
 
     git status
->On branch master
-Changes not staged for commit:
-        modified:   fileA.txt
-Untracked files:
+>On branch master  
+Changes not staged for commit:  
+        modified:   fileA.txt   
+Untracked files:  
         fileb.txt
 
     git status my_remote/master
->On branch master
+>On branch master  
 nothing to commit, working tree clean
 
 
@@ -655,11 +655,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2Mz
-E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
-MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
-0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
-NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC
-0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgz
-MjM3Ml19
+eyJoaXN0b3J5IjpbMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNT
+A3NTI2Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0
+MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLT
+E2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0
+Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LD
+E2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAw
+NzYyOV19
 -->
