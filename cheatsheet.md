@@ -334,7 +334,8 @@ Untracked files are noty affected when switching from a branch to another.
 ## References
 Git uses commit ids built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
 Besides, symbolic references are also used:
- * branch label 
+ * branch label points on the latest commit of a given branch, it has the name of the branch
+ * HEAD generally points on the branch label and indicates the current position of the 
 
 
 
@@ -348,7 +349,7 @@ git log --oneline --graph
 * 54c09e1 featureA added
 * 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEzMTc1NTYsOTYwMTY1NDE1LDQwNT
+eyJoaXN0b3J5IjpbLTE1OTM4Nzk2NzEsOTYwMTY1NDE1LDQwNT
 YyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1Mjkx
 LC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
 I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
