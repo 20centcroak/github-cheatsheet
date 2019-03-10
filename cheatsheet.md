@@ -372,11 +372,14 @@ It is possible to retrieve a specific version of the files by positionning HEAD 
     git checkout 213cf6c
 >Note: checking out '213cf6c'.  
 You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by performing another checkout.  
-If you want to create a new branch to retain commits you create, you may do so (now or later) by using -b with the checkout command again. Example:
-  git checkout -b <new-branch-name>
-
+If you want to create a new branch to retain commits you create, you may do so (now or later) by using -b with the checkout command again. Example:  
+  git checkout -b \<new-branch-name\>  
 HEAD is now at 213cf6c... my first commit message
 
+Following the given instruction, create a branch frol this state:
+ 
+    git checkout -b featureFromFirstCommit
+>Switched to a new branch 'featureFromFirstCommit'
 
 ## References
 
@@ -443,11 +446,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIzNzkyLDMwOTYzNDM5NSwtNDEzMD
-A3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIs
-LTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5Nj
-AxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUs
-LTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNT
-Q2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
+AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
+LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
+YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
+LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMD
+U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
+NDczXX0=
 -->
