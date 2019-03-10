@@ -523,8 +523,8 @@ No works have been done on *master* branch, then fast-forward merge is possible.
 Before merge, branch *develop*:
  
     git log --oneline --graph
->\* 9f79a2a (HEAD -> develop, origin/develop) add fileB
->\* ceb9c6f feature1 added
+>\* 9f79a2a (HEAD -> develop, origin/develop) add fileB  
+>\* ceb9c6f feature1 added  
 >\* f604538 (origin/master, master) create fileA
 
 Before merge, branch *master*:
@@ -655,7 +655,7 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzU1Mzc2NywzMjUwNzUyNjMsOTA2Mz
+eyJoaXN0b3J5IjpbLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2Mz
 E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
 MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
 0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
