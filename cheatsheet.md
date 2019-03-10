@@ -527,12 +527,26 @@ Before merge, branch *develop*:
 >\* ceb9c6f feature1 added
 >\* f604538 (origin/master, master) create fileA
 
+Before merge, branch *master*:
+
+    git log --oneline
+>f604538 (HEAD -> master, origin/master) create fileA
+
+Then, merge *develop* commits in *master* branch:
+
+    git merge develop
+>Updating f604538..9f79a2a
+Fast-forward
+ fileA.txt | Bin 28 -> 48 bytes
+ fileB.txt | Bin 0 -> 30 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fileB.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTY5NjEsMTQ0MTY2NjM3MCwxNTkxMz
-kzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4
-NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMj
-M0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1
-LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0ND
-ExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjEx
-MTA4XX0=
+eyJoaXN0b3J5IjpbMTI2NDUzNzIxMywxNDQxNjY2MzcwLDE1OT
+EzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYz
+NTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMz
+MyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQz
+OTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMj
+Q0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMy
+MTExMDhdfQ==
 -->
