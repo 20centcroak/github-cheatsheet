@@ -734,12 +734,29 @@ Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 
 The log indicates that HEAD points on the tip of *develop* branch and on the tip of *master* branch. It also points on the tip of the remotes branch *origin/master* and *origin/develop*. It means that all commits have been pushed to the the remote branches. But it does not know about the actual remote state. If the remote contains new commits from another user in branch *develop*, the actual tip of the remote branch *develop* points on a commit that is not present locally.
 
+Let's add  a modification in branch *develop*, commit it but not push it to remote:
+ 
+    echo 'modification in develop' >> .\fileB.txt
+    git commit -a -m'local modif in develop'
+>[develop 437ef7d] local modif in develop  
+ 1 file changed, 0 insertions(+), 0 deletions(-)  
+
+    git log --oneline
+>437ef7d (HEAD -> develop) local modif in develop  
+79930f9 (origin/master, origin/develop, master) Merge branch 'conflict-feature'  
+
+PS D:\perso\courses\git course\hands on\repos\project> git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIwNDE0MDUsMTg5NzY3MzM1NiwtMT
-Y4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1
-MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLT
-E2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQx
-NjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMD
-I4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01
-OTA1NDM2MjZdfQ==
+eyJoaXN0b3J5IjpbLTkyMTQ1MzU3MywtMTI4MjA0MTQwNSwxOD
+k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
+MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
+kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
+NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
+E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
+NTk2NDUwNzZdfQ==
 -->
