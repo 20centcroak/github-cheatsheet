@@ -554,9 +554,52 @@ Finally, *HEAD* points to the symbolic references *master* and *develop* which p
 *origin/master* mention shows that the remote branch *origin/master* points on the first commit because no push have been applied to the master branch since this first commit.
 
 ### Case study - merge commit
-Starting from the previous case study, let's create a branch 
+Starting from the previous case study, let's create a branch *featureX*
+origin/develop* mention shows that the remote branch *origin/develop* also points 
+
+    git checkout -b "featureX"
+>Switched to a new branch 'featureX'
+
+    echo 'featureX' >> .\fileA.txt
+    git commit -a
+>[featureX 9e469f9] add featureX in fileA  
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+    
+    echo 'featureXb' >> .\fileB.txt
+    git commit -a -m'add featureX in fileB'
+>[featureX 3c7f318] add featureX in fileB  
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ 
+    git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+PS D:\perso\courses\git course\hands on\repos\project> git log --oneline --graph
+* 9f79a2a (HEAD -> master, origin/develop, develop) add fileB
+* ceb9c6f feature1 added
+* f604538 (origin/master) create fileA
+PS D:\perso\courses\git course\hands on\repos\project> git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\perso\courses\git course\hands on\repos\project> git merge --no-ff featureX
+Merge made by the 'recursive' strategy.
+ fileA.txt | Bin 48 -> 68 bytes
+ fileB.txt | Bin 30 -> 52 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+PS D:\perso\courses\git course\hands on\repos\project> git log --oneline --graph
+*   8fb47dd (HEAD -> master) Merge branch 'featureX'
+|\
+| * 3c7f318 (featureX) add featureX in fileB
+| * 9e469f9 add featureX in fileA
+|/
+* 9f79a2a (origin/develop, develop) add fileB
+* ceb9c6f feature1 added
+* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mzg1NTUxMCwxOTUxNzAxNDMzLDE0ND
+eyJoaXN0b3J5IjpbMjA3NDE1MzA5NiwxOTUxNzAxNDMzLDE0ND
 E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
 MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
 U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
