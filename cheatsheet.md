@@ -705,12 +705,19 @@ Merge should be aborted or conflicts should be solved by reviewing the concerned
 Here is the command to cancel a merge request when conflict arose when processing this merge:
 
     git merge --abort
+
+### Fix conflicts
+Once the file has been manually corrected:
+    
+    git add .\fileA.txt
+    git commit
+>[master 79930f9] Merge branch 'conflict-feature'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNT
-cyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIy
-MTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLT
-IwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEz
-OTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNT
-g3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMy
-MzQ5Mjc5XX0=
+eyJoaXN0b3J5IjpbMTE3MDc4MjU1NCwxODk3NjczMzU2LC0xNj
+gzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUw
+NDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMT
+Y4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2
+NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMj
+gyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5
+MDU0MzYyNl19
 -->
