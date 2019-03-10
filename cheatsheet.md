@@ -305,7 +305,7 @@ Tags are not pushed to remote with the *git push* command. We must use the *--ta
     git push --tags
 
 ## Branches
-
+A branch is a set of commit that trace back to the project's first commit.
 ### Create branches
 branch are created with 
     
@@ -407,7 +407,7 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODE1MjI1MywyNDU5ODc3MjcsMTI0ND
+eyJoaXN0b3J5IjpbLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0ND
 ExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjEx
 MTA4LDk2MDE2NTQxNSw0MDU2MjI3OTEsMTExMDgyODU2LDQ2Mj
 I0ODUyNSwtMTgzOTA5NTI5MSwtMzMyOTQwODM4LC05Njg2Nzkx
