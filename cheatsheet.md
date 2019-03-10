@@ -329,6 +329,10 @@ but you can't switch if there are uncommited changed for tracked files:
 Please commit your changes or stash them before you switch branches.
 Aborting
 
+If you want to discard changes for a given file, use
+
+    git checkout -- fileb.txt
+
 Untracked files are noty affected when switching from a branch to another.
 
 ## References
@@ -352,11 +356,11 @@ acc534c delete fileA.txt
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNT
-YyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1Mjkx
-LC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
-I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
-Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
-wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
-ODY3Njg3MV19
+eyJoaXN0b3J5IjpbLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
+YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
+LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMD
+U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
+NDczLC0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OT
+QsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEz
+ODU1Njc0MzNdfQ==
 -->
