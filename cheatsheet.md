@@ -790,9 +790,36 @@ Merge made by the 'recursive' strategy.
  1 file changed, 1 insertion(+)  
  create mode 100644 fileC.txt  
 
-This operation is a merge as stated in the answer. 
+This operation is a merge as stated in the answer. Here we have declared explicitely the remote name *origin* and the remote branch *develop*. But as we have already associated local and remote branches *develop*, a simple *git pull* is good enough:
+    
+    git pull
+>Already up to date.
+
+then we can push our modifications to our remote repo *origin* and remote branch *develop*
+ 
+    git push origin develop
+>Counting objects: 5, done.  
+Delta compression using up to 4 threads.  
+Compressing objects: 100% (5/5), done.  
+Writing objects: 100% (5/5), 606 bytes | 202.00 KiB/s, done.  
+Total 5 (delta 1), reused 0 (delta 0)  
+To ..\remote\  
+   93939f0..4ef2efd  develop -> develop  
+
+*git push* could also be used as local and remote branches are already associated.
+
+    git status
+>On branch develop  
+Your branch is up to date with 'origin/develop'.
+nothing to commit, working tree clean
+
+    git log --oneline
+>4ef2efd (HEAD -> develop, origin/develop) Merge branch 'develop' of ..\remote\ into develop  
+437ef7d local modif in develop  
+93939f0 add file C  
+79930f9 (origin/master, master) Merge branch 'conflict-feature'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NTU3NjE5LC0xMjgyMDQxNDA1LDE4OT
+eyJoaXN0b3J5IjpbMTAzMDUxODc4LC0xMjgyMDQxNDA1LDE4OT
 c2NzMzNTYsLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEy
 NTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOT
 A2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3
