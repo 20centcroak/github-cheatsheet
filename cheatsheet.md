@@ -745,18 +745,21 @@ Let's add  a modification in branch *develop*, commit it but not push it to remo
 >437ef7d (HEAD -> develop) local modif in develop  
 79930f9 (origin/master, origin/develop, master) Merge branch 'conflict-feature'  
 
-PS D:\perso\courses\git course\hands on\repos\project> git status
-On branch develop
-Your branch is ahead of 'origin/develop' by 1 commit.
+Since we didn't pushed our modifications HEAD points on *develop* which points on the latest commit, but *origin/develop* is still pointing on the previous commit
+
+    git status
+>On branch develop  
+Your branch is ahead of 'origin/develop' by 1 commit.  
   (use "git push" to publish your local commits)
+
 
 nothing to commit, working tree clean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTQ1MzU3MywtMTI4MjA0MTQwNSwxOD
-k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
-MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
-kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
-NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
-E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
-NTk2NDUwNzZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM2OTYyOTMsLTEyODIwNDE0MDUsMT
+g5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3
+MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2My
+w5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1
+MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MD
+gxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nzks
+MzU5NjQ1MDc2XX0=
 -->
