@@ -489,10 +489,11 @@ Fast forward merge simply moves the branch label to the latest commit. It occurs
 ### merge commit
 If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), a merge commit will create a new commit putting together the commits of base and feature branches. This commit point on latest feature commit and latest base commit.
 
-Let's say we have created a file in the 
+Let's say we have created a file *fileA* in the base branch called master. Then we have created a new branch called develop and work in it. In a first commit we have modified *fileA* and in a second commit we have created *fileB*.
+No works have been done on*master* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA3OTI1ODAsMTQ0MTY2NjM3MCwxNT
+eyJoaXN0b3J5IjpbLTExMjEwMzg5NTgsMTQ0MTY2NjM3MCwxNT
 kxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2
 MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LD
 MzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0
