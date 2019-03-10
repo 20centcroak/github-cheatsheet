@@ -406,12 +406,15 @@ If you want to create a new branch to retain commits you create, you may do so (
   git checkout -b \<new-branch-name\>  
 HEAD is now at 213cf6c... my first commit message
 
-*Head* is said "detached", meaning that it does not point on a branch lable but directly on a commit. It is fine to review files in this sepecific version, but if we want to work on these files, we should create a branch. Following the given instruction, create a branch frol this state:
+*Head* is said "detached", meaning that it does not point on a branch lable but directly on a commit. It is fine to review files in this sepecific version, but if we want to work on these files, we should create a branch. Following the given instruction, create a branch from this state:
  
     git checkout -b featureFromFirstCommit
 >Switched to a new branch 'featureFromFirstCommit'
 
-the
+Both command can be combined: 
+
+    git checkout -b featureFromFirstCommit 213cf6c
+>Switched to a new branch 'featureFromFirstCommit'
 
 ## References
 
@@ -478,11 +481,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUxMDU5NzgsMTE1OTM2MzU4NywxOT
-k2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3
-OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MT
-MwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1
-MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LD
-k2MDE2NTQxNSw0MDU2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUy
-NV19
+eyJoaXN0b3J5IjpbLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OT
+Y0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5
+LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
+AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
+LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
+YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
+XX0=
 -->
