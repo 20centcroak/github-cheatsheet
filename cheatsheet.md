@@ -5,7 +5,9 @@
 ## Naming
 * *workspace* or *working copy* is the folder containing the .git folder and all the files that will be examined by git if not declared as ignored
 * *index* or *staging area* is where new files or modifications are added with the *add* command if we want them to be part of a new commit
-* repositories are the version control containing base files and their associated modifications, and the commit history as well. The local repo is updated thanks to the *commit*, or *fetch* commands. The remote repo is updated thanks to the *push* command
+* *repositories* are the version control systems containing base files and their associated modifications, and the commit history as well. The local repo is updated thanks to the *commit*, or *fetch* commands. The remote repo is updated thanks to the *push* command
+* *hunk* is a part of a file
+* *branch tip* is the last commit of a branch
 
 ## Create a local repository
 Create an empty folder called *projectA*, and execute the following command in this folder:
@@ -655,11 +657,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNT
-A3NTI2Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0
-MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLT
-E2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0
-Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LD
-E2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAw
-NzYyOV19
+eyJoaXN0b3J5IjpbLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03OD
+M2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5
+MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMT
+U5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkz
+NjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNi
+wzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYz
+NDM5NV19
 -->
