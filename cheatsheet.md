@@ -329,7 +329,7 @@ A branch can be deleted only if head is not pointing on it currently.
     git branch -d featureX
 >Deleted branch featureX (was 774c2a6).
 
-Actually it only deletes the branch label. This is fine while there is no modification in this branch that has ot been merged
+Actually it only deletes the branch label. This is fine while there is no modification in this branch that has not been merged in another branch. If not, an error message is displayed because the modifications can't be referenced by any other git reference (commit, branch label, tags, ...)
 
 ### List branches
 list local branches only:
@@ -448,11 +448,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDEwMjY3NiwxNjk0MzE3NTE3LC0xOD
-M0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3
-MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOT
-QyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MDU2MjI3
-OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5MSwtMz
-MyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNjI5
-NDYwXX0=
+eyJoaXN0b3J5IjpbMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4Mz
+QxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcy
+LDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5ND
+IyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5
+MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMz
+I5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0
+NjBdfQ==
 -->
