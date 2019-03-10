@@ -325,9 +325,11 @@ both can be done in 1 command:
 The branch is created and *HEAD* points on *featureX* branch label.
 
 ### Delete branches
-A branch can be deleted only if head is not pointing on it currently. If some works are
+A branch can be deleted only if head is not pointing on it currently. 
     git branch -d featureX
 >Deleted branch featureX (was 774c2a6).
+
+Actually it only deletes the branch label. This is fine while there is no modification in this branch that has ot been merged
 
 ### List branches
 list local branches only:
@@ -446,11 +448,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOT
-YzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3
-LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMT
-Y2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1
-Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOT
-Y4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5
-MTYzNV19
+eyJoaXN0b3J5IjpbLTQwNDEwMjY3NiwxNjk0MzE3NTE3LC0xOD
+M0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3
+MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOT
+QyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MDU2MjI3
+OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5MSwtMz
+MyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNjI5
+NDYwXX0=
 -->
