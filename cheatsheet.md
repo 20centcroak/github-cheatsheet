@@ -119,7 +119,7 @@ Date:   Sat Mar 9 16:37:59 2019 +0100
 
     git show 54c09e1
 >commit 54c09e11bbaa05c9857f6589edc660e4be3c0798  
-Author: XXX\<XXX@mail.com\> 
+Author: XXX\<XXX@mail.com\>  
 Date:   Fri Mar 8 19:06:28 2019 +0100  
     featureA added
 
@@ -231,33 +231,33 @@ Suppose you want to remove *fileA.txt* from version control:
 >rm 'fileA.txt'
 
     git status
->On branch master
-Your branch is up to date with 'my_remote/master'.
-Changes to be committed:
-        deleted:    fileA.txt
-Untracked files:
-        fileA.txt
+>On branch master  
+Your branch is up to date with 'my_remote/master'.  
+Changes to be committed:  
+        deleted:    fileA.txt  
+Untracked files:  
+        fileA.txt  
         fileb.txt
 
     git commit -m 'delete fileA.txt'
->[master acc534c] delete fileA.txt
- 1 file changed, 1 deletion(-)
- delete mode 100644 fileA.txt
+>[master acc534c] delete fileA.txt  
+ 1 file changed, 1 deletion(-)  
+ delete mode 100644 fileA.txt  
 
     git push
->Counting objects: 2, done.
-Writing objects: 100% (2/2), 201 bytes | 100.00 KiB/s, done.
-Total 2 (delta 0), reused 0 (delta 0)
-To ..\remoteb\
+>Counting objects: 2, done.  
+Writing objects: 100% (2/2), 201 bytes | 100.00 KiB/s, done.  
+Total 2 (delta 0), reused 0 (delta 0)  
+To ..\remoteb\  
    54c09e1..acc534c  master -> master
 
 Now our working copy still contains *fileA.txt* and *fileb.txt* but *fileA.txt* is not tracked anymore and if we look at the files in the  *master* branch of our remote repo, *fileA.txt* has been deleted.
 The log shows the deletion:
 
     git log --oneline
->acc534c (HEAD -> master, my_remote/master) delete fileA.txt
-54c09e1 featureA added
-213cf6c my first commit message
+>acc534c (HEAD -> master, my_remote/master) delete fileA.txt  
+54c09e1 featureA added  
+213cf6c my first commit message  
 
 If we want our file to be deleted in our working copy too, the *--force* tag should be used instead of *--cached*
     
@@ -285,21 +285,21 @@ If no ID is supplied, then HEAD is used as the reference of the commit to tag
 
     git tag v1.1
     git tag
->v1.0
+>v1.0  
 v1.1
 
     git show v1.0
 >tag v1.0
-Tagger: XXX\<XXX@mail.com\>
-Date:   Sat Mar 9 18:56:22 2019 +0100
-my new tag
-commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)
-    add feature in fileb
+Tagger: XXX\<XXX@mail.com\>  
+Date:   Sat Mar 9 18:56:22 2019 +0100  
+my new tag  
+commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)   
+    add feature in fileb  
 
     git show v1.1
->commit 774c2a66d1ea30b6517c69c03e1911ede02686af (HEAD -> master, tag: v1.1)
-Author: XXX\<XXX@mail.com\>
-Date:   Sat Mar 9 17:20:44 2019 +0100
+>commit 774c2a66d1ea30b6517c69c03e1911ede02686af (HEAD -> master, tag: v1.1)  
+Author: XXX\<XXX@mail.com\>  
+Date:   Sat Mar 9 17:20:44 2019 +0100  
     delete fileb
 
 Tags are not pushed to remote with the *git push* command. We must use the *--tags* flag
@@ -357,17 +357,17 @@ then, as done when creating a branch pointing on a specific, we can recreate a b
 >Switched to a new branch 'featureFromFirstCommitRetrieved'
 
     git log --oneline
->a0e0982 (HEAD -> featureFromFirstCommitRetrieved) add new content
-dce055a add feature in fileA from first commit
+>a0e0982 (HEAD -> featureFromFirstCommitRetrieved) add new content  
+dce055a add feature in fileA from first commit  
 213cf6c my first commit message
 
 ### List branches
 list local branches only:
 
     git branch
->\* (HEAD detached at 54c09e1)
-  featureY
-  featureZ
+>\* (HEAD detached at 54c09e1)  
+  featureY  
+  featureZ  
   master
 
 The asterisk shows the current branch
@@ -655,11 +655,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyNjcwMzUsMzI1MDc1MjYzLDkwNj
-MxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAx
-NDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NC
-wtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2
-NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNy
-wtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4
-MzIzNzJdfQ==
+eyJoaXN0b3J5IjpbMTY5MTUyMzk4OSwzMjUwNzUyNjMsOTA2Mz
+E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
+MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
+0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
+NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC
+0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgz
+MjM3Ml19
 -->
