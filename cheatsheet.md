@@ -658,13 +658,15 @@ and the remote branch in our remote repo called *origin*
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 
 ### Abort merge
-here is the command to cancel a merge request
+Here is the command to cancel a merge request when conflict arose when processing this merge:
+
+    git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nz
-g4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1
-LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMT
-Q0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEz
-MzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3Ni
-wtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0
-MTk5NzBdfQ==
+eyJoaXN0b3J5IjpbMTY2MTAzMTc1NywxNTcyNDk0NDg2LC01OD
+A3MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2
+Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMT
+k1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2
+MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nz
+ksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQz
+MTc1MTddfQ==
 -->
