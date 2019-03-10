@@ -520,12 +520,19 @@ No works have been done on *master* branch, then fast-forward merge is possible.
  1 file changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileB.txt  
 
+Before merge, branch *develop*:
+ 
+    git log --oneline --graph
+>\* 9f79a2a (HEAD -> develop, origin/develop) add fileB
+>\* ceb9c6f feature1 added
+>\* f604538 (origin/master, master) create fileA
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQxMDAyOTgsMTQ0MTY2NjM3MCwxNT
-kxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2
-MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LD
-MzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0
-Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMT
-I0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYz
-MjExMTA4XX0=
+eyJoaXN0b3J5IjpbLTQ1NTY5NjEsMTQ0MTY2NjM3MCwxNTkxMz
+kzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4
+NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMj
+M0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1
+LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0ND
+ExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjEx
+MTA4XX0=
 -->
