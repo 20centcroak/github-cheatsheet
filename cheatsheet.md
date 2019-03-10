@@ -482,22 +482,27 @@ branch *master*:
 
 ## Merge
 Merge put together works from 2 different branches.
+    
+    git merge
 
-### fast-forward
+### Fast-forward
 Fast forward merge simply moves the branch label to the latest commit. It occurs when a new feature branch has been created from a base branch, commits are done on the feature branch but no modification is done on the base branch, then moving the branch label of the master branch to the last commit of the feature branch integrates the feature works to the base branch with no other needed operation.
 
-### merge commit
+### Merge commit
 If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), a merge commit will create a new commit putting together the commits of base and feature branches. This commit point on latest feature commit and latest base commit.
+Even if fast-forward is possible, we can required 
 
-Let's say we have created a file *fileA* in the base branch called master. Then we have created a new branch called develop and work in it. In a first commit we have modified *fileA* and in a second commit we have created *fileB*.
-No works have been done on*master* 
+### Case study
+
+Let's say we have created a file *fileA* in the base branch called master. Then we have created a new branch called *develop* and work in it. In a first commit we have modified *fileA* and in a second commit we have created *fileB*.
+No works have been done on *master* branch, then fast-forward merge is possible
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjEwMzg5NTgsMTQ0MTY2NjM3MCwxNT
-kxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2
-MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LD
-MzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0
-Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMT
-I0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYz
-MjExMTA4XX0=
+eyJoaXN0b3J5IjpbLTM0MjExNzUwMSwxNDQxNjY2MzcwLDE1OT
+EzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYz
+NTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMz
+MyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQz
+OTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMj
+Q0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMy
+MTExMDhdfQ==
 -->
