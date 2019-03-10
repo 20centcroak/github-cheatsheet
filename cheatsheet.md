@@ -339,7 +339,7 @@ To delete the branch and all the works that have been done on it and not merged,
     git branch -D featureFromFirstCommit
 >Deleted branch featureFromFirstCommit (was a0e0982).
 
-If regrets arose after this deletion it is possible to recreate a branch with the commit history. The only thing is to know the commit ID of the last commit of this branch. It is supplied by the answer of the previous command ('*a0e0982*') or we have to study the reflog:
+If regrets arose after this deletion it is possible to recreate a branch with the commit history. However, git manages a garbage process and we should ensure that these commits are still present in the object s The only thing is to know the commit ID of the last commit of this branch. It is supplied by the answer of the previous command ('*a0e0982*') or we have to study the reflog:
 
     git reflog
 >6cf4f3a (HEAD -> featureZ) HEAD@{0}: checkout: moving from featureFromFirstCommit to featureZ  
@@ -475,11 +475,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OT
-Y0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3
-LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyND
-gzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5
-LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MD
-U2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5
-MV19
+eyJoaXN0b3J5IjpbMTg1MjkwNzM3OSwxMTU5MzYzNTg3LDE5OT
+Y0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5
+LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
+AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
+LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
+YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
+XX0=
 -->
