@@ -638,27 +638,27 @@ and the remote branch in our remote repo called *origin*
  1 file changed, 0 insertions(+), 0 deletions(-)
 
     git log --oneline --graph
->\*   e936a18 (HEAD -> master) Merge branch 'featureY'
-\|\\
-\| \* 3d060c3 (featureY) add featureY
-\* | b98c8a2 master modif
-\|/
-\*   8fb47dd Merge branch 'featureX'
-\|\\
-\| \* 3c7f318 (featureX) add featureX in fileB
-\| \* 9e469f9 add featureX in fileA
-\|/
-\* 9f79a2a add fileB
-\* ceb9c6f feature1 added
-\* f604538 (origin/master) create fileA
+>\*   e936a18 (HEAD -> master) Merge branch 'featureY'  
+\|\\  
+\| \* 3d060c3 (featureY) add featureY  
+\* | b98c8a2 master modif  
+\|/  
+\*   8fb47dd Merge branch 'featureX'  
+\|\\  
+\| \* 3c7f318 (featureX) add featureX in fileB  
+\| \* 9e469f9 add featureX in fileA  
+\|/  
+\* 9f79a2a add fileB  
+\* ceb9c6f feature1 added  
+\* f604538 (origin/master) create fileA  
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTkwMDI0MzMsOTA2MzE4MDE1LC0xNj
-g2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2
-NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyOD
-IsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkw
-NTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5Nz
-AsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5
-ODc3MjddfQ==
+eyJoaXN0b3J5IjpbMTc0NTMxOTM1OSw5MDYzMTgwMTUsLTE2OD
+Y5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2
+MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4Mi
+wxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1
+NDM2MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MC
+wzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4
+NzcyN119
 -->
