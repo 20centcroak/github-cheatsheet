@@ -571,25 +571,17 @@ origin/develop* mention shows that the remote branch *origin/develop* also point
  1 file changed, 0 insertions(+), 0 deletions(-)
  
     git checkout master
-Switched to branch 'master'
-Your branch is ahead of 'origin/master' by 2 commits.
+>Switched to branch 'master'  
+Your branch is ahead of 'origin/master' by 2 commits.  
   (use "git push" to publish your local commits)
-PS D:\perso\courses\git course\hands on\repos\project> git log --oneline --graph
-* 9f79a2a (HEAD -> master, origin/develop, develop) add fileB
-* ceb9c6f feature1 added
-* f604538 (origin/master) create fileA
-PS D:\perso\courses\git course\hands on\repos\project> git status
-On branch master
-Your branch is ahead of 'origin/master' by 2 commits.
-  (use "git push" to publish your local commits)
+    
+    git merge --no-ff featureX
+>Merge made by the 'recursive' strategy.  
+ fileA.txt | Bin 48 -> 68 bytes  
+ fileB.txt | Bin 30 -> 52 bytes  
+ 2 files changed, 0 insertions(+), 0 deletions(-)  
 
-nothing to commit, working tree clean
-PS D:\perso\courses\git course\hands on\repos\project> git merge --no-ff featureX
-Merge made by the 'recursive' strategy.
- fileA.txt | Bin 48 -> 68 bytes
- fileB.txt | Bin 30 -> 52 bytes
- 2 files changed, 0 insertions(+), 0 deletions(-)
-PS D:\perso\courses\git course\hands on\repos\project> git log --oneline --graph
+    git log --oneline --graph
 *   8fb47dd (HEAD -> master) Merge branch 'featureX'
 |\
 | * 3c7f318 (featureX) add featureX in fileB
@@ -599,11 +591,11 @@ PS D:\perso\courses\git course\hands on\repos\project> git log --oneline --graph
 * ceb9c6f feature1 added
 * f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDE1MzA5NiwxOTUxNzAxNDMzLDE0ND
-E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
-MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
-U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
-OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMj
-Q1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2
-MDM1Ml19
+eyJoaXN0b3J5IjpbMTYwNjg4OTA0LDE5NTE3MDE0MzMsMTQ0MT
+Y2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAy
+ODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNT
+kwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5
+NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyND
+U5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYw
+MzUyXX0=
 -->
