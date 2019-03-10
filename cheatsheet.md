@@ -57,6 +57,8 @@ Now *fileA.txt* is staged in the staging area and can be commited
  1 file changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileA.txt  
 
+Note that if the commit message flagged with *-m* is not set, a 
+
 The file is now commited, and a commit number is displayed (short SHA-1: *213cf6c*)
 
     git status
@@ -487,11 +489,11 @@ Fast forward merge simply moves the branch label to the latest commit. It occurs
 If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMT
-UxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUw
-NzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMT
-gzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIz
-NzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMT
-k0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIy
-NzkxXX0=
+eyJoaXN0b3J5IjpbLTY4NDQ5MjcwNiwxNTkxMzkzNDk5LC0xNj
+QyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3
+Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNj
+k0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2
+MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNz
+c4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2
+NTQxNV19
 -->
