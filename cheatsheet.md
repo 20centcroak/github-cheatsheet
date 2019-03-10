@@ -386,7 +386,7 @@ Following the given instruction, create a branch frol this state:
 Git uses commit IDs built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
 Besides, symbolic references are also used:
  * branch label (*master* for example) points on the latest commit (or tip) of a given branch, it has the name of the branch
- * HEAD points on a branch label and indicates the current state
+ * HEAD indicates the current state and generally points on a branch label. In some cases, *HEAD* is said "
  * HEAD~ or HEAD~1 points on the parent commit of HEAD
  * HEAD~~  or HEAD~2  points on the grand-parent commit of HEAD
  * remote branch label (*my_remote/master* for example) points on the latest commit of a remote branch
@@ -446,11 +446,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
-AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
-LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
-YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
-LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMD
-U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
-NDczXX0=
+eyJoaXN0b3J5IjpbMTU3MjY2MzQxNiwtMTgzNDE5OTcwLDMwOT
+YzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3
+LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMT
+Y2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1
+Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOT
+Y4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5
+MTYzNV19
 -->
