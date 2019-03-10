@@ -712,12 +712,29 @@ Once the file has been manually corrected:
     git add .\fileA.txt
     git commit
 >[master 79930f9] Merge branch 'conflict-feature'
+
+## Tracking branch
+a tracking branch is a reference to a remote branch. They are associated with a local branch. Generally local and remote branch share their name but this is the user's choice.
+
+Let's create and chekout a new branch:
+
+    git checkout -b develop
+>Switched to a new branch 'develop'  
+
+Then create a remote branch named *develop* in the remote repo *origin*. As HEAD is positionned on the local *develop* branch The *set-upstream* command 
+    git push --set-upstream origin develop
+Total 0 (delta 0), reused 0 (delta 0)
+To ..\remote\
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+PS D:\perso\courses\git course\hands on\repos\project> git log --oneline
+79930f9 (HEAD -> develop, origin/master, origin/develop, master) Merge branch 'conflict-feature'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDc4MjU1NCwxODk3NjczMzU2LC0xNj
-gzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUw
-NDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMT
-Y4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2
-NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMj
-gyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5
-MDU0MzYyNl19
+eyJoaXN0b3J5IjpbLTE2Mzg5NTg2MTQsMTg5NzY3MzM1NiwtMT
+Y4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1
+MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLT
+E2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQx
+NjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMD
+I4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01
+OTA1NDM2MjZdfQ==
 -->
