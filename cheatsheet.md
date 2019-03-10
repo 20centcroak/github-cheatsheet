@@ -341,11 +341,11 @@ To delete the branch and all the works that have been done on it and not merged,
 
 If regrets arose after this deletion it is possible to recreate a branch with the commit history. The only thing is to know the commit ID of the last commit of this branch. It is supplied byt the answer of the previous command ('*a0e0982*') or we have to study the reflog:
 
-PS D:\perso\courses\git course\hands on\repos\projecta> git reflog
-6cf4f3a (HEAD -> featureZ) HEAD@{0}: checkout: moving from featureFromFirstCommit to featureZ
-a0e0982 HEAD@{1}: commit: add new content
-dce055a HEAD@{2}: checkout: moving from featureZ to featureFromFirstCommit
-6cf4f3a (HEAD -> featureZ) HEAD@{3}: checkout: moving from featureFromFirstCommit to featureZ
+    git reflog
+>6cf4f3a (HEAD -> featureZ) HEAD@{0}: checkout: moving from featureFromFirstCommit to featureZ  
+**a0e0982 HEAD@{1}: commit: add new content**  
+dce055a HEAD@{2}: checkout: moving from featureZ to featureFromFirstCommit  
+6cf4f3a (HEAD -> featureZ) HEAD@{3}: checkout: moving from featureFromFirstCommit to featureZ  
 dce055a HEAD@{4}: commit: add feature in fileA from first commit
 
 
@@ -466,11 +466,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDYxMTcwOSwtNTkwNTQzNjI2LDMzMj
-M0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1
-LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0ND
-ExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjEx
-MTA4LDk2MDE2NTQxNSw0MDU2MjI3OTEsMTExMDgyODU2LDQ2Mj
-I0ODUyNSwtMTgzOTA5NTI5MSwtMzMyOTQwODM4LC05Njg2Nzkx
-NDRdfQ==
+eyJoaXN0b3J5IjpbMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMz
+Q5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUs
+LTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MT
+E5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTEx
+MDgsOTYwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMj
+Q4NTI1LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0
+NF19
 -->
