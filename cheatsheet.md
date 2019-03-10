@@ -555,11 +555,11 @@ Finally, *HEAD* points to the symbolic references *master* and *develop* which p
 
 ### Case study - merge commit
 Starting from the previous case study, let's create a branch *featureX*
-origin/develop* mention shows that the remote branch *origin/develop* also points 
 
     git checkout -b "featureX"
 >Switched to a new branch 'featureX'
 
+add 2 commits in this branch with successive modifications of files A and B
     echo 'featureX' >> .\fileA.txt
     git commit -a
 >[featureX 9e469f9] add featureX in fileA  
@@ -582,16 +582,16 @@ Your branch is ahead of 'origin/master' by 2 commits.
  2 files changed, 0 insertions(+), 0 deletions(-)  
 
     git log --oneline --graph
-*   8fb47dd (HEAD -> master) Merge branch 'featureX'
-|\
+>\*   8fb47dd (HEAD -> master) Merge branch 'featureX'
+|\\
 | * 3c7f318 (featureX) add featureX in fileB
 | * 9e469f9 add featureX in fileA
 |/
-* 9f79a2a (origin/develop, develop) add fileB
-* ceb9c6f feature1 added
-* f604538 (origin/master) create fileA
+\* 9f79a2a (origin/develop, develop) add fileB
+\* ceb9c6f feature1 added
+\* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjg4OTA0LDE5NTE3MDE0MzMsMTQ0MT
+eyJoaXN0b3J5IjpbNDU0MjM0ODAyLDE5NTE3MDE0MzMsMTQ0MT
 Y2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAy
 ODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNT
 kwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5
