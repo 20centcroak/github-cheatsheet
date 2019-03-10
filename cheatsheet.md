@@ -350,6 +350,13 @@ dce055a HEAD@{4}: commit: add feature in fileA from first commit
 
 then, as done when creating a branch poitning on a specific, we can recreate a branch:
 
+    git checkout -b featureFromFirstCommitRetrieved a0e0982
+>Switched to a new branch 'featureFromFirstCommitRetrieved'
+
+    git log --oneline
+>a0e0982 (HEAD -> featureFromFirstCommitRetrieved) add new content
+dce055a add feature in fileA from first commit
+213cf6c my first commit message
 
 ### List branches
 list local branches only:
@@ -468,11 +475,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MD
-U0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcw
-LDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OT
-g3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1
-MiwtMTY2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMT
-A4Mjg1Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgz
-OF19
+eyJoaXN0b3J5IjpbMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OT
+Y0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3
+LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyND
+gzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5
+LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MD
+U2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5
+MV19
 -->
