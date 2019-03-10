@@ -536,19 +536,20 @@ Then, merge *develop* commits in *master* branch:
 
     git merge develop
 >Updating f604538..9f79a2a
-Fast-forward  
+**Fast-forward**  
  fileA.txt | Bin 28 -> 48 bytes  
  fileB.txt | Bin 0 -> 30 bytes  
  2 files changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 fileB.txt  
-We can 
+
+We can observe that this is a fast-forward merge, then the *master* branch label is moved to the last commit. The lg shows a l
 
      git log --oneline --graph
 >\* 9f79a2a (HEAD -> master, origin/develop, develop) add fileB  
 \* ceb9c6f feature1 added  
 \* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Njg0Mzg4MCwxNDQxNjY2MzcwLDE1OT
+eyJoaXN0b3J5IjpbLTk0MzkyODExMywxNDQxNjY2MzcwLDE1OT
 EzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYz
 NTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMz
 MyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQz
