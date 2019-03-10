@@ -765,25 +765,22 @@ Unpacking objects: 100% (3/3), done.
 From ..\remote\  
    79930f9..93939f0  develop    -> origin/develop
 
- git log --oneline --all
-437ef7d (HEAD -> develop) local modif in develop
-93939f0 (origin/develop) add file C
+    git log --oneline --all
+>437ef7d (HEAD -> develop) local modif in develop  
+93939f0 (origin/develop) add file C  
 79930f9 (origin/master, master) Merge branch 'conflict-feature'
-b9234fd conflict in master
-943fb20 modify hunk to get conflict
-1edbecb adding featureZ
-e936a18 Merge branch 'featureY'
-3d060c3 add featureY
-b98c8a2 master modif
-8fb47dd Merge branch 'featureX'
-3c7f318 add featureX in fileB
-9e469f9 add featureX in fileA
-9f79a2a add fileB
-ceb9c6f feature1 added
-f604538 create fileA
 
+We can see that previously to our commit in the local branch *develop*, another user pushed a commit to the remote *develop* branch and added *fileC*
+
+git status
+On branch develop
+Your branch and 'origin/develop' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDc3OTM2OCwtMTI4MjA0MTQwNSwxOD
+eyJoaXN0b3J5IjpbMTI1NTAxMzQwMiwtMTI4MjA0MTQwNSwxOD
 k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
 MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
 kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
