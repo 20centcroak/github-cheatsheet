@@ -656,12 +656,15 @@ and the remote branch in our remote repo called *origin*
 \* f604538 (origin/master) create fileA  
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
+
+### Abort merge
+here is the command to cancel a merge request
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03OD
-M2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5
-MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMT
-U5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkz
-NjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNi
-wzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYz
-NDM5NV19
+eyJoaXN0b3J5IjpbMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nz
+g4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1
+LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMT
+Q0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEz
+MzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3Ni
+wtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0
+MTk5NzBdfQ==
 -->
