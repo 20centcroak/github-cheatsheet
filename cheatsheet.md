@@ -365,14 +365,16 @@ acc534c delete fileA.txt
 213cf6c my first commit message
 
 * HEAD indicates the current state: it points on the branch label *featureZ*, which itself points on the tip of this branch, which is the commit ID 6cf4f3a.
-* tag v1.1, *master* branch label  and *featureY* branch label point on commit ID
+* tag v1.1, *master* branch label  and *featureY* branch label point on commit ID 774c2a6
+
+Then if we switch from branch featureZ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzQwODQ2LC03NzgwNTI5MjksLTE5ND
-IyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5
-MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMz
-I5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0
-NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC
-0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIw
-NTE3NjEyXX0=
+eyJoaXN0b3J5IjpbMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOT
+QyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MDU2MjI3
+OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5MSwtMz
+MyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNjI5
+NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4Ni
+wtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMTIy
+MDUxNzYxMl19
 -->
