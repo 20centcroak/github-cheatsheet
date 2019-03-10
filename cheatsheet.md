@@ -323,17 +323,17 @@ You can switch from a branch to another
     
     git checkout featureY
 
-but the working 
+but you can't switch 
 error: Your local changes to the following files would be overwritten by checkout:
         fileb.txt
 Please commit your changes or stash them before you switch branches.
 Aborting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyND
-g1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0
-LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OT
-Q3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5
-NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1NjkwOTI5OC
-wtMTM4NTU2NzQzMywxODI4Njc2ODcxLC01OTUxOTE0NjQsLTEz
-MjgxOTQyODJdfQ==
+eyJoaXN0b3J5IjpbOTI3ODYwNjM1LDQwNTYyMjc5MSwxMTEwOD
+I4NTYsNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMzI5NDA4Mzgs
+LTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0NjAsLTE1Mj
+YyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC0xNjczOTQ0
+MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLD
+E0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgyODY3Njg3MSwtNTk1
+MTkxNDY0XX0=
 -->
