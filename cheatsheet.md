@@ -310,10 +310,11 @@ A branch is a set of commit that trace back to the project's first commit.
 branch are created with 
     
     git branch featureX
-then point to the created branch with 
+*HEAD* is still pointing on the current branch (*master* for example).  If we want to work in the *featureX* branch, we should point to the created branch with 
 
     git checkout featureX
 >Switched to branch 'featureX'
+
 
 both can be done in 1 command
  
@@ -427,11 +428,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NT
-k4NzcyNywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAz
-NTIsLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5MSwxMT
-EwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1MjkxLC0zMzI5NDA4
-MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExNDI2Mjk0NjAsLT
-E1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4Mjg2LC0xNjcz
-OTQ0MTQ5XX0=
+eyJoaXN0b3J5IjpbLTg1NjA2NzgwMSwtNDEzMDA3NjI5LC0yMj
+Q4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1Mjky
+OSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0MTUsND
+A1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4MzkwOTUy
+OTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgxNDIsMT
+E0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLTE0NTA0
+NTgyODZdfQ==
 -->
