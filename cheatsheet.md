@@ -813,17 +813,19 @@ To ..\remote\
 Your branch is up to date with 'origin/develop'.
 nothing to commit, working tree clean
 
-    git log --oneline
->4ef2efd (HEAD -> develop, origin/develop) Merge branch 'develop' of ..\remote\ into develop  
-437ef7d local modif in develop  
-93939f0 add file C  
-79930f9 (origin/master, master) Merge branch 'conflict-feature'
+    git log --oneline --graph
+>Merge branch 'develop' of ..\remote\ into develop  
+|\\  
+| * 93939f0 add file C  
+\* | 437ef7d local modif in develop  
+|/  
+\*   79930f9 (origin/master, master) Merge branch 'conflict-feature'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDUxODc4LC0xMjgyMDQxNDA1LDE4OT
-c2NzMzNTYsLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEy
-NTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOT
-A2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3
-MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MT
-k0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1
-OTY0NTA3Nl19
+eyJoaXN0b3J5IjpbMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxOD
+k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
+MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
+kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
+NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
+E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
+NTk2NDUwNzZdfQ==
 -->
