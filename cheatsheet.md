@@ -486,14 +486,14 @@ Merge put together works from 2 different branches
 ### fast-forward
 Fast forward merge simply moves the branch label to the latest commit. It occurs when a new feature branch has been created from a base branch, commits are done on the feature branch but no modification is done on the base branch, then moving the branch label of the master branch to the last commit of the feature branch integrates the feature works to the base branch with no other needed operation.
 ### merge commit
-If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), 
+If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), a merge commit will create a new commit 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNj
-QyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3
-Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNj
-k0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2
-MjksLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNz
-c4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2
-NTQxNV19
+eyJoaXN0b3J5IjpbNzMwNzIwMTc2LDE0NDE2NjYzNzAsMTU5MT
+M5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1
+ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMz
+IzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5
+NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyND
+QxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIx
+MTEwOF19
 -->
