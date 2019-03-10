@@ -342,21 +342,21 @@ Besides, symbolic references are also used:
 
 
 
-git log --oneline --graph
-* 6cf4f3a (HEAD -> featureZ) new feature
-* da1bc46 new feature
-* 774c2a6 (tag: v1.1, master, featureY) delete fileb
-* 6a5dcf4 (my_remote/master) add feature2 in fileb
-* d86540b (tag: v1.0) add feature in fileb
-* acc534c delete fileA.txt
-* 54c09e1 featureA added
-* 213cf6c my first commit message
+git log --oneline
+6cf4f3a (HEAD -> featureZ) new feature
+da1bc46 new feature
+774c2a6 (tag: v1.1, master, featureY) delete fileb
+6a5dcf4 (my_remote/master) add feature2 in fileb
+d86540b (tag: v1.0) add feature in fileb
+acc534c delete fileA.txt
+54c09e1 featureA added
+213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjY2NDcwLDk2MDE2NTQxNSw0MDU2Mj
-I3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5MSwt
-MzMyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNj
-I5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4
-NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0zNjIxNTEzNDksMT
-IyMDUxNzYxMiwxNDU2OTA5Mjk4LC0xMzg1NTY3NDMzLDE4Mjg2
-NzY4NzFdfQ==
+eyJoaXN0b3J5IjpbLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNT
+YyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1Mjkx
+LC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
+I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
+Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2MjE1MTM0OS
+wxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEzODU1Njc0MzMsMTgy
+ODY3Njg3MV19
 -->
