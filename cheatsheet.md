@@ -334,7 +334,10 @@ Actually it only deletes the branch label. This is fine while there is no modifi
     git branch -d featureFromFirstCommit
 >error: The branch 'featureFromFirstCommit' is not fully merged.  
 
-To delete the branch and all the works that have been done on it and
+To delete the branch and all the works that have been done on it and not merged, use the -D flag
+
+    git branch -D featureFromFirstCommit
+>Deleted branch featureFromFirstCommit (was a0e0982).
 
 ### List branches
 list local branches only:
@@ -453,11 +456,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTMzMDcwNCwzMzIzNDkyNzksMTY5ND
-MxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5
-LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQxMTk2NTIsLTc3OD
-A1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0
-MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4Mz
-kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzEwODc5NzcsMzMyMzQ5Mjc5LDE2OT
+QzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYy
+OSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03Nz
+gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
+NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
+M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
+MTQyXX0=
 -->
