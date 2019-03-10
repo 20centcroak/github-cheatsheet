@@ -118,9 +118,9 @@ Date:   Sat Mar 9 16:37:59 2019 +0100
     add feature2 in fileb
 
     git show 54c09e1
->commit 54c09e11bbaa05c9857f6589edc660e4be3c0798
-Author: XXX\<XXX@mail.com\>
-Date:   Fri Mar 8 19:06:28 2019 +0100
+>commit 54c09e11bbaa05c9857f6589edc660e4be3c0798  
+Author: XXX\<XXX@mail.com\> 
+Date:   Fri Mar 8 19:06:28 2019 +0100  
     featureA added
 
 ## Remote repository
@@ -655,11 +655,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEyNjMwNjMsMzI1MDc1MjYzLDkwNj
-MxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAx
-NDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NC
-wtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2
-NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNy
-wtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4
-MzIzNzJdfQ==
+eyJoaXN0b3J5IjpbLTM1NDg0Nzk2MywzMjUwNzUyNjMsOTA2Mz
+E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
+MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
+0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
+NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC
+0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgz
+MjM3Ml19
 -->
