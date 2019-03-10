@@ -721,20 +721,24 @@ Let's create and chekout a new branch:
     git checkout -b develop
 >Switched to a new branch 'develop'  
 
-Then create a remote branch named *develop* in the remote repo *origin*. As HEAD is positionned on the local *develop* branch The *set-upstream* command 
+Then create a remote branch named *develop* in the remote repo *origin*. As HEAD is positionned on the local *develop* branch and we use the *set-upstream* flag, then now local and remote *develop* branches are associated:
+
     git push --set-upstream origin develop
-Total 0 (delta 0), reused 0 (delta 0)
-To ..\remote\
- * [new branch]      develop -> develop
+>Total 0 (delta 0), reused 0 (delta 0)  
+To ..\remote\  
+ \* [new branch]      develop -> develop  
 Branch 'develop' set up to track remote branch 'develop' from 'origin'.
-PS D:\perso\courses\git course\hands on\repos\project> git log --oneline
-79930f9 (HEAD -> develop, origin/master, origin/develop, master) Merge branch 'conflict-feature'
+
+    git log --oneline
+>79930f9 (HEAD -> develop, origin/master, origin/develop, master) Merge branch 'conflict-feature'
+
+The log indicates that HEAD points on develop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg5NTg2MTQsMTg5NzY3MzM1NiwtMT
-Y4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1
-MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLT
-E2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQx
-NjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMD
-I4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01
-OTA1NDM2MjZdfQ==
+eyJoaXN0b3J5IjpbNzU4NTExMTU0LDE4OTc2NzMzNTYsLTE2OD
+M5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4NTA0
+MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC0xNj
+g2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2
+NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyOD
+IsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkw
+NTQzNjI2XX0=
 -->
