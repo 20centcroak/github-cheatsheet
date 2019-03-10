@@ -772,19 +772,22 @@ From ..\remote\
 
 We can see that previously to our commit in the local branch *develop*, another user pushed a commit to the remote *develop* branch and added *fileC*
 
-git status
-On branch develop
+    git status
+>On branch develop  
 Your branch and 'origin/develop' have diverged,
-and have 1 and 1 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
-
+and have 1 and 1 different commits each, respectively.  
+  (use "git pull" to merge the remote branch into yours)  
 nothing to commit, working tree clean
+
+## Pulling remote content in working copy
+To update the local branch with the remote content, it is necessary to pull it:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTAxMzQwMiwtMTI4MjA0MTQwNSwxOD
-k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
-MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
-kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
-NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
-E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
-NTk2NDUwNzZdfQ==
+eyJoaXN0b3J5IjpbLTEwOTYyNzAwNzQsLTEyODIwNDE0MDUsMT
+g5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3
+MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2My
+w5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1
+MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MD
+gxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nzks
+MzU5NjQ1MDc2XX0=
 -->
