@@ -490,7 +490,7 @@ Fast forward merge simply moves the branch label to the latest commit. It occurs
 If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits have been done in feature and bese branch for example), a merge commit will create a new commit putting together the commits of base and feature branches. This commit point on latest feature commit and latest base commit.
 Even if fast-forward is possible, we can require a merge commit with a specific flag.
 
-### Case study
+### Case study - fast forward merge
 
 Let's say we have created a file *fileA* in the base branch called master. Then we have created a new branch called *develop* and work in it. In a first commit we have modified *fileA* and in a second commit we have created *fileB*.
 No works have been done on *master* branch, then fast-forward merge is possible.
@@ -552,12 +552,15 @@ We can observe that this is a fast-forward merge, then the *master* branch label
 Finally, *HEAD* points to the symbolic references *master* and *develop* which points the last commit. 
 *origin/develop* mention shows that the remote branch *origin/develop* also points this last commit because a *push* command has been called on this last commit for this remote branch. 
 *origin/master* mention shows that the remote branch *origin/master* points on the first commit because no push have been applied to the master branch since this first commit.
+
+### Case study - merge commit
+Starting from the previous case study, let's create a branch 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0OTM1NzQzLDE5NTE3MDE0MzMsMTQ0MT
-Y2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAy
-ODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNT
-kwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5
-NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgzMjM3MiwyND
-U5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYw
-MzUyXX0=
+eyJoaXN0b3J5IjpbMjA3Mzg1NTUxMCwxOTUxNzAxNDMzLDE0ND
+E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
+MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
+U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
+OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMj
+Q1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2
+MDM1Ml19
 -->
