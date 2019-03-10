@@ -516,12 +516,12 @@ No works have been done on *master* branch, then fast-forward merge is possible.
     echo 'create fileB' > fileB.txt
     git add .\fileB.txt
     git commit -m'add fileB'
->[develop 9f79a2a] add fileB
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 fileB.txt
+>[develop 9f79a2a] add fileB  
+ 1 file changed, 0 insertions(+), 0 deletions(-)  
+ create mode 100644 fileB.txt  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM2MTkwMTgsMTQ0MTY2NjM3MCwxNT
+eyJoaXN0b3J5IjpbLTEyNzQxMDAyOTgsMTQ0MTY2NjM3MCwxNT
 kxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2
 MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LD
 MzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0
