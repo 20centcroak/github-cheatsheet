@@ -602,13 +602,13 @@ This time we can see the fork in the graph with our 2 commits done in the featur
 Finally *HEAD* points to the *master* branch label which points to the last commit.
 We can also see that no commit have been added in the *master branch between the fork and the merge.
 Note that *develop* branch label and the tracking branch *origin/develop* points on the commit before the fork. 
-Let delete references to the develop branche
+Let delete references to the develop local and remote branches:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDA3NjcwNiwxOTUxNzAxNDMzLDE0ND
-E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
-MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
-U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
-OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMj
-Q1OTg3NzI3LDEyNDQxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2
-MDM1Ml19
+eyJoaXN0b3J5IjpbLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxND
+QxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MDgxOTQsLTE1MTMz
+MDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC
+01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQx
+OTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLD
+I0NTk4NzcyNywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIy
+NjAzNTJdfQ==
 -->
