@@ -76,6 +76,12 @@ Changes not staged for commit:
 >[master 54c09e1] featureA added
  1 file changed, 1 insertion(+)
 
+It can also be done with 1 command line
+
+    git commit -a -m'featureA added'
+
+This command add and commit all tracked and modified files.
+
 ## Information on history, commits and so on
 We have already seen previously the *git status* command which look at the files in the working copy, in the staging area and in the version control and delivers a status for these files (created, modified, deleted, untracked, staged, ...)
     
@@ -356,11 +362,11 @@ acc534c delete fileA.txt
 54c09e1 featureA added
 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
-YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
-LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMD
-U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
-NDczLC0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OT
-QsLTM2MjE1MTM0OSwxMjIwNTE3NjEyLDE0NTY5MDkyOTgsLTEz
-ODU1Njc0MzNdfQ==
+eyJoaXN0b3J5IjpbLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMT
+Y2MzIxMTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1
+Niw0NjIyNDg1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOT
+Y4Njc5MTQ0LDIwNTQ2ODgxNDIsMTE0MjYyOTQ2MCwtMTUyNjI5
+MTYzNSw5OTQ3OTk0NzMsLTE0NTA0NTgyODYsLTE2NzM5NDQxND
+ksMTQ3Nzc5NDU5NCwtMzYyMTUxMzQ5LDEyMjA1MTc2MTIsMTQ1
+NjkwOTI5OF19
 -->
