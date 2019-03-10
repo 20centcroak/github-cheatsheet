@@ -661,6 +661,60 @@ We can see that there has been a modification in the *master* branch and another
 ### Conflicts
 When the same hunks of the same files have been modified in the 2 branches we want to merge, git identifies a conflict that should be solved by the user before merging the branches.
 
+    git checkout -b conflict-feature
+>Switched to a new branch 'conflict-feature'
+
+    echo "conflict" >> .\fileA.txt
+    git commit -a -m"modify hunk to get conflict"
+>[conflict-feature 943fb20] modify hunk to get conflict  
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+    git checkout master
+>Switched to branch 'master'  
+
+    echo "conflict-master" >> .\fileA.txt
+    git commit -a -m"conflict in master"
+>[master b9234fd] conflict in master  
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+    git log --oneline --graph --all
+>\* b9234fd (HEAD -> master) conflict in master
+| * 943fb20 (conflict-feature) modify hunk to get conflict
+|\/
+* 1edbecb (featureZ) adding featureZ
+*   e936a18 Merge branch 'featureY'
+|\
+| * 3d060c3 (featureY) add featureY
+* | b98c8a2 master modif
+|/
+*   8fb47dd Merge branch 'featureX'
+|\
+| * 3c7f318 (featureX) add featureX in fileB
+| * 9e469f9 add featureX in fileA
+|/
+* 9f79a2a add fileB
+* ceb9c6f feature1 added
+* f604538 (origin/master) create fileA
+PS D:\perso\courses\git course\hands on\repos\project> git merge conflict-feature
+warning: Cannot merge binary files: fileA.txt (HEAD vs. conflict-feature)
+Auto-merging fileA.txt
+CONFLICT (content): Merge conflict in fileA.txt
+Automatic merge failed; fix conflicts and then commit the result.
+PS D:\perso\courses\git course\hands on\repos\project> git status
+On branch master
+Your branch is ahead of 'origin/master' by 10 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   fileA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 
 #### Merge abort
@@ -668,11 +722,11 @@ Here is the command to cancel a merge request when conflict arose when processin
 
     git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNT
-gwNzEyNTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUy
-NjMsOTA2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LD
-E5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQy
-NjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nz
-c5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0
-MzE3NTE3XX0=
+eyJoaXN0b3J5IjpbLTE1MTc0NDAzNTYsLTE2ODM5NTA1MzQsMT
+U3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4NTA0MDUsLTc4MzYy
+MjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC0xNjg2OTY2NjkxLC
+0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkx
+MzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2Mz
+U4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMz
+MjM0OTI3OV19
 -->
