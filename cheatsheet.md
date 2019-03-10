@@ -680,24 +680,13 @@ When the same hunks of the same files have been modified in the 2 branches we wa
     git log --oneline --graph --all
 >\* b9234fd (HEAD -> master) conflict in master
 | * 943fb20 (conflict-feature) modify hunk to get conflict
-|\/
-* 1edbecb (featureZ) adding featureZ
-*   e936a18 Merge branch 'featureY'
-|\
-| * 3d060c3 (featureY) add featureY
-* | b98c8a2 master modif
 |/
-*   8fb47dd Merge branch 'featureX'
-|\
-| * 3c7f318 (featureX) add featureX in fileB
-| * 9e469f9 add featureX in fileA
-|/
-* 9f79a2a add fileB
-* ceb9c6f feature1 added
-* f604538 (origin/master) create fileA
-PS D:\perso\courses\git course\hands on\repos\project> git merge conflict-feature
-warning: Cannot merge binary files: fileA.txt (HEAD vs. conflict-feature)
-Auto-merging fileA.txt
+\* 1edbecb (featureZ) adding featureZ
+\*   e936a18 Merge branch 'featureY'
+
+    git merge conflict-feature
+>warning: Cannot merge binary files: fileA.txt (HEAD vs. conflict-feature)  
+Auto-merging fileA.txt  
 CONFLICT (content): Merge conflict in fileA.txt
 Automatic merge failed; fix conflicts and then commit the result.
 PS D:\perso\courses\git course\hands on\repos\project> git status
@@ -722,11 +711,11 @@ Here is the command to cancel a merge request when conflict arose when processin
 
     git merge --abort
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc0NDAzNTYsLTE2ODM5NTA1MzQsMT
-U3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4NTA0MDUsLTc4MzYy
-MjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC0xNjg2OTY2NjkxLC
-0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0MTY2NjM3MCwxNTkx
-MzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2Mz
-U4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LDMz
-MjM0OTI3OV19
+eyJoaXN0b3J5IjpbMzYyMjc3MTQ5LC0xNjgzOTUwNTM0LDE1Nz
+I0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03ODM2MjIx
+MDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5MSwtMj
+AwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5
+MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1OD
+csMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIz
+NDkyNzldfQ==
 -->
