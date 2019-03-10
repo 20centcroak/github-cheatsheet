@@ -332,9 +332,23 @@ Aborting
 Untracked files are noty affected when switching from a branch to another.
 
 ## References
-Git uses commit ids built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the 
+Git uses commit ids built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
+Besides, symbolic references are also used:
+ * branch label 
+
+
+
+git log --oneline --graph
+* 6cf4f3a (HEAD -> featureZ) new feature
+* da1bc46 new feature
+* 774c2a6 (tag: v1.1, master, featureY) delete fileb
+* 6a5dcf4 (my_remote/master) add feature2 in fileb
+* d86540b (tag: v1.0) add feature in fileb
+* acc534c delete fileA.txt
+* 54c09e1 featureA added
+* 213cf6c my first commit message
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1MjEwOTUsOTYwMTY1NDE1LDQwNT
+eyJoaXN0b3J5IjpbLTE3NDEzMTc1NTYsOTYwMTY1NDE1LDQwNT
 YyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xODM5MDk1Mjkx
 LC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4MTQyLDExND
 I2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC0xNDUwNDU4
