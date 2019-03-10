@@ -616,12 +616,32 @@ and the remote branch in our remote repo called *origin*
 
 ### Case study - commits in 2 different branches
 
+    echo 'master modif' >> .\fileA.txt
+    git commit -a -m'master modif'
+>[master b98c8a2] master modif  
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+    git checkout -b featureY 8fb47dd
+>Switched to a new branch 'featureY'
+
+    echo 'featureY' >> .\fileB.txt
+    git commit -a -m'add featureY'
+[featureY 3d060c3] add featureY
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS D:\perso\courses\git course\hands on\repos\project> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+PS D:\perso\courses\git course\hands on\repos\project> git merge featureY
+Merge made by the 'recursive' strategy.
+ fileB.txt | Bin 52 -> 72 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMT
-k1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2
-MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nz
-ksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQz
-MTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOS
-wtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03Nzgw
-NTI5MjldfQ==
+eyJoaXN0b3J5IjpbMTMxNTcyMzYwOSwtMTY4Njk2NjY5MSwtMj
+AwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5
+MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1OD
+csMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIz
+NDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NS
+wtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQx
+MTk2NTJdfQ==
 -->
