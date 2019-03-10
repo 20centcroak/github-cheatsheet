@@ -495,8 +495,18 @@ Even if fast-forward is possible, we can require a merge commit with a specific 
 Let's say we have created a file *fileA* in the base branch called master. Then we have created a new branch called *develop* and work in it. In a first commit we have modified *fileA* and in a second commit we have created *fileB*.
 No works have been done on *master* branch, then fast-forward merge is possible.
 
+    echo 'create file' > fileA.txt
+    git add .\fileA.txt
+    git commit -m 'create fileA'
+>[master (root-commit) f604538] create fileA  
+ 1 file changed, 0 insertions(+), 0 deletions(-)  
+ create mode 100644 fileA.txt  
+
+    git branch
+>\* master
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ1NzQxOTIsMTQ0MTY2NjM3MCwxNT
+eyJoaXN0b3J5IjpbLTEzNzEzNzIzNzMsMTQ0MTY2NjM3MCwxNT
 kxMzkzNDk5LC0xNjQyNjA4MTk0LC0xNTEzMzAyODIsMTE1OTM2
 MzU4NywxOTk2NDY3Nzc5LDM1OTY0NTA3NiwtNTkwNTQzNjI2LD
 MzMjM0OTI3OSwxNjk0MzE3NTE3LC0xODM0MTk5NzAsMzA5NjM0
