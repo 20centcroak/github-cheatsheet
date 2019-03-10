@@ -325,6 +325,17 @@ A branch can be deleted only if head is not pointing on it currently. If some wo
     git branch -d featureX
 >Deleted branch featureX (was 774c2a6).
 
+### List branches
+list local branches only
+
+    git branch
+>\* (HEAD detached at 54c09e1)
+  featureY
+  featureZ
+  master
+
+The asterisk shows the current branch
+
 ### Switch branch
 You can switch from a branch to another  
     
@@ -407,11 +418,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDgzMjM3MiwyNDU5ODc3MjcsMTI0ND
-ExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjEx
-MTA4LDk2MDE2NTQxNSw0MDU2MjI3OTEsMTExMDgyODU2LDQ2Mj
-I0ODUyNSwtMTgzOTA5NTI5MSwtMzMyOTQwODM4LC05Njg2Nzkx
-NDQsMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LD
-k5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3
-Nzk0NTk0XX0=
+eyJoaXN0b3J5IjpbLTE0OTY3NTY2MzMsLTIyNDgzMjM3MiwyND
+U5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5LC0xOTQyMjYw
+MzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MDU2MjI3OTEsMT
+ExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5MSwtMzMyOTQw
+ODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMTQyNjI5NDYwLC
+0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1ODI4NiwtMTY3
+Mzk0NDE0OV19
 -->
