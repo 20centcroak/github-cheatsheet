@@ -755,13 +755,39 @@ nothing to commit, working tree clean
 
 git status indicates that there is 1 commit that has not been pushed to remote.
 
-Now suppose that the remote repo has been updated 
+Now suppose that the remote repo has been updated by another user. To get information about the remote state, use the following command:
+
+    git fetch
+>remote: Counting objects: 3, done.  
+remote: Compressing objects: 100% (2/2), done.  
+remote: Total 3 (delta 0), reused 0 (delta 0)  
+Unpacking objects: 100% (3/3), done.  
+From ..\remote\  
+   79930f9..93939f0  develop    -> origin/develop
+
+ git log --oneline --all
+437ef7d (HEAD -> develop) local modif in develop
+93939f0 (origin/develop) add file C
+79930f9 (origin/master, master) Merge branch 'conflict-feature'
+b9234fd conflict in master
+943fb20 modify hunk to get conflict
+1edbecb adding featureZ
+e936a18 Merge branch 'featureY'
+3d060c3 add featureY
+b98c8a2 master modif
+8fb47dd Merge branch 'featureX'
+3c7f318 add featureX in fileB
+9e469f9 add featureX in fileA
+9f79a2a add fileB
+ceb9c6f feature1 added
+f604538 create fileA
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1Mjg1MjExLC0xMjgyMDQxNDA1LDE4OT
-c2NzMzNTYsLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEy
-NTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOT
-A2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3
-MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MT
-k0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1
-OTY0NTA3Nl19
+eyJoaXN0b3J5IjpbMTYzNDc3OTM2OCwtMTI4MjA0MTQwNSwxOD
+k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
+MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
+kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
+NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
+E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
+NTk2NDUwNzZdfQ==
 -->
