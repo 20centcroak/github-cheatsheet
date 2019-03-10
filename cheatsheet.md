@@ -95,7 +95,7 @@ Untracked files:
 git log delivers information about the commit history.
     git log
 >commit 213cf6cb3a473c9c2305574926bb1103ffdf4922 (HEAD -> master)  
-Author: XXX <XXX@mail.com>  
+Author: XXX \<XXX@mail.com\>  
 Date:   Fri Mar 8 18:51:03 2019 +0100  
     my first commit message
 
@@ -111,13 +111,13 @@ Commit IDs (long or short)  can be used to get information about a specific comm
 
     git show
 >commit 6a5dcf4779d2dc456ab460f080c9086c7697f13b (HEAD -> master, tag: v1.0, my_remote/master)
-Author: XXX <XXX@mail.com>
+Author: XXX \<XXX@mail.com\>
 Date:   Sat Mar 9 16:37:59 2019 +0100
     add feature2 in fileb
 
     git show 54c09e1
 >commit 54c09e11bbaa05c9857f6589edc660e4be3c0798
-Author: XXX<XXX@mail.com>
+Author: XXX\<XXX@mail.com\>
 Date:   Fri Mar 8 19:06:28 2019 +0100
     featureA added
 
@@ -288,7 +288,7 @@ v1.1
 
     git show v1.0
 >tag v1.0
-Tagger: XXX<XXX@mail.com>
+Tagger: XXX\<XXX@mail.com\>
 Date:   Sat Mar 9 18:56:22 2019 +0100
 my new tag
 commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)
@@ -296,7 +296,7 @@ commit d86540b0edf6dd05c1c30858db0c88ffca23ba88 (tag: v1.0)
 
     git show v1.1
 >commit 774c2a66d1ea30b6517c69c03e1911ede02686af (HEAD -> master, tag: v1.1)
-Author: XXXX<XXX@mail.com>
+Author: XXX\<XXX@mail.com\>
 Date:   Sat Mar 9 17:20:44 2019 +0100
     delete fileb
 
@@ -374,7 +374,7 @@ acc534c delete fileA.txt
     
     git show da1bc46
 >commit da1bc46f308edc8b4117973183fb4510d8327b69
-Author: XXX<XXX@mail.com>
+Author: XXX\<XXX@mail.com\>
 Date:   Sat Mar 9 19:19:09 2019 +0100
     new feature
 diff --git a/fileb.txt b/fileb.txt
@@ -384,7 +384,7 @@ index 0000000..e72c7ed
 Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and *fileb* is present only in featureZ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzQ5OTczNywxMjQ0MTE5NjUyLC03Nz
+eyJoaXN0b3J5IjpbLTc5OTk2MTY5MSwxMjQ0MTE5NjUyLC03Nz
 gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
 NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
 M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
