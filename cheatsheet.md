@@ -370,14 +370,24 @@ acc534c delete fileA.txt
 * tag v1.1, *master* branch label  and *featureY* branch label point on commit ID 774c2a6
 * tag v1.0 points on commit d86540b
 
-*fileb* has been deleted in commit 774c2a6, then it has been recreated and some content inside has been updated in commits da1bc46 and 6cf4f3a. Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and fileb is present only in featureZ
+*fileb* has been deleted in commit 774c2a6, then it has been recreated and some content inside has been updated in commits da1bc46 and 6cf4f3a:
+    
+    git show da1bc46
+>commit da1bc46f308edc8b4117973183fb4510d8327b69
+Author: XXX<XXX@mail.com>
+Date:   Sat Mar 9 19:19:09 2019 +0100
+    new feature
+diff --git a/fileb.txt b/fileb.txt
+new file mode 100644
+index 0000000..e72c7ed
+Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and fileb is present only in featureZ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI3Mjc4OTksMTI0NDExOTY1MiwtNz
-c4MDUyOTI5LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2
-NTQxNSw0MDU2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMT
-gzOTA5NTI5MSwtMzMyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4
-ODE0MiwxMTQyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3My
-wtMTQ1MDQ1ODI4NiwtMTY3Mzk0NDE0OSwxNDc3Nzk0NTk0LC0z
-NjIxNTEzNDldfQ==
+eyJoaXN0b3J5IjpbLTk2MzQwOTE1MSwxMjQ0MTE5NjUyLC03Nz
+gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
+NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
+M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
+MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC
+0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2
+MjE1MTM0OV19
 -->
