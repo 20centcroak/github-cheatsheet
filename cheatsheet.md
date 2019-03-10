@@ -345,7 +345,7 @@ Untracked files are noty affected when switching from a branch to another.
 
 Git uses commit IDs built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
 Besides, symbolic references are also used:
- * branch label (*master* for example) points on the latest commit of a given branch, it has the name of the branch
+ * branch label (*master* for example) points on the latest commit (or tip) of a given branch, it has the name of the branch
  * HEAD points on a branch label and indicates the current state
  * HEAD~ or HEAD~1 points on the parent commit of HEAD
  * HEAD~~  or HEAD~2  points on the grand-parent commit of HEAD
@@ -368,15 +368,16 @@ acc534c delete fileA.txt
 
 * HEAD indicates the current state: it points on the branch label *featureZ*, which itself points on the tip of this branch, which is the commit ID 6cf4f3a.
 * tag v1.1, *master* branch label  and *featureY* branch label point on commit ID 774c2a6
+* tag v1.0 points on commit d86540b
 
-Then if we switch from branch featureZ 
+*fielThen if we switch from branch featureZ to branch master
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzk3MjI2OSwxMjQ0MTE5NjUyLC03Nz
-gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
-NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
-M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
-MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC
-0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2
-MjE1MTM0OV19
+eyJoaXN0b3J5IjpbOTA1NTk3NzAwLDEyNDQxMTk2NTIsLTc3OD
+A1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0
+MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4Mz
+kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
+NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
+E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
+MTUxMzQ5XX0=
 -->
