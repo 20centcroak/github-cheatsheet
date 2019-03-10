@@ -383,21 +383,23 @@ index 0000000..e72c7ed
 
 Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and *fileb* is present only in featureZ
 
-branch featureZ:
+branch *featureZ*:
     
     ls
 > Répertoire : D:\perso\courses\git course\hands on\repos\projecta
-|Mode|LastWriteTime|Length Name
-|--|--|--|
-|-a----       09/03/2019     12:01             18 fileA.txt
-|-a----       10/03/2019     10:31             22 fileb.txt
 
+|Mode|LastWriteTime|Length|Name
+|--|--|--|--|
+|-a----|09/03/2019     12:01|18|fileA.txt|
+|-a----|10/03/2019     10:31|22|fileb.txt|
+
+br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzU2NDcwOCwxMjQ0MTE5NjUyLC03Nz
-gwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1
-NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1LC0xOD
-M5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMDU0Njg4
-MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5NDczLC
-0xNDUwNDU4Mjg2LC0xNjczOTQ0MTQ5LDE0Nzc3OTQ1OTQsLTM2
-MjE1MTM0OV19
+eyJoaXN0b3J5IjpbMTE1MDgyMDkyLDEyNDQxMTk2NTIsLTc3OD
+A1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIxMTEwOCw5NjAxNjU0
+MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0NjIyNDg1MjUsLTE4Mz
+kwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5MTQ0LDIwNTQ2ODgx
+NDIsMTE0MjYyOTQ2MCwtMTUyNjI5MTYzNSw5OTQ3OTk0NzMsLT
+E0NTA0NTgyODYsLTE2NzM5NDQxNDksMTQ3Nzc5NDU5NCwtMzYy
+MTUxMzQ5XX0=
 -->
