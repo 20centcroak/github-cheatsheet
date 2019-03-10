@@ -714,7 +714,7 @@ Once the file has been manually corrected:
 >[master 79930f9] Merge branch 'conflict-feature'
 
 ## Tracking branch
-a tracking branch is a reference to a remote branch. They are associated with a local branch. Generally local and remote branch share their name but this is the user's choice.
+A tracking branch is a local branch that represents a remote branch. They are associated with a local branch. Generally local and remote branch share their name but this is the user's choice.
 
 Let's create and chekout a new branch:
 
@@ -821,11 +821,11 @@ nothing to commit, working tree clean
 |/  
 \*   79930f9 (origin/master, master) Merge branch 'conflict-feature'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxOD
-k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
-MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
-kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
-NzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwOD
-E5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwz
-NTk2NDUwNzZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzUzMTMyODcsMTI4NDQwMzAxMiwtMT
+I4MjA0MTQwNSwxODk3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0
+OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMD
+UsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAw
+NDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5Mz
+Q5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1ODcs
+MTk5NjQ2Nzc3OV19
 -->
