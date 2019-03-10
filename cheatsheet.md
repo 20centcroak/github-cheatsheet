@@ -732,7 +732,7 @@ Branch 'develop' set up to track remote branch 'develop' from 'origin'.
     git log --oneline
 >79930f9 (HEAD -> develop, origin/master, origin/develop, master) Merge branch 'conflict-feature'
 
-The log indicates that HEAD points on the tip of *develop* branch and on the tip of *master* branch. It also points on the tip of the remotes branch *origin/master* and *origin/develop*. It means that all commits have been pushed to the the remote branches. But it does not know about the actual remote state. If the remote contains new commits from another user in branch *develop*, the actual tip of the remote branch *develop* points on a commit that is not present locally.
+The log indicates that HEAD points on the tip of *develop* branch and on the tip of *master* branch. It also points on the tip of the remotes branch *origin/master* and *origin/develop*. It means that all commits have been pushed to the the remote branches. But it does not know about the actual remote state. If the remote contains new commits from another user in branch *develop*, the actual tip of the remote branch *develop* points on a commit that is not present locally. To get it, we will use the *git fetch* command.
 
 Let's add  a modification in branch *develop*, commit it but not push it to remote:
  
@@ -755,12 +755,13 @@ nothing to commit, working tree clean
 
 git status indicates that there is 1 commit that has not been pushed to remote.
 
+Now suppose that the remote repo has been updated 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY1MTQxODAsLTEyODIwNDE0MDUsMT
-g5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3
-MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2My
-w5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1
-MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2NDI2MD
-gxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3Nzks
-MzU5NjQ1MDc2XX0=
+eyJoaXN0b3J5IjpbMjI1Mjg1MjExLC0xMjgyMDQxNDA1LDE4OT
+c2NzMzNTYsLTE2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEy
+NTE4LDE3Nzg4NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOT
+A2MzE4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3
+MDE0MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MT
+k0LC0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1
+OTY0NTA3Nl19
 -->
