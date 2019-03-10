@@ -112,9 +112,9 @@ In this short message, commit ID is shorten as well using only the 7 first chara
 Commit IDs (long or short)  can be used to get information about a specific commit. When not specified, the HEAD label is used to deliver informtation.
 
     git show
->commit 6a5dcf4779d2dc456ab460f080c9086c7697f13b (HEAD -> master, tag: v1.0, my_remote/master)
-Author: XXX \<XXX@mail.com\>
-Date:   Sat Mar 9 16:37:59 2019 +0100
+>commit 6a5dcf4779d2dc456ab460f080c9086c7697f13b (HEAD -> master, tag: v1.0, my_remote/master)  
+Author: XXX \<XXX@mail.com\>  
+Date:   Sat Mar 9 16:37:59 2019 +0100  
     add feature2 in fileb
 
     git show 54c09e1
@@ -655,11 +655,11 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDg0Nzk2MywzMjUwNzUyNjMsOTA2Mz
-E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
-MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
-0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
-NTA3NiwtNTkwNTQzNjI2LDMzMjM0OTI3OSwxNjk0MzE3NTE3LC
-0xODM0MTk5NzAsMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyNDgz
-MjM3Ml19
+eyJoaXN0b3J5IjpbLTE3MzEyNjcwMzUsMzI1MDc1MjYzLDkwNj
+MxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAx
+NDMzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NC
+wtMTUxMzMwMjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2
+NDUwNzYsLTU5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNy
+wtMTgzNDE5OTcwLDMwOTYzNDM5NSwtNDEzMDA3NjI5LC0yMjQ4
+MzIzNzJdfQ==
 -->
