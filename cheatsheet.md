@@ -626,22 +626,37 @@ and the remote branch in our remote repo called *origin*
 
     echo 'featureY' >> .\fileB.txt
     git commit -a -m'add featureY'
-[featureY 3d060c3] add featureY
+>[featureY 3d060c3] add featureY  
  1 file changed, 0 insertions(+), 0 deletions(-)
-PS D:\perso\courses\git course\hands on\repos\project> git checkout master
-Switched to branch 'master'
-Your branch is ahead of 'origin/master' by 6 commits.
-  (use "git push" to publish your local commits)
-PS D:\perso\courses\git course\hands on\repos\project> git merge featureY
-Merge made by the 'recursive' strategy.
- fileB.txt | Bin 52 -> 72 bytes
+
+    git checkout master
+>Switched to branch 'master'  
+
+    git merge featureY
+>Merge made by the 'recursive' strategy.  
+ fileB.txt | Bin 52 -> 72 bytes  
  1 file changed, 0 insertions(+), 0 deletions(-)
+
+    git log --oneline --graph
+>\*   e936a18 (HEAD -> master) Merge branch 'featureY'
+|\\
+| \* 3d060c3 (featureY) add featureY
+\* | b98c8a2 master modif
+|/
+\*   8fb47dd Merge branch 'featureX'
+|\
+| \* 3c7f318 (featureX) add featureX in fileB
+| \* 9e469f9 add featureX in fileA
+|/
+* 9f79a2a add fileB
+* ceb9c6f feature1 added
+* f604538 (origin/master) create fileA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTcyMzYwOSwtMTY4Njk2NjY5MSwtMj
-AwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5MTM5
-MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMwMjgyLDExNTkzNjM1OD
-csMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLTU5MDU0MzYyNiwzMzIz
-NDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5NS
-wtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyNDQx
-MTk2NTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDU3OTg2NDUsLTE2ODY5NjY2OTEsLT
+IwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEz
+OTM0OTksLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMTU5MzYzNT
+g3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMy
+MzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOT
+UsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0
+MTE5NjUyXX0=
 -->
