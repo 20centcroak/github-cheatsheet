@@ -374,11 +374,11 @@ The asterisk shows the current branch
 list local and remote branches:
 
     git branch -a
->\* (HEAD detached at 54c09e1)
-  featureY
-  featureZ
-  master
-  remotes/my_remote/featureZ
+>\* (HEAD detached at 54c09e1)  
+  featureY  
+  featureZ  
+  master  
+  remotes/my_remote/featureZ  
   remotes/my_remote/master
 
 ### Switch branch
@@ -387,9 +387,9 @@ You can switch from a branch to another
     git checkout featureY
 
 but you can't switch if there are uncommited changed for tracked files:
->error: Your local changes to the following files would be overwritten by checkout:
-        fileb.txt
-Please commit your changes or stash them before you switch branches.
+>error: Your local changes to the following files would be overwritten by checkout:  
+        fileb.txt  
+Please commit your changes or stash them before you switch branches.  
 Aborting
 
 If you want to discard changes for a given file, use
@@ -402,7 +402,7 @@ Untracked files are noty affected when switching from a branch to another.
 It is possible to retrieve a specific version of the files by positionning HEAD on a given commit
 
     git checkout 213cf6c
->Note: checking out '213cf6c'.  
+>Note: checking out '213cf6c'.   
 You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by performing another checkout.  
 If you want to create a new branch to retain commits you create, you may do so (now or later) by using -b with the checkout command again. Example:  
   git checkout -b \<new-branch-name\>  
@@ -435,14 +435,14 @@ Let's have a look to a log:
 
     git log --oneline
     
->6cf4f3a (HEAD -> featureZ) new feature
-da1bc46 new feature
-774c2a6 (tag: v1.1, master, featureY) delete fileb
-6a5dcf4 (my_remote/master) add feature2 in fileb
-d86540b (tag: v1.0) add feature in fileb
-acc534c delete fileA.txt
-54c09e1 featureA added
-213cf6c my first commit message
+>6cf4f3a (HEAD -> featureZ) new feature  
+da1bc46 new feature  
+774c2a6 (tag: v1.1, master, featureY) delete fileb  
+6a5dcf4 (my_remote/master) add feature2 in fileb  
+d86540b (tag: v1.0) add feature in fileb  
+acc534c delete fileA.txt  
+54c09e1 featureA added  
+213cf6c my first commit message  
 
 * HEAD indicates the current state: it points on the branch label *featureZ*, which itself points on the tip of this branch, which is the commit ID 6cf4f3a.
 * tag v1.1, *master* branch label  and *featureY* branch label point on commit ID 774c2a6
@@ -451,13 +451,13 @@ acc534c delete fileA.txt
 *fileb* has been deleted in commit 774c2a6, then it has been recreated and some content inside has been updated in commits da1bc46 and 6cf4f3a:
     
     git show da1bc46
->commit da1bc46f308edc8b4117973183fb4510d8327b69
-Author: XXX\<XXX@mail.com\>
-Date:   Sat Mar 9 19:19:09 2019 +0100
-    new feature
-diff --git a/fileb.txt b/fileb.txt
-new file mode 100644
-index 0000000..e72c7ed
+>commit da1bc46f308edc8b4117973183fb4510d8327b69  
+Author: XXX\<XXX@mail.com\>  
+Date:   Sat Mar 9 19:19:09 2019 +0100  
+    new feature  
+diff --git a/fileb.txt b/fileb.txt  
+new file mode 100644  
+index 0000000..e72c7ed  
 
 Then if we switch from branch *featureZ* to branch *master*, we can see that our working copy is updated and *fileb* is present only in featureZ
 
@@ -655,7 +655,7 @@ and the remote branch in our remote repo called *origin*
 
 We can see that there has been a modification in the *master* branch and another in the *featureY* branch. Then a commit has been generated to merge these 2 commits.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTUyMzk4OSwzMjUwNzUyNjMsOTA2Mz
+eyJoaXN0b3J5IjpbMTg2MzU1Mzc2NywzMjUwNzUyNjMsOTA2Mz
 E4MDE1LC0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0
 MzMsMTQ0MTY2NjM3MCwxNTkxMzkzNDk5LC0xNjQyNjA4MTk0LC
 0xNTEzMzAyODIsMTE1OTM2MzU4NywxOTk2NDY3Nzc5LDM1OTY0
