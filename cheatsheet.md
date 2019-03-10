@@ -578,13 +578,15 @@ add 2 commits in this branch with successive modifications of files A and B:
 Your branch is ahead of 'origin/master' by 2 commits.  
   (use "git push" to publish your local commits)
     
-  Use flag *--no-ff* to forbid fast-forward merge. Then A commit is generated after the last commit.
+  Use flag *--no-ff* to forbid fast-forward merge. Then A commit is generated after the last commit (*3c7f318*).
   
     git merge --no-ff featureX
 >Merge made by the 'recursive' strategy.  
  fileA.txt | Bin 48 -> 68 bytes  
  fileB.txt | Bin 30 -> 52 bytes  
  2 files changed, 0 insertions(+), 0 deletions(-)  
+
+Have a look to the log and graph:
 
     git log --oneline --graph
 >\*   8fb47dd (HEAD -> master) Merge branch 'featureX'
@@ -595,8 +597,10 @@ Your branch is ahead of 'origin/master' by 2 commits.
 \* 9f79a2a (origin/develop, develop) add fileB
 \* ceb9c6f feature1 added
 \* f604538 (origin/master) create fileA
+
+This time we can see the fork in the graph with our 2 commits done in the featureX branch and then a merge with a generated commit (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjI5OTQ5MCwxOTUxNzAxNDMzLDE0ND
+eyJoaXN0b3J5IjpbMTQ0MTc5NzI4NiwxOTUxNzAxNDMzLDE0ND
 E2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwtMTUxMzMw
 MjgyLDExNTkzNjM1ODcsMTk5NjQ2Nzc3OSwzNTk2NDUwNzYsLT
 U5MDU0MzYyNiwzMzIzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5
