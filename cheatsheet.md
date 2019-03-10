@@ -479,15 +479,18 @@ branch *master*:
 |-a----|       09/03/2019     12:01|             18| fileA.txt|
 
 ## Merge
-Fast forward merge simply moves the branch label to the latest commit. It occurs when a new feature branch has been created from a base branch, commits are done on the feature branch but no modification is done on the base branch, then moving the branch label of the master branch to the last commit of the feature branch integrates the feature works to the base branch with no other needed operation.
 
+### fast-forward
+Fast forward merge simply moves the branch label to the latest commit. It occurs when a new feature branch has been created from a base branch, commits are done on the feature branch but no modification is done on the base branch, then moving the branch label of the master branch to the last commit of the feature branch integrates the feature works to the base branch with no other needed operation.
+### merge commit
+If merged can't be fast-foward (moving the branch label is not good enough to merge works since commits 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI2MDgxOTQsLTE1MTMzMDI4MiwxMT
-U5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2
-MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMD
-k2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4Nzcy
-NywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLT
-E2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4
-NTZdfQ==
+eyJoaXN0b3J5IjpbLTE1Mjg3NDg1MTAsLTE2NDI2MDgxOTQsLT
+E1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1
+MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLT
+E4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMy
+MzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLT
+E5NDIyNjAzNTIsLTE2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYy
+Mjc5MV19
 -->
