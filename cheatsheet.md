@@ -478,14 +478,15 @@ branch *master*:
 |--|--|--|--|
 |-a----|       09/03/2019     12:01|             18| fileA.txt|
 
-
+## Merge
+Fast forward merge simply moves the branch label to the latest commit. It occurs when a new feature branch has been created from a base branch, commits are done on the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTMzMDI4MiwxMTU5MzYzNTg3LDE5OT
-Y0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2MjYsMzMyMzQ5Mjc5
-LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUsLTQxMz
-AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
-LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
-YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
-XX0=
+eyJoaXN0b3J5IjpbLTExNTU3ODg3MzcsLTE1MTMzMDI4MiwxMT
+U5MzYzNTg3LDE5OTY0Njc3NzksMzU5NjQ1MDc2LC01OTA1NDM2
+MjYsMzMyMzQ5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMD
+k2MzQzOTUsLTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4Nzcy
+NywxMjQ0MTE5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLT
+E2NjMyMTExMDgsOTYwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4
+NTZdfQ==
 -->
