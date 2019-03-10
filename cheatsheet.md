@@ -339,7 +339,7 @@ To delete the branch and all the works that have been done on it and not merged,
     git branch -D featureFromFirstCommit
 >Deleted branch featureFromFirstCommit (was a0e0982).
 
-If 
+If regrets arose after this deletion
 
 ### List branches
 list local branches only:
@@ -458,11 +458,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ3MTg0ODksLTU5MDU0MzYyNiwzMz
-IzNDkyNzksMTY5NDMxNzUxNywtMTgzNDE5OTcwLDMwOTYzNDM5
-NSwtNDEzMDA3NjI5LC0yMjQ4MzIzNzIsMjQ1OTg3NzI3LDEyND
-QxMTk2NTIsLTc3ODA1MjkyOSwtMTk0MjI2MDM1MiwtMTY2MzIx
-MTEwOCw5NjAxNjU0MTUsNDA1NjIyNzkxLDExMTA4Mjg1Niw0Nj
-IyNDg1MjUsLTE4MzkwOTUyOTEsLTMzMjk0MDgzOCwtOTY4Njc5
-MTQ0XX0=
+eyJoaXN0b3J5IjpbMjY4NDIxNjI1LC01OTA1NDM2MjYsMzMyMz
+Q5Mjc5LDE2OTQzMTc1MTcsLTE4MzQxOTk3MCwzMDk2MzQzOTUs
+LTQxMzAwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MT
+E5NjUyLC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTEx
+MDgsOTYwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMj
+Q4NTI1LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0
+NF19
 -->
