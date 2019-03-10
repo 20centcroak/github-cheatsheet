@@ -366,6 +366,10 @@ If you want to discard changes for a given file, use
 
 Untracked files are noty affected when switching from a branch to another.
 
+### Create a branch from a commit
+It is possible to retrieve a specific version of the files by positionning HEAD on a given commit
+
+
 ## References
 
 Git uses commit IDs built with SHA-1 to reference a snaphsot, ie a given version of the files which has been declared thanks to the *git commit* command.
@@ -431,11 +435,11 @@ branch *master*:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NjM0Mzk1LC00MTMwMDc2MjksLTIyND
-gzMjM3MiwyNDU5ODc3MjcsMTI0NDExOTY1MiwtNzc4MDUyOTI5
-LC0xOTQyMjYwMzUyLC0xNjYzMjExMTA4LDk2MDE2NTQxNSw0MD
-U2MjI3OTEsMTExMDgyODU2LDQ2MjI0ODUyNSwtMTgzOTA5NTI5
-MSwtMzMyOTQwODM4LC05Njg2NzkxNDQsMjA1NDY4ODE0MiwxMT
-QyNjI5NDYwLC0xNTI2MjkxNjM1LDk5NDc5OTQ3MywtMTQ1MDQ1
-ODI4Nl19
+eyJoaXN0b3J5IjpbMTQ4NDk2NTQzMCwzMDk2MzQzOTUsLTQxMz
+AwNzYyOSwtMjI0ODMyMzcyLDI0NTk4NzcyNywxMjQ0MTE5NjUy
+LC03NzgwNTI5MjksLTE5NDIyNjAzNTIsLTE2NjMyMTExMDgsOT
+YwMTY1NDE1LDQwNTYyMjc5MSwxMTEwODI4NTYsNDYyMjQ4NTI1
+LC0xODM5MDk1MjkxLC0zMzI5NDA4MzgsLTk2ODY3OTE0NCwyMD
+U0Njg4MTQyLDExNDI2Mjk0NjAsLTE1MjYyOTE2MzUsOTk0Nzk5
+NDczXX0=
 -->
