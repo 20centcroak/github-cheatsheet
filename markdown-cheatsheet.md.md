@@ -94,7 +94,7 @@ or
 :rage: 
 :sleepy: 
 
-## Maths
+## Maths (when renderer present)
 
 $x_0 = 3^2$  
 $x = \sum_{i=1}{N} i$  
@@ -111,5 +111,5 @@ $\frac{n!}{k!(n-k)!} = \binom{n}{k}$
 Copyright (c) 2018 Copyright Holder All Rights Reserved.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgxNDQzNDddfQ==
+eyJoaXN0b3J5IjpbODg4Mzg2MDcyLC0xMjY4MTQ0MzQ3XX0=
 -->
