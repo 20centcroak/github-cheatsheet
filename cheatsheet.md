@@ -834,13 +834,18 @@ nothing to commit, working tree clean
 |/  
 \*   79930f9 (origin/master, master) Merge branch 'conflict-feature'
 
+## Rebase
+Rebase moves a commit chids to another parent. I can't see any good reason to do it.
+
+## Rewriting history
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMj
-A5MzcxOTEsMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3Njcz
-MzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOC
-wxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMx
-ODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxND
-MzLDE0NDE2NjYzNzAsMTU5MTM5MzQ5OSwtMTY0MjYwODE5NCwt
-MTUxMzMwMjgyXX0=
+eyJoaXN0b3J5IjpbOTE5OTgwMDk5LDYxNzYyOTgxNiwtMTExNj
+EzNjU0NiwxMTIwOTM3MTkxLDEyODQ0MDMwMTIsLTEyODIwNDE0
+MDUsMTg5NzY3MzM1NiwtMTY4Mzk1MDUzNCwxNTcyNDk0NDg2LC
+01ODA3MTI1MTgsMTc3ODg1MDQwNSwtNzgzNjIyMTA1LDMyNTA3
+NTI2Myw5MDYzMTgwMTUsLTE2ODY5NjY2OTEsLTIwMDQ0OTk0MT
+ksMTk1MTcwMTQzMywxNDQxNjY2MzcwLDE1OTEzOTM0OTksLTE2
+NDI2MDgxOTRdfQ==
 -->
