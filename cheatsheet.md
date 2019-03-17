@@ -841,15 +841,21 @@ Rebase moves a commit chids to another parent. I can't see any good reason to do
 Let's say that the latest commit contains an error in a file and oin the commit message.
 This latest commit can be modified easily:
 1. modify the file
-2. ad it to the staging area
+2. add it to the staging area
+3. use the following command
+
+
+    git commit --amend -m'my corrected message'
+
+    
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDE0NDAyMCwtNzkwNjc1OTg1LDkxOT
-k4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYsMTEyMDkzNzE5
-MSwxMjg0NDAzMDEyLC0xMjgyMDQxNDA1LDE4OTc2NzMzNTYsLT
-E2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4
-NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC
-0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0
-MTY2NjM3MF19
+eyJoaXN0b3J5IjpbLTEwNzI5MzQzMTUsLTc5MDY3NTk4NSw5MT
+k5ODAwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMjA5Mzcx
+OTEsMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC
+0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4
+ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNS
+wtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0
+NDE2NjYzNzBdfQ==
 -->
