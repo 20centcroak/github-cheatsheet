@@ -838,15 +838,18 @@ nothing to commit, working tree clean
 Rebase moves a commit chids to another parent. I can't see any good reason to do it.
 
 ## Amend latest commit
-
+Let's say that the latest commit contains an error in a file and oin the commit message.
+This latest commit can be modified easily:
+1. modify the file
+2. ad it to the staging area
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDY3NTk4NSw5MTk5ODAwOTksNjE3Nj
-I5ODE2LC0xMTE2MTM2NTQ2LDExMjA5MzcxOTEsMTI4NDQwMzAx
-MiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC0xNjgzOTUwNTM0LD
-E1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUwNDA1LC03ODM2
-MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMTY4Njk2NjY5MS
-wtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2NjYzNzAsMTU5
-MTM5MzQ5OV19
+eyJoaXN0b3J5IjpbMTYxMDE0NDAyMCwtNzkwNjc1OTg1LDkxOT
+k4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYsMTEyMDkzNzE5
+MSwxMjg0NDAzMDEyLC0xMjgyMDQxNDA1LDE4OTc2NzMzNTYsLT
+E2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4
+NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC
+0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0
+MTY2NjM3MF19
 -->
