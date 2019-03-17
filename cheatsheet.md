@@ -844,18 +844,19 @@ This latest commit can be modified easily:
 2. add it to the staging area
 3. use the following command
 
+## dfs
 
-    git commit --amend -m'my corrected message'
-
-    
-
+    git commit --amend -m'add content in fileC'
+>[master 1486323] add content in fileC  
+ Date: Sun Mar 17 13:43:30 2019 +0100  
+ 1 file changed, 1 insertion(+)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI5MzQzMTUsLTc5MDY3NTk4NSw5MT
-k5ODAwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMjA5Mzcx
-OTEsMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC
-0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4
-ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNS
-wtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0
-NDE2NjYzNzBdfQ==
+eyJoaXN0b3J5IjpbLTg4MzU3MDg5MiwtNzkwNjc1OTg1LDkxOT
+k4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYsMTEyMDkzNzE5
+MSwxMjg0NDAzMDEyLC0xMjgyMDQxNDA1LDE4OTc2NzMzNTYsLT
+E2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4
+NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC
+0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0
+MTY2NjM3MF19
 -->
