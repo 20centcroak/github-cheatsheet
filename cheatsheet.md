@@ -867,14 +867,14 @@ c2a88bc add fileC
 
 commit 5b1576e  does not exist anymore, it has been replaced by commit 1486323. However, modifications contained in commit 5b1576e are preserved. For example if fileB has been modified in commit 5b1576e, fileB keeps its modifications in commit 1486323  and is up to date.
 
-
+However, if commit has been pushed to remote, then it will be neces
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMDM4NTUsLTc5MDY3NTk4NSw5MTk5OD
-AwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMjA5MzcxOTEs
-MTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC0xNj
-gzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUw
-NDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMT
-Y4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2
-NjYzNzBdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjk5NDQ1NzAsNzQwMDM4NTUsLTc5MD
+Y3NTk4NSw5MTk5ODAwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2
+LDExMjA5MzcxOTEsMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxOD
+k3NjczMzU2LC0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcx
+MjUxOCwxNzc4ODUwNDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLD
+kwNjMxODAxNSwtMTY4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUx
+NzAxNDMzXX0=
 -->
