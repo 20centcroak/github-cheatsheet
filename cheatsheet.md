@@ -850,9 +850,25 @@ This latest commit can be modified easily:
  Date: Sun Mar 17 13:43:30 2019 +0100  
  1 file changed, 1 insertion(+)
 
-The previous commit has been replaced b
+The previous commit has been replaced by the new commit and commit message.
+
+Here is the log before amending:
+
+>5b1576e (HEAD -> master, origin/master) add error in fileC
+c2a88bc add fileC
+8dd183a add fileB
+207c59f add fileA
+
+Here is the log after amending:
+>1486323 (HEAD -> master) add content in fileC
+c2a88bc add fileC
+8dd183a add fileB
+207c59f add fileA
+
+commit 5b1576e  dos not exist anymore, it has been replaced by commit 1486323. However, 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODUxMTA2NzgsLTc5MDY3NTk4NSw5MT
+eyJoaXN0b3J5IjpbLTExMDc2NjE2MDYsLTc5MDY3NTk4NSw5MT
 k5ODAwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMjA5Mzcx
 OTEsMTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC
 0xNjgzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4
