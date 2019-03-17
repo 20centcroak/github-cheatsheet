@@ -842,21 +842,21 @@ Let's say that the latest commit contains an error in a file and oin the commit 
 This latest commit can be modified easily:
 1. modify the file
 2. add it to the staging area
-3. use the following command
+3. use the following command   
 
-## dfs
 
-    git commit --amend -m'add content in fileC'
+    `git commit --amend -m'add content in fileC'`
 >[master 1486323] add content in fileC  
  Date: Sun Mar 17 13:43:30 2019 +0100  
  1 file changed, 1 insertion(+)
 
+The fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzU3MDg5MiwtNzkwNjc1OTg1LDkxOT
-k4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYsMTEyMDkzNzE5
-MSwxMjg0NDAzMDEyLC0xMjgyMDQxNDA1LDE4OTc2NzMzNTYsLT
-E2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4
-NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC
-0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0
-MTY2NjM3MF19
+eyJoaXN0b3J5IjpbNjQyNzg5MjU1LC03OTA2NzU5ODUsOTE5OT
+gwMDk5LDYxNzYyOTgxNiwtMTExNjEzNjU0NiwxMTIwOTM3MTkx
+LDEyODQ0MDMwMTIsLTEyODIwNDE0MDUsMTg5NzY3MzM1NiwtMT
+Y4Mzk1MDUzNCwxNTcyNDk0NDg2LC01ODA3MTI1MTgsMTc3ODg1
+MDQwNSwtNzgzNjIyMTA1LDMyNTA3NTI2Myw5MDYzMTgwMTUsLT
+E2ODY5NjY2OTEsLTIwMDQ0OTk0MTksMTk1MTcwMTQzMywxNDQx
+NjY2MzcwXX0=
 -->
