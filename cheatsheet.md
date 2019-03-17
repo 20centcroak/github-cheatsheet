@@ -865,14 +865,16 @@ c2a88bc add fileC
 8dd183a add fileB
 207c59f add fileA
 
-commit 5b1576e  does not exist anymore, it has been replaced by commit 1486323. However, modifications contained in commit 5b1576e are preserved. For example if fileB has been modified in commit 5b1576e, fileB 
+commit 5b1576e  does not exist anymore, it has been replaced by commit 1486323. However, modifications contained in commit 5b1576e are preserved. For example if fileB has been modified in commit 5b1576e, fileB keeps its modifications in commit 1486323  and is up to date.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjQ0NDU4NCwtNzkwNjc1OTg1LDkxOT
-k4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYsMTEyMDkzNzE5
-MSwxMjg0NDAzMDEyLC0xMjgyMDQxNDA1LDE4OTc2NzMzNTYsLT
-E2ODM5NTA1MzQsMTU3MjQ5NDQ4NiwtNTgwNzEyNTE4LDE3Nzg4
-NTA0MDUsLTc4MzYyMjEwNSwzMjUwNzUyNjMsOTA2MzE4MDE1LC
-0xNjg2OTY2NjkxLC0yMDA0NDk5NDE5LDE5NTE3MDE0MzMsMTQ0
-MTY2NjM3MF19
+eyJoaXN0b3J5IjpbNzQwMDM4NTUsLTc5MDY3NTk4NSw5MTk5OD
+AwOTksNjE3NjI5ODE2LC0xMTE2MTM2NTQ2LDExMjA5MzcxOTEs
+MTI4NDQwMzAxMiwtMTI4MjA0MTQwNSwxODk3NjczMzU2LC0xNj
+gzOTUwNTM0LDE1NzI0OTQ0ODYsLTU4MDcxMjUxOCwxNzc4ODUw
+NDA1LC03ODM2MjIxMDUsMzI1MDc1MjYzLDkwNjMxODAxNSwtMT
+Y4Njk2NjY5MSwtMjAwNDQ5OTQxOSwxOTUxNzAxNDMzLDE0NDE2
+NjYzNzBdfQ==
 -->
