@@ -869,6 +869,11 @@ commit 5b1576e  does not exist anymore, it has been replaced by commit 1486323. 
 
 However, if commit has been pushed to remote, then it will be necessary to pull the remote branch, then a merge action will occur and the amended commit will be back in the commit history...
 
+## Revert modifications
+Suppose you have uncommited modifications and you want to replace the modified files by the head files, use the following command to do so:
+> git checkout -- path/file
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTkyNzAxODMzMiw3NDAwMzg1NSwtNzkwNj
 c1OTg1LDkxOTk4MDA5OSw2MTc2Mjk4MTYsLTExMTYxMzY1NDYs
